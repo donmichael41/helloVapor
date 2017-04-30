@@ -1,9 +1,11 @@
 import Vapor
-
+import HTTP
 let drop = Droplet()
 
 let weatherController = WeatherController()
 weatherController.addRoutes(drop: drop)
+
+drop.client = FoundationClient.self
 
 drop.get("current") { request in
     let json = try drop.client.get("https://api.darksky.net/forecast/1fc982716a795567a7239dcf5f061bb1/37.8267,-122.4233",
