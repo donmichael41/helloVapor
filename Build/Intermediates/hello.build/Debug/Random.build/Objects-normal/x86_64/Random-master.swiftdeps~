@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "85a8ef3e1af4adcb40acfd948afdc288"
+build_time: [546792693, 200122000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Crypto-1.0.1/Sources/Random/CryptoRandom.swift": [538469634, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Crypto-1.0.1/Sources/Random/Random.swift": [538469634, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Crypto-1.0.1/Sources/Random/URandom.swift": [538469634, 0]

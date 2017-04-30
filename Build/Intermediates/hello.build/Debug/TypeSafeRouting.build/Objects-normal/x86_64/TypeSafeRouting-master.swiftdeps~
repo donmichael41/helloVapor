@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "fe72a4d9a24238910a47d516cc838b77"
+build_time: [546792713, 101301000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Routing-1.0.1/Sources/TypeSafeRouting/Generated.swift": [538469670, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Routing-1.0.1/Sources/TypeSafeRouting/StringInitializable.swift": [538469670, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Routing-1.0.1/Sources/TypeSafeRouting/TypeSafeRoutingError.swift": [538469670, 0]

@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	font-family: sans-serif;
+    background-color: #54adf9;
+	position: relative;
+}
+
+.message h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 64px;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.message h2 {
+    margin: 0;
+    padding: 0;
+    line-height: 64px;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.clear-day {
+    background-image: url('../images/clear-day.png');
+    margin: 0 auto;
+    height: 128px;
+    width: 128px;
+    
+}
+
+.clear-night {
+    background-image: url('../images/clear-night.png');
+    margin: 0 auto;
+    height: 128px;
+    width: 128px;
+    
+}
+
+.rain {
+    background-image: url('../images/rain.png');
+    margin: 0 auto;
+    height: 128px;
+    width: 128px;
+    
+}
+
+.snow {
+    background-image: url('../images/snow.png');
+    margin: 0 auto;
+    height: 128px;
+    width: 128px;
+    
+}
+
+.sleet {
+    background-image: url('../images/sleet.png');
+    margin: 0 auto;
+    height: 128px;
+    width: 128px;
+    
+}
+
+.wind {
+    background-image: url('../images/wind.png');
+    margin: 0 auto;
+    height: 128px;
+    width: 128px;
+    
+}
+
+.fog {
+    background-image: url('../images/fog.png');
+    margin: 0 auto;
+    height: 128px;
+    width: 128px;
+    
+}
+
+.cloudy {
+    background-image: url('../images/cloudy.png');
+    margin: 0 auto;
+    height: 128px;
+    width: 128px;
+    
+}
+
+.partly-cloudy-day {
+    background-image: url('../images/partly-cloudy-day.png');
+    margin: 0 auto;
+    height: 128px;
+    width: 128px;
+    
+}
+
+.partly-cloudy-night {
+    background-image: url('../images/partly-cloudy-night.png');
+    margin: 0 auto;
+    height: 128px;
+    width: 128px;
+    
+}

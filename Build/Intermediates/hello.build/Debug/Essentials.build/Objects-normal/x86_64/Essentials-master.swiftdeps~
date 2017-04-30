@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "9d0617cd811132956a411cfd478f6f65"
+build_time: [546792690, 466191000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Crypto-1.0.1/Sources/Essentials/ByteStream.swift": [538469634, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Crypto-1.0.1/Sources/Essentials/Helpers.swift": [538469634, 0]

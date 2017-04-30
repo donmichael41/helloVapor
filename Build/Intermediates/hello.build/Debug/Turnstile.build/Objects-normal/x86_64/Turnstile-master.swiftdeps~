@@ -1,0 +1,17 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "c16f7b5558fbaa2cc1b98b5d3669da97"
+build_time: [546792668, 491596000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/Turnstile/TurnstileError.swift": [538469666, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/Turnstile/Core/Subject.swift": [538469666, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/Turnstile/Core/Turnstile.swift": [538469666, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/Turnstile/Credentials/APIKey.swift": [538469666, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/Turnstile/Credentials/Credentials.swift": [538469666, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/Turnstile/Credentials/CredentialsError.swift": [538469666, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/Turnstile/Credentials/Token.swift": [538469666, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/Turnstile/Credentials/UsernamePassword.swift": [538469666, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/Turnstile/Realm/Account.swift": [538469666, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/Turnstile/Realm/MemoryRealm.swift": [538469666, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/Turnstile/Realm/Realm.swift": [538469666, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/Turnstile/SessionManager/MemorySessionManager.swift": [538469666, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/Turnstile/SessionManager/SessionManager.swift": [538469666, 0]

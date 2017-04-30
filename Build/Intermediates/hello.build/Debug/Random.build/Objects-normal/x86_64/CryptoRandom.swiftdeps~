@@ -1,0 +1,228 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CryptoRandom"
+- "PsuedoRandom"
+provides-nominal:
+- "C6Random12CryptoRandom"
+- "C6Random12PsuedoRandom"
+provides-member:
+- ["C6Random12CryptoRandom", ""]
+- ["C6Random12PsuedoRandom", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bytes"
+- "CryptoRandom"
+- !private "FloatLiteralType"
+- "Int"
+- !private "Int32"
+- !private "IntegerLiteralType"
+- "PsuedoRandom"
+- !private "RAND_bytes"
+- !private "RAND_pseudo_bytes"
+- "Random"
+depends-member:
+- !private ["Ps9AnyObject", "Bytes"]
+- !private ["Ps9AnyObject", "Int32"]
+- !private ["Ps9AnyObject", "RAND_bytes"]
+- !private ["Ps9AnyObject", "RAND_pseudo_bytes"]
+- ["Ps9AnyObject", "bytes"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "init"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "init"]
+- ["C6Random12CryptoRandom", "Bytes"]
+- ["C6Random12CryptoRandom", "Int"]
+- !private ["C6Random12CryptoRandom", "Int32"]
+- !private ["C6Random12CryptoRandom", "RAND_bytes"]
+- ["C6Random12CryptoRandom", "bytes"]
+- ["C6Random12CryptoRandom", "deinit"]
+- ["C6Random12CryptoRandom", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Vs5Int32", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps17MutableCollection", "init"]
+- ["C6Random12PsuedoRandom", "Bytes"]
+- ["C6Random12PsuedoRandom", "Int"]
+- !private ["C6Random12PsuedoRandom", "Int32"]
+- !private ["C6Random12PsuedoRandom", "RAND_pseudo_bytes"]
+- ["C6Random12PsuedoRandom", "bytes"]
+- ["C6Random12PsuedoRandom", "deinit"]
+- ["C6Random12PsuedoRandom", "init"]
+- !private ["P6Random6Random", "Bytes"]
+- !private ["P6Random6Random", "Int32"]
+- !private ["P6Random6Random", "RAND_bytes"]
+- !private ["P6Random6Random", "RAND_pseudo_bytes"]
+- ["P6Random6Random", "bytes"]
+- ["P6Random6Random", "init"]
+- ["P6Random6Random", ""]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "C6Random12CryptoRandom"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps8Hashable"
+- !private "Vs5Int32"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps17MutableCollection"
+- "C6Random12PsuedoRandom"
+- "P6Random6Random"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls1.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dtls1.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs12.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc2.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl2.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem2.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl23.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl3.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509v3.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc4.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md4.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/poly1305.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md5.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs7.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/CLibreSSL.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/idea.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/chacha.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/sha.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/camellia.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dsa.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdsa.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rsa.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/txt_db.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1_mac.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/obj_mac.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cmac.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/hmac.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ec.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ripemd.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rand.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/engine.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslconf.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dh.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdh.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/lhash.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/blowfish.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf_api.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/stack.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/safestack.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/whrlpool.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bn.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/krb5_asn.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bio.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dso.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/crypto.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/comp.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ocsp.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/srtp.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/evp.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ossl_typ.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/buffer.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/err.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/aes.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/des.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/modes.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslfeatures.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cms.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ts.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/objects.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1t.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui_compat.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cast.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/gost.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslv.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509_vfy.h"
+- "Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/module.modulemap"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/module.modulemap"
+interface-hash: "90b7ed621fedb9136d78923cd1c4408c"

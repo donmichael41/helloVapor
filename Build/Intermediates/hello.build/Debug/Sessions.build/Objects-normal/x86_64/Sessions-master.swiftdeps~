@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "2837888df5b52baf3355354d9b50d01d"
+build_time: [546792717, 763276000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Vapor-1.3.11/Sources/Sessions/CacheSessions.swift": [538469630, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Vapor-1.3.11/Sources/Sessions/MemorySessions.swift": [538469630, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Vapor-1.3.11/Sources/Sessions/Request+Session.swift": [538469630, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Vapor-1.3.11/Sources/Sessions/Session.swift": [538469630, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Vapor-1.3.11/Sources/Sessions/SessionsMiddleware.swift": [538469630, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Vapor-1.3.11/Sources/Sessions/SessionsProtocol.swift": [538469630, 0]

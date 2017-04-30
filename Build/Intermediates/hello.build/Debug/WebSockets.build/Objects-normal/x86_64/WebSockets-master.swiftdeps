@@ -1,0 +1,18 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "72f737773b256c1897e4b19c5203ee0a"
+build_time: [546795537, 728565000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/engine.git-3311994267206676365/Sources/WebSockets/Request+WebSockets.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/engine.git-3311994267206676365/Sources/WebSockets/WebSocketFormatErrors.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/engine.git-3311994267206676365/Sources/WebSockets/Client/WebSocket+Client.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/engine.git-3311994267206676365/Sources/WebSockets/Communication/WebSocket+ControlFrames.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/engine.git-3311994267206676365/Sources/WebSockets/Communication/WebSocket+Send.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/engine.git-3311994267206676365/Sources/WebSockets/Connection/Headers+WebSockets.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/engine.git-3311994267206676365/Sources/WebSockets/Connection/WebSockets+Hash.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/engine.git-3311994267206676365/Sources/WebSockets/Model/Fragmentation.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/engine.git-3311994267206676365/Sources/WebSockets/Model/Frame.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/engine.git-3311994267206676365/Sources/WebSockets/Model/WebSocket+Error.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/engine.git-3311994267206676365/Sources/WebSockets/Model/WebSocket.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/engine.git-3311994267206676365/Sources/WebSockets/Serialization/FrameDeserializer.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/engine.git-3311994267206676365/Sources/WebSockets/Serialization/FrameSerializer.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/engine.git-3311994267206676365/Sources/WebSockets/Serialization/WebSockets+Flags.swift": [546795324, 0]

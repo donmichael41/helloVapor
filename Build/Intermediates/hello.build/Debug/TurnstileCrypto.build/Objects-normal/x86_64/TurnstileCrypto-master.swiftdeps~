@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "2664057f33a515daf2480e7205852225"
+build_time: [546792660, 307494000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/TurnstileCrypto/BCrypt.swift": [538469666, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/TurnstileCrypto/Random.swift": [538469666, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/TurnstileCrypto/URandom.swift": [538469666, 0]

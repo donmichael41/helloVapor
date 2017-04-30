@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "8aec77061daae3f31bb4a7fa1d17c1b7"
+build_time: [546792692, 749752000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Crypto-1.0.1/Sources/Cipher/Cipher.swift": [538469634, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Crypto-1.0.1/Sources/Cipher/Method.swift": [538469634, 0]

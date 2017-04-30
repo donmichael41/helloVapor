@@ -1,0 +1,14 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "2384b7e6a7608639a5ed823049c2850a"
+build_time: [546795548, 543864000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Settings/Config+Arguments.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Settings/Config+Directory.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Settings/Config.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Settings/KeyAccessible+Merge.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Settings/KeyAccessible.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Settings/Node+Merge.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Settings/Source.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Settings/Env/Env.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Settings/Env/Node+Env.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Settings/Env/String+Env.swift": [546795322, 0]

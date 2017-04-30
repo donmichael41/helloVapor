@@ -1,0 +1,13 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "cbf29228c495ab67479108fdb649fe59"
+build_time: [546795519, 109533000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/json.git-9153249592855998091/Sources/JSON/File.swift": [546795323, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Bytes.swift": [546795323, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Equatable.swift": [546795323, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Node.swift": [546795323, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Parse.swift": [546795323, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Serialize.swift": [546795323, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON.swift": [546795323, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSONRepresentable.swift": [546795323, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/json.git-9153249592855998091/Sources/JSON/Sequence+Convertible.swift": [546795323, 0]

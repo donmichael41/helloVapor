@@ -1,0 +1,15 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "550663ef2fbcb677716be20d823aa1da"
+build_time: [546795546, 939461000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookie+BytesConvertible.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookie+Parse.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookie+Serialize.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookie.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies+BytesConvertible.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies+Literal.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies+Parse.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies+Serialize.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Request+Cookies.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Response+Cookies.swift": [546795322, 0]

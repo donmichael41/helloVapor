@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "4cf1644ebd4a3ed6cefa936a5b7b4eb2"
+build_time: [546792554, 321356000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Polymorphic-1.0.1/Sources/Polymorphic.swift": [538469652, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Polymorphic-1.0.1/Sources/String+Polymorphic.swift": [538469652, 0]

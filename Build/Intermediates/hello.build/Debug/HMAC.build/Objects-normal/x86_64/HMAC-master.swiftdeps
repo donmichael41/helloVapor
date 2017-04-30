@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "d510341cd27add3ba0f6713fc139e04e"
+build_time: [546795526, 745530000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/crypto.git-7980259129511365902/Sources/HMAC/HMAC.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/crypto.git-7980259129511365902/Sources/HMAC/Method.swift": [546795324, 0]

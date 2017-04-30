@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "023472420e0c9e9f1665e80bd50f210b"
+build_time: [546792671, 427585000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/TurnstileWeb/AuthorizationCode.swift": [538469668, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/TurnstileWeb/Facebook.swift": [538469668, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/TurnstileWeb/Google.swift": [538469668, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/TurnstileWeb/OAuth2.swift": [538469668, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/TurnstileWeb/OAuth2Error.swift": [538469668, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/TurnstileWeb/OAuth2Token.swift": [538469668, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/TurnstileWeb/URLSession+Turnstile.swift": [538469666, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Turnstile-1.0.3/Sources/TurnstileWeb/WebMemoryRealm.swift": [538469668, 0]

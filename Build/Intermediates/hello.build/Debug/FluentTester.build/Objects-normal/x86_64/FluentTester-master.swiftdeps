@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "80a4707f49c2d33cd1a76b9bd1a0e750"
+build_time: [546795516, 938128000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Atom.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Compound.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Student.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+InsertAndFind.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+PivotsAndRelations.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Schema.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Utilities.swift": [546795324, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester.swift": [546795324, 0]

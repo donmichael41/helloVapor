@@ -1,0 +1,292 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "dateFormater"
+- "TimeKeeper"
+provides-nominal:
+- "C3App10TimeKeeper"
+provides-member:
+- ["C3App10TimeKeeper", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Date"
+- "DateFormatter"
+- "String"
+- "StringLiteralType"
+- "TimeKeeper"
+- "TimeZone"
+- "dateFormater"
+depends-member:
+- ["Ps9AnyObject", "Date"]
+- ["Ps9AnyObject", "dateFormat"]
+- ["Ps9AnyObject", "dateFormater"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "string"]
+- ["Ps9AnyObject", "timeZone"]
+- ["Ps9AnyObject", ""]
+- ["P4HTTP17BodyRepresentable", "init"]
+- ["P4Core16BytesConvertible", "init"]
+- ["P4Core18BytesInitializable", "init"]
+- ["P4Core18BytesRepresentable", "init"]
+- ["Ps7CVarArg", "dateFormat"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "string"]
+- ["Ps7CVarArg", "timeZone"]
+- ["Ps10Comparable", "init"]
+- ["P5Vapor9Countable", "init"]
+- ["Ps28CustomDebugStringConvertible", "dateFormat"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "string"]
+- ["Ps28CustomDebugStringConvertible", "timeZone"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "dateFormat"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "string"]
+- ["Ps23CustomStringConvertible", "timeZone"]
+- ["V10Foundation4Date", "init"]
+- ["CSo13DateFormatter", "dateFormat"]
+- ["CSo13DateFormatter", "init"]
+- ["CSo13DateFormatter", "string"]
+- ["CSo13DateFormatter", "timeZone"]
+- ["Ps9Equatable", "dateFormat"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "string"]
+- ["Ps9Equatable", "timeZone"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["CSo9Formatter", "dateFormat"]
+- ["CSo9Formatter", "init"]
+- ["CSo9Formatter", "string"]
+- ["CSo9Formatter", "timeZone"]
+- ["Ps8Hashable", "dateFormat"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "string"]
+- ["Ps8Hashable", "timeZone"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "dateFormat"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "string"]
+- ["PSo8NSCoding", "timeZone"]
+- ["PSo9NSCopying", "dateFormat"]
+- ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "string"]
+- ["PSo9NSCopying", "timeZone"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "dateFormat"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "string"]
+- ["CSo8NSObject", "timeZone"]
+- ["PSo16NSObjectProtocol", "dateFormat"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "string"]
+- ["PSo16NSObjectProtocol", "timeZone"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["P4Node15NodeConvertible", "init"]
+- ["P4Node17NodeInitializable", "init"]
+- ["P4Node17NodeRepresentable", "init"]
+- ["P13PathIndexable9PathIndex", "init"]
+- ["P11Polymorphic11Polymorphic", "init"]
+- ["P5Vapor24PolymorphicInitializable", "init"]
+- ["P10Foundation20ReferenceConvertible", "init"]
+- ["P5Vapor23RequestContentSubscript", "init"]
+- ["P4HTTP21ResponseRepresentable", "init"]
+- ["SS", "init"]
+- ["P15TypeSafeRouting19StringInitializable", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["C3App10TimeKeeper", "Date"]
+- ["C3App10TimeKeeper", "String"]
+- ["C3App10TimeKeeper", "dateFormater"]
+- ["C3App10TimeKeeper", "deinit"]
+- ["C3App10TimeKeeper", "init"]
+- ["C3App10TimeKeeper", "systemTime"]
+- ["V10Foundation8TimeZone", "init"]
+- ["P5Vapor11Validatable", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "dateFormat"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "string"]
+- ["Ps9_Hashable", "timeZone"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "P4HTTP17BodyRepresentable"
+- "P4Core16BytesConvertible"
+- "P4Core18BytesInitializable"
+- "P4Core18BytesRepresentable"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "P5Vapor9Countable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Date"
+- "CSo13DateFormatter"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "CSo9Formatter"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "P4Node15NodeConvertible"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "P13PathIndexable9PathIndex"
+- "P11Polymorphic11Polymorphic"
+- "P5Vapor24PolymorphicInitializable"
+- "P10Foundation20ReferenceConvertible"
+- "P5Vapor23RequestContentSubscript"
+- "P4HTTP21ResponseRepresentable"
+- "SS"
+- "P15TypeSafeRouting19StringInitializable"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "C3App10TimeKeeper"
+- "V10Foundation8TimeZone"
+- "P5Vapor11Validatable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/HMAC.framework/Modules/HMAC.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/URI.framework/Modules/URI.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/JSON.framework/Modules/JSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/HTTP.framework/Modules/HTTP.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/TLS.framework/Modules/TLS.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Node.framework/Modules/Node.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Cache.framework/Modules/Cache.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/PathIndexable.framework/Modules/PathIndexable.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Console.framework/Modules/Console.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/SocksCore.framework/Modules/SocksCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Leaf.framework/Modules/Leaf.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Routing.framework/Modules/Routing.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/HTTPRouting.framework/Modules/HTTPRouting.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/TypeSafeRouting.framework/Modules/TypeSafeRouting.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Hash.framework/Modules/Hash.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Cipher.framework/Modules/Cipher.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Vapor.framework/Modules/Vapor.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Cookies.framework/Modules/Cookies.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Settings.framework/Modules/Settings.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Socks.framework/Modules/Socks.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Essentials.framework/Modules/Essentials.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Sessions.framework/Modules/Sessions.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/WebSockets.framework/Modules/WebSockets.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Fluent.framework/Modules/Fluent.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Transport.framework/Modules/Transport.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Jay.framework/Modules/Jay.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/tls1.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dtls1.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pkcs12.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rc2.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl2.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pem2.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl23.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl3.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509v3.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rc4.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/md4.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/poly1305.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/md5.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pkcs7.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/CLibreSSL.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/idea.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/chacha.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/sha.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/camellia.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dsa.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ecdsa.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rsa.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/txt_db.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1_mac.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/obj_mac.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cmac.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/hmac.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ec.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ripemd.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rand.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/engine.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/conf.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslconf.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dh.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ecdh.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/lhash.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/blowfish.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/conf_api.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ui.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/stack.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/safestack.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/whrlpool.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pem.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/bn.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/krb5_asn.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/bio.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dso.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/crypto.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/comp.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ocsp.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/srtp.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/evp.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ossl_typ.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/buffer.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/err.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/aes.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/des.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/modes.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslfeatures.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/tls.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cms.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ts.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/objects.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1t.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ui_compat.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cast.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/gost.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslv.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509_vfy.h"
+- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/hello.xcodeproj/GeneratedModuleMap/CLibreSSL/module.modulemap"
+interface-hash: "9da1c2526fd19b903c0f090e34784295"

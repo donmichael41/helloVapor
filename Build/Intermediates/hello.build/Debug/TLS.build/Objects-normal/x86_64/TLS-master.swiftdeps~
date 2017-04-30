@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "e8bd7bba14ebf021cc2637c24667bae4"
+build_time: [546792690, 823929000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/TLS-1.1.0/Sources/TLS/Certificates.swift": [538469658, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/TLS-1.1.0/Sources/TLS/Config.swift": [538469658, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/TLS-1.1.0/Sources/TLS/Context.swift": [538469658, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/TLS-1.1.0/Sources/TLS/Error.swift": [538469658, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/TLS-1.1.0/Sources/TLS/Mode.swift": [538469658, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/TLS-1.1.0/Sources/TLS/Socket.swift": [538469658, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/TLS-1.1.0/Sources/TLS/Utilities.swift": [538469658, 0]

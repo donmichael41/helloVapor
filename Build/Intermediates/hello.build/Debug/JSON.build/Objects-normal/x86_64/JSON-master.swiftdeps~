@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "cbf29228c495ab67479108fdb649fe59"
+build_time: [546792663, 898084000]
+inputs:
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/JSON-1.0.3/Sources/JSON/JSON+Bytes.swift": [538469664, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/JSON-1.0.3/Sources/JSON/JSON+Equatable.swift": [538469664, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/JSON-1.0.3/Sources/JSON/JSON+Node.swift": [538469664, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/JSON-1.0.3/Sources/JSON/JSON+Parse.swift": [538469664, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/JSON-1.0.3/Sources/JSON/JSON+Serialize.swift": [538469664, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/JSON-1.0.3/Sources/JSON/JSON.swift": [538469664, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/JSON-1.0.3/Sources/JSON/JSONRepresentable.swift": [538469664, 0]
+  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/JSON-1.0.3/Sources/JSON/Sequence+Convertible.swift": [538469664, 0]
