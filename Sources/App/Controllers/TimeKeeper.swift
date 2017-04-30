@@ -3,7 +3,7 @@ import Foundation
 var dateFormater: DateFormatter = {
     let formatter = DateFormatter()
     formatter.dateFormat = "hh:mm a z 'on' EEEE, MMMM dd, y"
-    formatter.timeZone = TimeZone(abbreviation: "Asia/Bangkok")
+    formatter.timeZone = TimeZone(abbreviation: "ICT")
     
     return formatter
 }()
