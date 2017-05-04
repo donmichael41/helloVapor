@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "0289ce0e5db88e297ac44e8ba6a39d15"
-build_time: [546792694, 433283000]
-inputs:
-  "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Packages/Crypto-1.0.1/Sources/BCrypt/BCrypt.swift": [538469634, 0]

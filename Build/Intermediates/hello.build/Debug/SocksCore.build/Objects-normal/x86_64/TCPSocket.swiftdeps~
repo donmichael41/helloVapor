@@ -48,6 +48,7 @@ depends-top-level:
 - "DispatchSourceRead"
 - "DispatchSourceWrite"
 - "Double"
+- !private "EBADF"
 - !private "ECONNRESET"
 - !private "EINPROGRESS"
 - "Int"
@@ -87,6 +88,7 @@ depends-top-level:
 depends-member:
 - ["Ps9AnyObject", "DispatchQueue"]
 - !private ["Ps9AnyObject", "DispatchSource"]
+- !private ["Ps9AnyObject", "EBADF"]
 - !private ["Ps9AnyObject", "EINPROGRESS"]
 - !private ["Ps9AnyObject", "Int32"]
 - !private ["Ps9AnyObject", "MemoryLayout"]
@@ -290,6 +292,7 @@ depends-member:
 - !private ["V9SocksCore15InternetAddress", "resolve"]
 - ["P9SocksCore14InternetSocket", "DispatchQueue"]
 - !private ["P9SocksCore14InternetSocket", "DispatchSource"]
+- !private ["P9SocksCore14InternetSocket", "EBADF"]
 - !private ["P9SocksCore14InternetSocket", "EINPROGRESS"]
 - !private ["P9SocksCore14InternetSocket", "Int32"]
 - !private ["P9SocksCore14InternetSocket", "MemoryLayout"]
@@ -377,6 +380,7 @@ depends-member:
 - !private ["P9SocksCore9RawSocket", "Bytes"]
 - ["P9SocksCore9RawSocket", "DispatchQueue"]
 - !private ["P9SocksCore9RawSocket", "DispatchSource"]
+- !private ["P9SocksCore9RawSocket", "EBADF"]
 - !private ["P9SocksCore9RawSocket", "ECONNRESET"]
 - !private ["P9SocksCore9RawSocket", "EINPROGRESS"]
 - ["P9SocksCore9RawSocket", "Int"]
@@ -433,6 +437,7 @@ depends-member:
 - !private ["Ps12SignedNumber", "init"]
 - ["P9SocksCore6Socket", "DispatchQueue"]
 - !private ["P9SocksCore6Socket", "DispatchSource"]
+- !private ["P9SocksCore6Socket", "EBADF"]
 - !private ["P9SocksCore6Socket", "EINPROGRESS"]
 - !private ["P9SocksCore6Socket", "Int32"]
 - !private ["P9SocksCore6Socket", "MemoryLayout"]
@@ -499,6 +504,7 @@ depends-member:
 - ["C9SocksCore17TCPInternetSocket", "DispatchSourceRead"]
 - ["C9SocksCore17TCPInternetSocket", "DispatchSourceWrite"]
 - ["C9SocksCore17TCPInternetSocket", "Double"]
+- !private ["C9SocksCore17TCPInternetSocket", "EBADF"]
 - !private ["C9SocksCore17TCPInternetSocket", "EINPROGRESS"]
 - ["C9SocksCore17TCPInternetSocket", "Int32"]
 - ["C9SocksCore17TCPInternetSocket", "InternetAddress"]
@@ -549,6 +555,7 @@ depends-member:
 - !private ["P9SocksCore17TCPReadableSocket", "Bytes"]
 - ["P9SocksCore17TCPReadableSocket", "DispatchQueue"]
 - !private ["P9SocksCore17TCPReadableSocket", "DispatchSource"]
+- !private ["P9SocksCore17TCPReadableSocket", "EBADF"]
 - !private ["P9SocksCore17TCPReadableSocket", "ECONNRESET"]
 - !private ["P9SocksCore17TCPReadableSocket", "EINPROGRESS"]
 - ["P9SocksCore17TCPReadableSocket", "Int"]
@@ -598,6 +605,7 @@ depends-member:
 - !private ["P9SocksCore9TCPSocket", "Bytes"]
 - ["P9SocksCore9TCPSocket", "DispatchQueue"]
 - !private ["P9SocksCore9TCPSocket", "DispatchSource"]
+- !private ["P9SocksCore9TCPSocket", "EBADF"]
 - !private ["P9SocksCore9TCPSocket", "ECONNRESET"]
 - !private ["P9SocksCore9TCPSocket", "EINPROGRESS"]
 - ["P9SocksCore9TCPSocket", "Int"]
@@ -643,6 +651,7 @@ depends-member:
 - ["P9SocksCore9TCPSocket", ""]
 - ["P9SocksCore18TCPWriteableSocket", "DispatchQueue"]
 - !private ["P9SocksCore18TCPWriteableSocket", "DispatchSource"]
+- !private ["P9SocksCore18TCPWriteableSocket", "EBADF"]
 - !private ["P9SocksCore18TCPWriteableSocket", "EINPROGRESS"]
 - !private ["P9SocksCore18TCPWriteableSocket", "Int32"]
 - !private ["P9SocksCore18TCPWriteableSocket", "MemoryLayout"]

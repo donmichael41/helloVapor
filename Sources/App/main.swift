@@ -14,13 +14,6 @@ drop.get("current") { request in
     
     if let currently = body["currently"], let hourly = body["hourly"] {
         
-//        return try drop.view.make("welcome", Node(node: [
-//            "temp" : currently["apparentTemperature"],
-//            "current-summary" : currently["summary"],
-//            "hourly-summary" : hourly["summary"],
-//            "icon" : currently["icon"]
-//            ]))
-        
         return try JSON(node: Node(node: [
             "times": TimeKeeper().systemTime(),
             "temp" : currently["apparentTemperature"],

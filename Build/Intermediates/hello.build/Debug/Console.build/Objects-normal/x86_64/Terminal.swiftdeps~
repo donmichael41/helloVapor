@@ -43,6 +43,7 @@ depends-top-level:
 - "UnsafeMutablePointer"
 - !private "_pids"
 - !private "exit"
+- !private "fflush"
 - !private "free"
 - !private "ioctl"
 - !private "libc"
@@ -54,6 +55,7 @@ depends-top-level:
 - !private "posix_spawnp"
 - !private "readLine"
 - !private "signal"
+- !private "stdout"
 - !private "strdup"
 - !private "waitpid"
 - !private "winsize"
@@ -79,6 +81,7 @@ depends-member:
 - !private ["Ps9AnyObject", "environment"]
 - ["Ps9AnyObject", "execute"]
 - !private ["Ps9AnyObject", "exit"]
+- !private ["Ps9AnyObject", "fflush"]
 - ["Ps9AnyObject", "foregroundExecute"]
 - !private ["Ps9AnyObject", "free"]
 - !private ["Ps9AnyObject", "init"]
@@ -95,6 +98,7 @@ depends-member:
 - !private ["Ps9AnyObject", "readLine"]
 - !private ["Ps9AnyObject", "signal"]
 - ["Ps9AnyObject", "size"]
+- !private ["Ps9AnyObject", "stdout"]
 - !private ["Ps9AnyObject", "strdup"]
 - !private ["Ps9AnyObject", "waitpid"]
 - !private ["Ps9AnyObject", "winsize"]
@@ -165,6 +169,7 @@ depends-member:
 - ["P7Console15ConsoleProtocol", "confirmOverride"]
 - ["P7Console15ConsoleProtocol", "execute"]
 - !private ["P7Console15ConsoleProtocol", "exit"]
+- !private ["P7Console15ConsoleProtocol", "fflush"]
 - ["P7Console15ConsoleProtocol", "foregroundExecute"]
 - !private ["P7Console15ConsoleProtocol", "free"]
 - ["P7Console15ConsoleProtocol", "input"]
@@ -179,6 +184,7 @@ depends-member:
 - !private ["P7Console15ConsoleProtocol", "readLine"]
 - !private ["P7Console15ConsoleProtocol", "signal"]
 - ["P7Console15ConsoleProtocol", "size"]
+- !private ["P7Console15ConsoleProtocol", "stdout"]
 - !private ["P7Console15ConsoleProtocol", "strdup"]
 - !private ["P7Console15ConsoleProtocol", "waitpid"]
 - !private ["P7Console15ConsoleProtocol", "winsize"]
@@ -365,6 +371,7 @@ depends-member:
 - ["C7Console8Terminal", "deinit"]
 - ["C7Console8Terminal", "execute"]
 - !private ["C7Console8Terminal", "exit"]
+- !private ["C7Console8Terminal", "fflush"]
 - ["C7Console8Terminal", "foregroundExecute"]
 - !private ["C7Console8Terminal", "free"]
 - ["C7Console8Terminal", "init"]
@@ -381,6 +388,7 @@ depends-member:
 - !private ["C7Console8Terminal", "readLine"]
 - !private ["C7Console8Terminal", "signal"]
 - ["C7Console8Terminal", "size"]
+- !private ["C7Console8Terminal", "stdout"]
 - !private ["C7Console8Terminal", "strdup"]
 - !private ["C7Console8Terminal", "waitpid"]
 - !private ["C7Console8Terminal", "winsize"]
@@ -572,9 +580,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
-- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"

@@ -13,19 +13,23 @@ depends-top-level:
 - "Node"
 - !private "String"
 depends-member:
-- !private ["Sa", "base64String"]
+- !private ["Sa", "base64Encoded"]
 - !private ["Sa", "map"]
-- !private ["Ps23BidirectionalCollection", "base64String"]
+- !private ["Sa", "string"]
+- !private ["Ps23BidirectionalCollection", "base64Encoded"]
 - !private ["Ps23BidirectionalCollection", "map"]
-- !private ["Ps7CVarArg", "base64String"]
+- !private ["Ps23BidirectionalCollection", "string"]
+- !private ["Ps7CVarArg", "base64Encoded"]
 - !private ["Ps7CVarArg", "map"]
+- !private ["Ps7CVarArg", "string"]
 - !private ["Ps7CVarArg", "subscript"]
-- !private ["Ps10Collection", "base64String"]
+- !private ["Ps10Collection", "base64Encoded"]
 - !private ["Ps10Collection", "map"]
+- !private ["Ps10Collection", "string"]
 - !private ["Ps10Collection", "subscript"]
 - !private ["P4Node7Context", "Number"]
 - ["P4Node7Context", "array"]
-- !private ["P4Node7Context", "base64String"]
+- !private ["P4Node7Context", "base64Encoded"]
 - ["P4Node7Context", "bool"]
 - ["P4Node7Context", "bytes"]
 - !private ["P4Node7Context", "map"]
@@ -35,16 +39,19 @@ depends-member:
 - ["P4Node7Context", "string"]
 - !private ["P4Node7Context", "subscript"]
 - !private ["P4Node7Context", "toJSON"]
-- !private ["Ps28CustomDebugStringConvertible", "base64String"]
+- !private ["Ps28CustomDebugStringConvertible", "base64Encoded"]
 - !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
-- !private ["Ps17CustomReflectable", "base64String"]
+- !private ["Ps17CustomReflectable", "base64Encoded"]
 - !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "string"]
 - !private ["Ps17CustomReflectable", "subscript"]
-- !private ["Ps23CustomStringConvertible", "base64String"]
+- !private ["Ps23CustomStringConvertible", "base64Encoded"]
 - ["Ps23CustomStringConvertible", "double"]
 - ["Ps23CustomStringConvertible", "int"]
 - !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "string"]
 - !private ["Ps23CustomStringConvertible", "subscript"]
 - ["Ps23CustomStringConvertible", "uint"]
 - !private ["Vs10Dictionary", "subscript"]
@@ -62,7 +69,7 @@ depends-member:
 - ["Ps9Equatable", "uint"]
 - !private ["Ps25ExpressibleByArrayLiteral", "Number"]
 - ["Ps25ExpressibleByArrayLiteral", "array"]
-- !private ["Ps25ExpressibleByArrayLiteral", "base64String"]
+- !private ["Ps25ExpressibleByArrayLiteral", "base64Encoded"]
 - ["Ps25ExpressibleByArrayLiteral", "bool"]
 - ["Ps25ExpressibleByArrayLiteral", "bytes"]
 - !private ["Ps25ExpressibleByArrayLiteral", "map"]
@@ -169,8 +176,9 @@ depends-member:
 - ["P3Jay15JsonFormattable", "string"]
 - !private ["P3Jay15JsonFormattable", "toNode"]
 - !private ["P4Node13KeyAccessible", "subscript"]
-- !private ["Ps17MutableCollection", "base64String"]
+- !private ["Ps17MutableCollection", "base64Encoded"]
 - !private ["Ps17MutableCollection", "map"]
+- !private ["Ps17MutableCollection", "string"]
 - ["O4Node4Node", "Jay"]
 - !private ["O4Node4Node", "Number"]
 - !private ["O4Node4Node", "String"]
@@ -242,34 +250,46 @@ depends-member:
 - ["P11Polymorphic11Polymorphic", "object"]
 - ["P11Polymorphic11Polymorphic", "string"]
 - !private ["P11Polymorphic11Polymorphic", "toJSON"]
-- !private ["Ps22RandomAccessCollection", "base64String"]
+- !private ["Ps22RandomAccessCollection", "base64Encoded"]
 - !private ["Ps22RandomAccessCollection", "map"]
-- !private ["Ps26RangeReplaceableCollection", "base64String"]
+- !private ["Ps22RandomAccessCollection", "string"]
+- !private ["Ps26RangeReplaceableCollection", "base64Encoded"]
 - !private ["Ps26RangeReplaceableCollection", "map"]
-- !private ["Ps8Sequence", "base64String"]
+- !private ["Ps26RangeReplaceableCollection", "string"]
+- !private ["Ps8Sequence", "base64Encoded"]
 - !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "string"]
 - !private ["Ps8Sequence", "subscript"]
-- !private ["Ps14_ArrayProtocol", "base64String"]
+- !private ["Ps14_ArrayProtocol", "base64Encoded"]
 - !private ["Ps14_ArrayProtocol", "map"]
-- !private ["Ps23_BidirectionalIndexable", "base64String"]
+- !private ["Ps14_ArrayProtocol", "string"]
+- !private ["Ps23_BidirectionalIndexable", "base64Encoded"]
 - !private ["Ps23_BidirectionalIndexable", "map"]
-- !private ["Ps24_DestructorSafeContainer", "base64String"]
+- !private ["Ps23_BidirectionalIndexable", "string"]
+- !private ["Ps24_DestructorSafeContainer", "base64Encoded"]
 - !private ["Ps24_DestructorSafeContainer", "map"]
-- !private ["Ps10_Indexable", "base64String"]
+- !private ["Ps24_DestructorSafeContainer", "string"]
+- !private ["Ps10_Indexable", "base64Encoded"]
 - !private ["Ps10_Indexable", "map"]
+- !private ["Ps10_Indexable", "string"]
 - !private ["Ps10_Indexable", "subscript"]
-- !private ["Ps14_IndexableBase", "base64String"]
+- !private ["Ps14_IndexableBase", "base64Encoded"]
 - !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps14_IndexableBase", "string"]
 - !private ["Ps14_IndexableBase", "subscript"]
-- !private ["Ps17_MutableIndexable", "base64String"]
+- !private ["Ps17_MutableIndexable", "base64Encoded"]
 - !private ["Ps17_MutableIndexable", "map"]
-- !private ["Ps21_ObjectiveCBridgeable", "base64String"]
+- !private ["Ps17_MutableIndexable", "string"]
+- !private ["Ps21_ObjectiveCBridgeable", "base64Encoded"]
 - !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "string"]
 - !private ["Ps21_ObjectiveCBridgeable", "subscript"]
-- !private ["Ps22_RandomAccessIndexable", "base64String"]
+- !private ["Ps22_RandomAccessIndexable", "base64Encoded"]
 - !private ["Ps22_RandomAccessIndexable", "map"]
-- !private ["Ps26_RangeReplaceableIndexable", "base64String"]
+- !private ["Ps22_RandomAccessIndexable", "string"]
+- !private ["Ps26_RangeReplaceableIndexable", "base64Encoded"]
 - !private ["Ps26_RangeReplaceableIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "string"]
 depends-nominal:
 - !private "Sa"
 - !private "Ps23BidirectionalCollection"
@@ -322,12 +342,12 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
-- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Node.framework/Modules/Node.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/PathIndexable.framework/Modules/PathIndexable.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Jay.framework/Modules/Jay.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/Node.framework/Modules/Node.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/PathIndexable.framework/Modules/PathIndexable.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/Jay.framework/Modules/Jay.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"

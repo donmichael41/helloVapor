@@ -153,7 +153,9 @@ depends-member:
 - ["C12TurnstileWeb8Facebook", "init"]
 - ["C12TurnstileWeb8Facebook", "register"]
 - !private ["C12TurnstileWeb8Facebook", "urlSession"]
+- ["V12TurnstileWeb15FacebookAccount", "AccessToken"]
 - ["V12TurnstileWeb15FacebookAccount", "String"]
+- ["V12TurnstileWeb15FacebookAccount", "accessToken"]
 - ["V12TurnstileWeb15FacebookAccount", "deinit"]
 - ["V12TurnstileWeb15FacebookAccount", "init"]
 - ["V12TurnstileWeb15FacebookAccount", "uniqueID"]
@@ -352,8 +354,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
-- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/Turnstile.framework/Modules/Turnstile.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Documents/Project/Lynda_Cours_Exercise/vapor/Swift_Vapor_Lynda/Exercise Files/03_02_hello_start/Build/Products/Debug/TurnstileCrypto.framework/Modules/TurnstileCrypto.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/Turnstile.framework/Modules/Turnstile.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/TurnstileCrypto.framework/Modules/TurnstileCrypto.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
@@ -362,4 +364,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "8f704a4438d249713d87bff7a3b5a5bc"
+interface-hash: "451fc7c6f97c11bf62cb02d46046a910"
