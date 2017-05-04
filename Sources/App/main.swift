@@ -7,6 +7,10 @@ weatherController.addRoutes(drop: drop)
 
 drop.client = FoundationClient.self
 
+drop.get("loaderio-822a5198e007a78606027c6f7d2f3624") { _ in
+        return "loaderio-822a5198e007a78606027c6f7d2f3624"
+}
+
 drop.get("current") { request in
     let json = try drop.client.get("https://api.darksky.net/forecast/1fc982716a795567a7239dcf5f061bb1/37.8267,-122.4233",
                                    query: ["exclude":"minutely,daily,alerts,flag"])
