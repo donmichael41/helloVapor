@@ -1,7 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "978758c83cccb98c3e45557cb575567c"
-build_time: [547800139, 22198000]
-inputs:
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/routing.git-5366657101075133678/Sources/TypeSafeRouting/Generated.swift": [547222745, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/routing.git-5366657101075133678/Sources/TypeSafeRouting/StringInitializable.swift": [547222745, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/routing.git-5366657101075133678/Sources/TypeSafeRouting/TypeSafeRoutingError.swift": [547222745, 0]

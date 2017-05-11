@@ -1,3 +1,0 @@
-framework module Auth {
-    header "Auth-Swift.h"
-}

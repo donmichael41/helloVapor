@@ -1,9 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "cc59d36aeebea40cf4be4fc72911ab95"
-build_time: [547800157, 735195000]
-inputs:
-  "/Users/hungnguyen/Project/vapor/hello_heroku/Sources/App/main.swift": [547799987, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/Sources/App/Controllers/PostController.swift": [538469618, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/Sources/App/Controllers/TimeKeeper.swift": [547205555, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/Sources/App/Controllers/WeatherController.swift": [547204743, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/Sources/App/Models/Post.swift": [538469618, 0]

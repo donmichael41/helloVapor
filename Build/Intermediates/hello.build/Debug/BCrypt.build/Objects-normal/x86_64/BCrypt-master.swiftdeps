@@ -1,6 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "c14cde2550007203c45019469b1a08ca"
-build_time: [547800120, 65131000]
-inputs:
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/BCrypt/BCrypt+Deprecated.swift": [547222747, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/BCrypt/BCrypt.swift": [547222747, 0]

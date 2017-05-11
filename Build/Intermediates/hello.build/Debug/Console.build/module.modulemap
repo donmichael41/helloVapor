@@ -1,3 +1,0 @@
-framework module Console {
-    header "Console-Swift.h"
-}

@@ -1,3 +1,0 @@
-framework module TurnstileCrypto {
-    header "TurnstileCrypto-Swift.h"
-}

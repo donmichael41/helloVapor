@@ -1,3 +1,0 @@
-framework module Socks {
-    header "Socks-Swift.h"
-}

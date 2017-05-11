@@ -1,3 +1,0 @@
-framework module TurnstileWeb {
-    header "TurnstileWeb-Swift.h"
-}

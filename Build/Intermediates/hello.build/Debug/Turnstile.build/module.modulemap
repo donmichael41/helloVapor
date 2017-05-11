@@ -1,3 +1,0 @@
-framework module Turnstile {
-    header "Turnstile-Swift.h"
-}

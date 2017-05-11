@@ -1,3 +1,0 @@
-framework module Polymorphic {
-    header "Polymorphic-Swift.h"
-}

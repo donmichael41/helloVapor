@@ -1,3 +1,0 @@
-framework module Hash {
-    header "Hash-Swift.h"
-}

@@ -1,3 +1,0 @@
-framework module Cache {
-    header "Cache-Swift.h"
-}

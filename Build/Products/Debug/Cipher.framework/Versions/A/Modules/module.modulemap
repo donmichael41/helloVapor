@@ -1,3 +1,0 @@
-framework module Cipher {
-    header "Cipher-Swift.h"
-}
