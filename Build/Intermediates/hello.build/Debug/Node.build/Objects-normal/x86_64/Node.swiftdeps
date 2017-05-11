@@ -28,8 +28,8 @@ depends-nominal:
 - "O4Node4Node"
 depends-dynamic-lookup:
 depends-external:
-- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/PathIndexable.framework/Modules/PathIndexable.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/PathIndexable.framework/Modules/PathIndexable.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
 interface-hash: "4a09522dbeec2d265bd35f371515f6c6"

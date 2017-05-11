@@ -1,6 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "d0cb1c3cc40084e6d1529ccf381deacb"
-build_time: [547222410, 56780000]
-inputs:
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/Essentials/ByteStream.swift": [546795324, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/Essentials/Helpers.swift": [546795324, 0]

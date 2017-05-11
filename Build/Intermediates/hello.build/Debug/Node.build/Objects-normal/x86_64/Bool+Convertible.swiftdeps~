@@ -102,10 +102,6 @@ depends-member:
 - ["P4Node17NodeRepresentable", "init"]
 - ["P4Node17NodeRepresentable", "makeNode"]
 - ["P4Node17NodeRepresentable", ""]
-- !private ["P13PathIndexable9PathIndex", "init"]
-- !private ["P13PathIndexable13PathIndexable", "bool"]
-- !private ["P11Polymorphic11Polymorphic", "bool"]
-- !private ["P11Polymorphic11Polymorphic", "init"]
 - !private ["SS", "deinit"]
 - !private ["SS", "init"]
 - !private ["Ps16TextOutputStream", "init"]
@@ -153,9 +149,6 @@ depends-nominal:
 - !private "O4Node9NodeError"
 - "P4Node17NodeInitializable"
 - "P4Node17NodeRepresentable"
-- !private "P13PathIndexable9PathIndex"
-- !private "P13PathIndexable13PathIndexable"
-- !private "P11Polymorphic11Polymorphic"
 - !private "SS"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
@@ -168,8 +161,6 @@ depends-nominal:
 - "Ps9_Hashable"
 depends-dynamic-lookup:
 depends-external:
-- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/PathIndexable.framework/Modules/PathIndexable.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
 interface-hash: "ab61b529ee33dd48dee9331281bef7fe"

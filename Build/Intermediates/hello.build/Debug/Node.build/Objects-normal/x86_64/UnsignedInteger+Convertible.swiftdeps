@@ -346,8 +346,8 @@ depends-nominal:
 - "Ps14_StringElement"
 depends-dynamic-lookup:
 depends-external:
-- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/PathIndexable.framework/Modules/PathIndexable.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/PathIndexable.framework/Modules/PathIndexable.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
 interface-hash: "b85fb7803a5a5e784f38822ac4d9567b"

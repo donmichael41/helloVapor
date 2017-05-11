@@ -17,7 +17,6 @@ depends-top-level:
 - "Array"
 - "Context"
 - "Dictionary"
-- "EmptyNode"
 - "Node"
 depends-member:
 - ["Sa", "deinit"]
@@ -40,8 +39,6 @@ depends-member:
 - ["P4Node15NodeConvertible", "object"]
 - ["P4Node17NodeInitializable", "object"]
 - ["P4Node17NodeRepresentable", "object"]
-- ["P13PathIndexable13PathIndexable", "object"]
-- ["P11Polymorphic11Polymorphic", "object"]
 depends-nominal:
 - "Sa"
 - "P4Node7Context"
@@ -61,12 +58,8 @@ depends-nominal:
 - "P4Node15NodeConvertible"
 - "P4Node17NodeInitializable"
 - "P4Node17NodeRepresentable"
-- "P13PathIndexable13PathIndexable"
-- "P11Polymorphic11Polymorphic"
 depends-dynamic-lookup:
 depends-external:
-- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/Build/Products/Debug/PathIndexable.framework/Modules/PathIndexable.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
 interface-hash: "553a519b54b527ddce944dc338bfdeef"

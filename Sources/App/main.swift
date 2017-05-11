@@ -2,6 +2,7 @@ import Vapor
 import HTTP
 let drop = Droplet()
 
+
 let weatherController = WeatherController()
 weatherController.addRoutes(drop: drop)
 

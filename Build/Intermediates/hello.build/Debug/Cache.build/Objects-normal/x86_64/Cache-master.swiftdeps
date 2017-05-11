@@ -1,7 +1,7 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "846ed295e911ebcb9d84e131f01f6603"
-build_time: [547222848, 169200000]
+options: "fb2520cf0996614671ddb7b7b4f21f53"
+build_time: [547800141, 291328000]
 inputs:
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/CacheProtocol.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/FluentCache.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/MemoryCache.swift": [547222744, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/CacheProtocol.swift": [547222744, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/FluentCache.swift": [547222744, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/MemoryCache.swift": [547222744, 0]
