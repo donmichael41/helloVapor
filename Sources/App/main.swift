@@ -2,9 +2,10 @@ import Vapor
 import HTTP
 import VaporPostgreSQL
 
-let drop = Droplet(providers:
-    [VaporPostgreSQL.Provider.self]
-)
+let drop = Droplet()
+try drop.addProvider(VaporPostgreSQL.Provider)
+
+//try drop.addProvider(VaporPostgreSQL.Provider.self)
 
 let weatherController = WeatherController()
 weatherController.addRoutes(drop: drop)
