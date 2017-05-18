@@ -28,9 +28,9 @@ final class PostController {
         return post
     }
     
-    func update(request: Request, post: Post) throws -> ResponseRepresentable {
-        
-    }
+//    func update(request: Request, post: Post) throws -> ResponseRepresentable {
+//        
+//    }
 }
 
 extension Request {
