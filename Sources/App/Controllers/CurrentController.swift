@@ -17,6 +17,8 @@ final class CurrentController {
     init(drop: Droplet) {
         self.drop = drop
         drop.client = FoundationClient.self
+        
+        addRoutes()
     }
     
     func addRoutes() {        

@@ -10,11 +10,7 @@ drop.preparations += Post.self
 let postController = PostController()
 postController.addRoutes(drop: drop)
 
-let phoneController = PhoneController()
-phoneController.addRoutes(drop: drop)
-
 let currentController = CurrentController(drop: drop)
-currentController.addRoutes()
 
 drop.get("version") { _ in
     if let db = drop.database?.driver as? PostgreSQLDriver {

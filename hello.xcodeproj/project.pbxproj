@@ -1649,7 +1649,6 @@
 		OBJ_3813 /* Vapor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_1461 /* Vapor.framework */; };
 		OBJ_3861 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
 		OBJ_3862 /* CurrentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* CurrentController.swift */; };
-		OBJ_3863 /* PhoneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* PhoneController.swift */; };
 		OBJ_3864 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* PostController.swift */; };
 		OBJ_3865 /* TimeKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* TimeKeeper.swift */; };
 		OBJ_3866 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Post.swift */; };
@@ -5649,7 +5648,6 @@
 		OBJ_1197 /* tasn_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_dec.c; sourceTree = "<group>"; };
 		OBJ_1198 /* tasn_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_enc.c; sourceTree = "<group>"; };
 		OBJ_1199 /* tasn_fre.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_fre.c; sourceTree = "<group>"; };
-		OBJ_12 /* PhoneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneController.swift; sourceTree = "<group>"; };
 		OBJ_120 /* Droplet+WorkingDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Droplet+WorkingDirectory.swift"; sourceTree = "<group>"; };
 		OBJ_1200 /* tasn_new.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_new.c; sourceTree = "<group>"; };
 		OBJ_1201 /* tasn_prn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_prn.c; sourceTree = "<group>"; };
@@ -7563,7 +7561,6 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_11 /* CurrentController.swift */,
-				OBJ_12 /* PhoneController.swift */,
 				OBJ_13 /* PostController.swift */,
 				OBJ_14 /* TimeKeeper.swift */,
 			);
@@ -13125,7 +13122,6 @@
 			files = (
 				OBJ_3861 /* main.swift in Sources */,
 				OBJ_3862 /* CurrentController.swift in Sources */,
-				OBJ_3863 /* PhoneController.swift in Sources */,
 				OBJ_3864 /* PostController.swift in Sources */,
 				OBJ_3865 /* TimeKeeper.swift in Sources */,
 				OBJ_3866 /* Post.swift in Sources */,
