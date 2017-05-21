@@ -1,7 +1,7 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "4c52e55b36e8cc857654697ac996e320"
-build_time: [547222826, 899981000]
+options: "ca0cb58a67b9bc5b03f8eac363c345cb"
+build_time: [548698466, 82651000]
 inputs:
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/Hash/Hash.swift": [547222747, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/Hash/Method.swift": [547222747, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/Hash/Random.swift": [547222747, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/Hash/Hash.swift": [548698322, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/Hash/Method.swift": [548698322, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/Hash/Random.swift": [548698322, 0]

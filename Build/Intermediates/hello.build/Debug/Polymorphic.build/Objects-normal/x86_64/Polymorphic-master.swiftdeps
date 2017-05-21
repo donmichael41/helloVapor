@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "1019174af4b27a951b8f9ac00b17ec3d"
-build_time: [547222778, 69828000]
+options: "883c8f818fe79f8b9d7f77952e0a980f"
+build_time: [548698413, 359977000]
 inputs:
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/polymorphic.git--4354167031091999056/Sources/Polymorphic.swift": [547222745, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/polymorphic.git--4354167031091999056/Sources/String+Polymorphic.swift": [547222745, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/polymorphic.git--4354167031091999056/Sources/Polymorphic.swift": [548698319, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/polymorphic.git--4354167031091999056/Sources/String+Polymorphic.swift": [548698319, 0]

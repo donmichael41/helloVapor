@@ -1,10 +1,10 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "600997365b577d4a2ef0d1bd1455d3cc"
-build_time: [547222850, 986085000]
+options: "3e84b4d641ea4b315c0c44a634e012e6"
+build_time: [548698485, 205166000]
 inputs:
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/CacheSessions.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/MemorySessions.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/Request+Session.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/Session.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/SessionsMiddleware.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/SessionsProtocol.swift": [547222744, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/CacheSessions.swift": [548698318, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/MemorySessions.swift": [548698318, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/Request+Session.swift": [548698318, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/Session.swift": [548698318, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/SessionsMiddleware.swift": [548698318, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/SessionsProtocol.swift": [548698318, 0]

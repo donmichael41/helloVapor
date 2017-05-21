@@ -1,5 +1,5 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "315a6f090700c81cc0e43f6ff7077ac6"
-build_time: [547219616, 246165000]
+build_time: [547222777, 692089000]
 inputs:
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/core.git-9210800844849382486/Sources/libc/libc.swift": [546795322, 0]
+  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/core.git-9210800844849382486/Sources/libc/libc.swift": [547222744, 0]

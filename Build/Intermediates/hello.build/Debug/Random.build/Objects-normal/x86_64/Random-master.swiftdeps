@@ -1,8 +1,8 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "ec61644f399154f1e824a86bcb6468ae"
-build_time: [547222826, 345660000]
+options: "bd940e890dccc0cee2f4ca2174249425"
+build_time: [548698464, 681319000]
 inputs:
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/CryptoRandom.swift": [547222747, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/Random+Deprecated.swift": [547222747, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/Random.swift": [547222747, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/URandom.swift": [547222747, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/CryptoRandom.swift": [548698322, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/Random+Deprecated.swift": [548698322, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/Random.swift": [548698322, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/URandom.swift": [548698322, 0]

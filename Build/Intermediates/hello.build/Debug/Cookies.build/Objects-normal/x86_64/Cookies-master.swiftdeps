@@ -1,15 +1,15 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "2b14d8e3606a0496a83c89c09b5dbd61"
-build_time: [547222848, 508149000]
+options: "d99fb2b8747b482668450ab0564db3ac"
+build_time: [548698482, 497849000]
 inputs:
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookie+BytesConvertible.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookie+Parse.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookie+Serialize.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookie.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies+BytesConvertible.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies+Literal.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies+Parse.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies+Serialize.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Request+Cookies.swift": [547222744, 0]
-  "/Users/hungnguyen/Documents/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Response+Cookies.swift": [547222744, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookie+BytesConvertible.swift": [548698318, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookie+Parse.swift": [548698318, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookie+Serialize.swift": [548698318, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookie.swift": [548698318, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies+BytesConvertible.swift": [548698318, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies+Literal.swift": [548698318, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies+Parse.swift": [548698318, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies+Serialize.swift": [548698318, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies.swift": [548698318, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Request+Cookies.swift": [548698318, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Response+Cookies.swift": [548698318, 0]
