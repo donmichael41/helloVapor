@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "ef58b6feb2a0e3e52e2888fe4c49672f"
-build_time: [548698465, 764777000]
+build_time: [548734099, 961650000]
 inputs:
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/HMAC/HMAC.swift": [548698321, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/HMAC/Method.swift": [548698321, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/HMAC/HMAC.swift": [548699583, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/HMAC/Method.swift": [548699583, 0]

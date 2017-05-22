@@ -1,12 +1,12 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "527631a3cf94af2ca0ab510e0a1ab5b1"
-build_time: [548698432, 70633000]
+build_time: [548734097, 511174000]
 inputs:
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Atom.swift": [548698321, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Compound.swift": [548698321, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Student.swift": [548698321, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+InsertAndFind.swift": [548698321, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+PivotsAndRelations.swift": [548698321, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Schema.swift": [548698321, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Utilities.swift": [548698321, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester.swift": [548698321, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Atom.swift": [548699582, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Compound.swift": [548699582, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Student.swift": [548699582, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+InsertAndFind.swift": [548699582, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+PivotsAndRelations.swift": [548699582, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Schema.swift": [548699582, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Utilities.swift": [548699582, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester.swift": [548699582, 0]

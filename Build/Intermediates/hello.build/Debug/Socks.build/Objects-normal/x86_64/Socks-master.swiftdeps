@@ -1,9 +1,9 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "9318d1fb3eef7c3f994b66447894f0ea"
-build_time: [548698430, 422780000]
+build_time: [548734088, 116925000]
 inputs:
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/socks.git--8001262774462276871/Sources/Socks/Socks.swift": [548698320, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/socks.git--8001262774462276871/Sources/Socks/SynchronousTCPServer.swift": [548698320, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/socks.git--8001262774462276871/Sources/Socks/SynchronousUDPServer.swift": [548698320, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/socks.git--8001262774462276871/Sources/Socks/TCPClient.swift": [548698320, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/socks.git--8001262774462276871/Sources/Socks/UDPClient.swift": [548698320, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/socks.git--8001262774462276871/Sources/Socks/Socks.swift": [548699582, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/socks.git--8001262774462276871/Sources/Socks/SynchronousTCPServer.swift": [548699582, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/socks.git--8001262774462276871/Sources/Socks/SynchronousUDPServer.swift": [548699582, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/socks.git--8001262774462276871/Sources/Socks/TCPClient.swift": [548699582, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/socks.git--8001262774462276871/Sources/Socks/UDPClient.swift": [548699582, 0]

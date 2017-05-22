@@ -1,7 +1,7 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "b1173590845d1f6348f40ddc1f7e73bc"
-build_time: [548698435, 166473000]
+build_time: [548734102, 79413000]
 inputs:
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/Turnstile.git-2443676010155639616/Sources/TurnstileCrypto/BCrypt.swift": [548698319, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/Turnstile.git-2443676010155639616/Sources/TurnstileCrypto/Random.swift": [548698319, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/Turnstile.git-2443676010155639616/Sources/TurnstileCrypto/URandom.swift": [548698319, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/Turnstile.git-2443676010155639616/Sources/TurnstileCrypto/BCrypt.swift": [548699580, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/Turnstile.git-2443676010155639616/Sources/TurnstileCrypto/Random.swift": [548699580, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/Turnstile.git-2443676010155639616/Sources/TurnstileCrypto/URandom.swift": [548699580, 0]
