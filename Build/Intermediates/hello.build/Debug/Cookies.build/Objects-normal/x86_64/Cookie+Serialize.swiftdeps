@@ -15,33 +15,36 @@ depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["P4HTTP17BodyRepresentable", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["P4Core16BytesConvertible", "domain"]
-- !private ["P4Core16BytesConvertible", "expires"]
-- !private ["P4Core16BytesConvertible", "httpOnly"]
-- !private ["P4Core16BytesConvertible", "init"]
-- !private ["P4Core16BytesConvertible", "maxAge"]
-- !private ["P4Core16BytesConvertible", "name"]
-- !private ["P4Core16BytesConvertible", "path"]
-- !private ["P4Core16BytesConvertible", "secure"]
-- !private ["P4Core16BytesConvertible", "value"]
-- !private ["P4Core18BytesInitializable", "domain"]
-- !private ["P4Core18BytesInitializable", "expires"]
-- !private ["P4Core18BytesInitializable", "httpOnly"]
-- !private ["P4Core18BytesInitializable", "init"]
-- !private ["P4Core18BytesInitializable", "maxAge"]
-- !private ["P4Core18BytesInitializable", "name"]
-- !private ["P4Core18BytesInitializable", "path"]
-- !private ["P4Core18BytesInitializable", "secure"]
-- !private ["P4Core18BytesInitializable", "value"]
-- !private ["P4Core18BytesRepresentable", "domain"]
-- !private ["P4Core18BytesRepresentable", "expires"]
-- !private ["P4Core18BytesRepresentable", "httpOnly"]
-- !private ["P4Core18BytesRepresentable", "init"]
-- !private ["P4Core18BytesRepresentable", "maxAge"]
-- !private ["P4Core18BytesRepresentable", "name"]
-- !private ["P4Core18BytesRepresentable", "path"]
-- !private ["P4Core18BytesRepresentable", "secure"]
-- !private ["P4Core18BytesRepresentable", "value"]
+- !private ["P4Bits16BytesConvertible", "domain"]
+- !private ["P4Bits16BytesConvertible", "expires"]
+- !private ["P4Bits16BytesConvertible", "httpOnly"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits16BytesConvertible", "maxAge"]
+- !private ["P4Bits16BytesConvertible", "name"]
+- !private ["P4Bits16BytesConvertible", "path"]
+- !private ["P4Bits16BytesConvertible", "sameSite"]
+- !private ["P4Bits16BytesConvertible", "secure"]
+- !private ["P4Bits16BytesConvertible", "value"]
+- !private ["P4Bits18BytesInitializable", "domain"]
+- !private ["P4Bits18BytesInitializable", "expires"]
+- !private ["P4Bits18BytesInitializable", "httpOnly"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesInitializable", "maxAge"]
+- !private ["P4Bits18BytesInitializable", "name"]
+- !private ["P4Bits18BytesInitializable", "path"]
+- !private ["P4Bits18BytesInitializable", "sameSite"]
+- !private ["P4Bits18BytesInitializable", "secure"]
+- !private ["P4Bits18BytesInitializable", "value"]
+- !private ["P4Bits18BytesRepresentable", "domain"]
+- !private ["P4Bits18BytesRepresentable", "expires"]
+- !private ["P4Bits18BytesRepresentable", "httpOnly"]
+- !private ["P4Bits18BytesRepresentable", "init"]
+- !private ["P4Bits18BytesRepresentable", "maxAge"]
+- !private ["P4Bits18BytesRepresentable", "name"]
+- !private ["P4Bits18BytesRepresentable", "path"]
+- !private ["P4Bits18BytesRepresentable", "sameSite"]
+- !private ["P4Bits18BytesRepresentable", "secure"]
+- !private ["P4Bits18BytesRepresentable", "value"]
 - !private ["Ps7CVarArg", "init"]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps10Comparable", "rfc1123"]
@@ -52,6 +55,7 @@ depends-member:
 - !private ["V7Cookies6Cookie", "maxAge"]
 - !private ["V7Cookies6Cookie", "name"]
 - !private ["V7Cookies6Cookie", "path"]
+- !private ["V7Cookies6Cookie", "sameSite"]
 - !private ["V7Cookies6Cookie", "secure"]
 - ["V7Cookies6Cookie", "serialize"]
 - !private ["V7Cookies6Cookie", "value"]
@@ -72,10 +76,12 @@ depends-member:
 - !private ["Ps9Equatable", "expires"]
 - !private ["Ps9Equatable", "httpOnly"]
 - !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "lax"]
 - !private ["Ps9Equatable", "maxAge"]
 - !private ["Ps9Equatable", "name"]
 - !private ["Ps9Equatable", "path"]
 - !private ["Ps9Equatable", "rfc1123"]
+- !private ["Ps9Equatable", "sameSite"]
 - !private ["Ps9Equatable", "secure"]
 - !private ["Ps9Equatable", "value"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
@@ -87,10 +93,12 @@ depends-member:
 - !private ["Ps8Hashable", "expires"]
 - !private ["Ps8Hashable", "httpOnly"]
 - !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "lax"]
 - !private ["Ps8Hashable", "maxAge"]
 - !private ["Ps8Hashable", "name"]
 - !private ["Ps8Hashable", "path"]
 - !private ["Ps8Hashable", "rfc1123"]
+- !private ["Ps8Hashable", "sameSite"]
 - !private ["Ps8Hashable", "secure"]
 - !private ["Ps8Hashable", "value"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
@@ -104,6 +112,7 @@ depends-member:
 - !private ["CSo8NSString", "init"]
 - !private ["P10Foundation20ReferenceConvertible", "rfc1123"]
 - !private ["P4HTTP21ResponseRepresentable", "init"]
+- ["OV7Cookies6Cookie8SameSite", "lax"]
 - !private ["SS", "init"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
@@ -119,10 +128,12 @@ depends-member:
 - !private ["Ps9_Hashable", "expires"]
 - !private ["Ps9_Hashable", "httpOnly"]
 - !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "lax"]
 - !private ["Ps9_Hashable", "maxAge"]
 - !private ["Ps9_Hashable", "name"]
 - !private ["Ps9_Hashable", "path"]
 - !private ["Ps9_Hashable", "rfc1123"]
+- !private ["Ps9_Hashable", "sameSite"]
 - !private ["Ps9_Hashable", "secure"]
 - !private ["Ps9_Hashable", "value"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
@@ -132,9 +143,9 @@ depends-nominal:
 - !private "Ps9AnyObject"
 - !private "P4HTTP17BodyRepresentable"
 - !private "Sb"
-- !private "P4Core16BytesConvertible"
-- !private "P4Core18BytesInitializable"
-- !private "P4Core18BytesRepresentable"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
 - !private "Ps7CVarArg"
 - !private "Ps10Comparable"
 - "V7Cookies6Cookie"
@@ -143,12 +154,12 @@ depends-nominal:
 - !private "Ps17CustomReflectable"
 - !private "Ps23CustomStringConvertible"
 - !private "V10Foundation4Date"
-- !private "Ps9Equatable"
+- "Ps9Equatable"
 - !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
-- !private "Ps8Hashable"
+- "Ps8Hashable"
 - !private "Ps25LosslessStringConvertible"
 - !private "Ps10MirrorPath"
 - !private "PSo8NSCoding"
@@ -159,6 +170,7 @@ depends-nominal:
 - !private "CSo8NSString"
 - !private "P10Foundation20ReferenceConvertible"
 - !private "P4HTTP21ResponseRepresentable"
+- "OV7Cookies6Cookie8SameSite"
 - !private "SS"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
@@ -169,7 +181,7 @@ depends-nominal:
 - !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
 - !private "Ps33_ExpressibleByStringInterpolation"
 - !private "Ps35_HasCustomAnyHashableRepresentation"
-- !private "Ps9_Hashable"
+- "Ps9_Hashable"
 - !private "Ps21_ObjectiveCBridgeable"
 depends-dynamic-lookup:
 depends-external:
@@ -183,7 +195,10 @@ depends-external:
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/TLS.framework/Modules/TLS.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/SocksCore.framework/Modules/SocksCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Sockets.framework/Modules/Sockets.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Transport.framework/Modules/Transport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
@@ -193,77 +208,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/tls1.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dtls1.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pkcs12.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rc2.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl2.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pem2.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl23.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl3.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509v3.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rc4.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/md4.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/poly1305.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/md5.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pkcs7.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/CLibreSSL.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/idea.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/chacha.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/sha.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/camellia.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dsa.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ecdsa.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rsa.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/txt_db.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1_mac.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/obj_mac.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cmac.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/hmac.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ec.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ripemd.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rand.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/engine.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/conf.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslconf.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dh.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ecdh.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/lhash.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/blowfish.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/conf_api.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ui.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/stack.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/safestack.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/whrlpool.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pem.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/bn.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/krb5_asn.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/bio.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dso.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/crypto.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/comp.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ocsp.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/srtp.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/evp.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ossl_typ.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/buffer.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/err.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/aes.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/des.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/modes.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslfeatures.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/tls.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cms.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ts.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/objects.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1t.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ui_compat.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cast.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/gost.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslv.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509_vfy.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/hello.xcodeproj/GeneratedModuleMap/CLibreSSL/module.modulemap"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/hello.xcodeproj/GeneratedModuleMap/CHTTP/module.modulemap"
 interface-hash: "bcff76c63acc5ae2c245f62414509eec"

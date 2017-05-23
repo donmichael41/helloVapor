@@ -1,6 +1,13 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "c14cde2550007203c45019469b1a08ca"
-build_time: [548734100, 376721000]
+options: "40c76742d11f393fa4a3e6f347e21483"
+build_time: [548827009, 909014000]
 inputs:
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/BCrypt/BCrypt+Deprecated.swift": [548699583, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/crypto.git-7980259129511365902/Sources/BCrypt/BCrypt.swift": [548699583, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Base64.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/BCryptError.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Convenience.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Export.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Hash.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Keys.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Parser.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Salt.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Serializer.swift": [548826908, 0]

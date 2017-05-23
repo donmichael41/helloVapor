@@ -1,2 +1,9 @@
-/Users/hungnguyen/Project/vapor/hello_heroku/Build/Intermediates/hello.build/Debug/BCrypt.build/Objects-normal/x86_64/BCrypt+Deprecated.o
-/Users/hungnguyen/Project/vapor/hello_heroku/Build/Intermediates/hello.build/Debug/BCrypt.build/Objects-normal/x86_64/BCrypt.o
+/Users/hungnguyen/Project/vapor/hello_heroku/Build/Intermediates/hello.build/Debug/BCrypt.build/Objects-normal/x86_64/Base64.o
+/Users/hungnguyen/Project/vapor/hello_heroku/Build/Intermediates/hello.build/Debug/BCrypt.build/Objects-normal/x86_64/BCryptError.o
+/Users/hungnguyen/Project/vapor/hello_heroku/Build/Intermediates/hello.build/Debug/BCrypt.build/Objects-normal/x86_64/Convenience.o
+/Users/hungnguyen/Project/vapor/hello_heroku/Build/Intermediates/hello.build/Debug/BCrypt.build/Objects-normal/x86_64/Export.o
+/Users/hungnguyen/Project/vapor/hello_heroku/Build/Intermediates/hello.build/Debug/BCrypt.build/Objects-normal/x86_64/Hash.o
+/Users/hungnguyen/Project/vapor/hello_heroku/Build/Intermediates/hello.build/Debug/BCrypt.build/Objects-normal/x86_64/Keys.o
+/Users/hungnguyen/Project/vapor/hello_heroku/Build/Intermediates/hello.build/Debug/BCrypt.build/Objects-normal/x86_64/Parser.o
+/Users/hungnguyen/Project/vapor/hello_heroku/Build/Intermediates/hello.build/Debug/BCrypt.build/Objects-normal/x86_64/Salt.o
+/Users/hungnguyen/Project/vapor/hello_heroku/Build/Intermediates/hello.build/Debug/BCrypt.build/Objects-normal/x86_64/Serializer.o

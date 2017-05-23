@@ -23,15 +23,18 @@ depends-member:
 - !private ["Ps17BitwiseOperations", "ansi"]
 - !private ["Ps17BitwiseOperations", "description"]
 - !private ["Ps17BitwiseOperations", "init"]
-- !private ["P4Core16BytesConvertible", "UInt8"]
-- !private ["P4Core16BytesConvertible", "ansi"]
-- !private ["P4Core16BytesConvertible", "init"]
-- !private ["P4Core18BytesInitializable", "UInt8"]
-- !private ["P4Core18BytesInitializable", "ansi"]
-- !private ["P4Core18BytesInitializable", "init"]
-- !private ["P4Core18BytesRepresentable", "UInt8"]
-- !private ["P4Core18BytesRepresentable", "ansi"]
-- !private ["P4Core18BytesRepresentable", "init"]
+- !private ["P4Bits16BytesConvertible", "UInt8"]
+- !private ["P4Bits16BytesConvertible", "ansi"]
+- !private ["P4Bits16BytesConvertible", "description"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits18BytesInitializable", "UInt8"]
+- !private ["P4Bits18BytesInitializable", "ansi"]
+- !private ["P4Bits18BytesInitializable", "description"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesRepresentable", "UInt8"]
+- !private ["P4Bits18BytesRepresentable", "ansi"]
+- !private ["P4Bits18BytesRepresentable", "description"]
+- !private ["P4Bits18BytesRepresentable", "init"]
 - !private ["Ps7CVarArg", "UInt8"]
 - !private ["Ps7CVarArg", "ansi"]
 - !private ["Ps7CVarArg", "description"]
@@ -129,9 +132,6 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "ansi"]
 - !private ["CSo8NSString", "init"]
-- !private ["P11Polymorphic11Polymorphic", "UInt8"]
-- !private ["P11Polymorphic11Polymorphic", "ansi"]
-- !private ["P11Polymorphic11Polymorphic", "init"]
 - !private ["Ps10Strideable", "ansi"]
 - !private ["Ps10Strideable", "description"]
 - !private ["Ps10Strideable", "init"]
@@ -212,9 +212,9 @@ depends-member:
 depends-nominal:
 - !private "Ps9AnyObject"
 - !private "Ps17BitwiseOperations"
-- !private "P4Core16BytesConvertible"
-- !private "P4Core18BytesInitializable"
-- !private "P4Core18BytesRepresentable"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
 - !private "Ps7CVarArg"
 - !private "Ps10Comparable"
 - "O7Console12ConsoleColor"
@@ -239,7 +239,6 @@ depends-nominal:
 - !private "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
-- !private "P11Polymorphic11Polymorphic"
 - !private "Ps10Strideable"
 - "SS"
 - !private "Ps16TextOutputStream"
@@ -269,8 +268,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"

@@ -134,7 +134,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import ObjectiveC;
 @import Foundation;
-@import Core;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -143,25 +142,17 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC9Transport16FoundationStream")
 @interface FoundationStream : NSObject <NSStreamDelegate>
-@property (nonatomic, readonly, copy) NSString * _Nonnull peerAddress;
 - (BOOL)setTimeout:(double)timeout error:(NSError * _Nullable * _Nullable)error;
-@property (nonatomic, readonly) BOOL closed;
-@property (nonatomic, readonly, copy) NSString * _Nonnull host;
-@property (nonatomic, readonly) NSInteger port;
+@property (nonatomic, readonly) BOOL isClosed;
+@property (nonatomic, readonly, copy) NSString * _Nonnull scheme;
+@property (nonatomic, readonly, copy) NSString * _Nonnull hostname;
+@property (nonatomic, readonly) uint16_t port;
+- (nullable instancetype)initWithScheme:(NSString * _Nonnull)scheme hostname:(NSString * _Nonnull)hostname port:(uint16_t)port error:(NSError * _Nullable * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
 - (BOOL)closeAndReturnError:(NSError * _Nullable * _Nullable)error;
-- (BOOL)send:(NSArray<NSNumber *> * _Nonnull)bytes error:(NSError * _Nullable * _Nullable)error;
 - (BOOL)flushAndReturnError:(NSError * _Nullable * _Nullable)error;
-- (NSArray<NSNumber *> * _Nullable)receiveWithMax:(NSInteger)max error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)connectAndReturnError:(NSError * _Nullable * _Nullable)error;
 - (void)stream:(NSStream * _Nonnull)aStream handleEvent:(NSStreamEvent)eventCode;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
-@end
-
-
-@interface FoundationStream (SWIFT_EXTENSION(Transport))
-@end
-
-
-@interface NSStream (SWIFT_EXTENSION(Transport))
 @end
 
 

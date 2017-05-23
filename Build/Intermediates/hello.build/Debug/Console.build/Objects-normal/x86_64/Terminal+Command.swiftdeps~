@@ -18,12 +18,12 @@ depends-member:
 - !private ["Ps9AnyObject", "ansi"]
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps17BitwiseOperations", "hashValue"]
-- !private ["P4Core16BytesConvertible", "ansi"]
-- !private ["P4Core16BytesConvertible", "init"]
-- !private ["P4Core18BytesInitializable", "ansi"]
-- !private ["P4Core18BytesInitializable", "init"]
-- !private ["P4Core18BytesRepresentable", "ansi"]
-- !private ["P4Core18BytesRepresentable", "init"]
+- !private ["P4Bits16BytesConvertible", "ansi"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits18BytesInitializable", "ansi"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesRepresentable", "ansi"]
+- !private ["P4Bits18BytesRepresentable", "init"]
 - !private ["Ps7CVarArg", "ansi"]
 - !private ["Ps7CVarArg", "hashValue"]
 - !private ["Ps7CVarArg", "init"]
@@ -94,8 +94,6 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "ansi"]
 - !private ["CSo8NSString", "init"]
-- !private ["P11Polymorphic11Polymorphic", "ansi"]
-- !private ["P11Polymorphic11Polymorphic", "init"]
 - !private ["Ps13SignedInteger", "hashValue"]
 - !private ["Ps12SignedNumber", "hashValue"]
 - !private ["Ps10Strideable", "hashValue"]
@@ -138,9 +136,9 @@ depends-member:
 depends-nominal:
 - !private "Ps9AnyObject"
 - !private "Ps17BitwiseOperations"
-- !private "P4Core16BytesConvertible"
-- !private "P4Core18BytesInitializable"
-- !private "P4Core18BytesRepresentable"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
 - !private "Ps7CVarArg"
 - "OC7Console8Terminal7Command"
 - !private "Ps10Comparable"
@@ -166,7 +164,6 @@ depends-nominal:
 - !private "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
-- !private "P11Polymorphic11Polymorphic"
 - !private "Ps13SignedInteger"
 - !private "Ps12SignedNumber"
 - !private "Ps10Strideable"
@@ -196,8 +193,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"

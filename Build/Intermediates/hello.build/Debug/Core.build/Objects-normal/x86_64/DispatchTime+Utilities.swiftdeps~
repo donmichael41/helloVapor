@@ -25,6 +25,9 @@ depends-member:
 - !private ["Ps19BinaryFloatingPoint", "init"]
 - !private ["Ps19BinaryFloatingPoint", "nanoseconds"]
 - !private ["Ps17BitwiseOperations", "init"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesRepresentable", "init"]
 - !private ["Ps7CVarArg", "Double"]
 - !private ["Ps7CVarArg", "UInt64"]
 - !private ["Ps7CVarArg", "init"]
@@ -136,6 +139,9 @@ depends-nominal:
 - !private "Ps16AbsoluteValuable"
 - !private "Ps19BinaryFloatingPoint"
 - !private "Ps17BitwiseOperations"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
 - !private "Ps7CVarArg"
 - !private "Ps10Comparable"
 - !private "Ps28CustomDebugStringConvertible"
@@ -175,6 +181,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
@@ -183,4 +191,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "e3cf61edd83cd12af7a3884bf94590bc"
+interface-hash: "f282bb00bd8b65e84b852d5eef33ea6a"

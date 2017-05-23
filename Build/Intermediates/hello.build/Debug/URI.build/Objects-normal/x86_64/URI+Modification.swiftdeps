@@ -31,15 +31,15 @@ depends-member:
 - !private ["Ps23BidirectionalCollection", "last"]
 - !private ["Ps23BidirectionalCollection", "removeLast"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["P4Core16BytesConvertible", "components"]
-- !private ["P4Core16BytesConvertible", "init"]
-- !private ["P4Core16BytesConvertible", "isEmpty"]
-- !private ["P4Core18BytesInitializable", "components"]
-- !private ["P4Core18BytesInitializable", "init"]
-- !private ["P4Core18BytesInitializable", "isEmpty"]
-- !private ["P4Core18BytesRepresentable", "components"]
-- !private ["P4Core18BytesRepresentable", "init"]
-- !private ["P4Core18BytesRepresentable", "isEmpty"]
+- !private ["P4Bits16BytesConvertible", "components"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits16BytesConvertible", "isEmpty"]
+- !private ["P4Bits18BytesInitializable", "components"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesInitializable", "isEmpty"]
+- !private ["P4Bits18BytesRepresentable", "components"]
+- !private ["P4Bits18BytesRepresentable", "init"]
+- !private ["P4Bits18BytesRepresentable", "isEmpty"]
 - !private ["Ps7CVarArg", "append"]
 - !private ["Ps7CVarArg", "components"]
 - !private ["Ps7CVarArg", "init"]
@@ -79,7 +79,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "append"]
 - !private ["Ps23CustomStringConvertible", "components"]
 - !private ["Ps23CustomStringConvertible", "fragment"]
-- !private ["Ps23CustomStringConvertible", "host"]
+- !private ["Ps23CustomStringConvertible", "hostname"]
 - !private ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "isEmpty"]
 - !private ["Ps23CustomStringConvertible", "joined"]
@@ -88,7 +88,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "pathComponents"]
 - !private ["Ps23CustomStringConvertible", "port"]
 - !private ["Ps23CustomStringConvertible", "query"]
-- !private ["Ps23CustomStringConvertible", "rawQuery"]
 - !private ["Ps23CustomStringConvertible", "removeLast"]
 - !private ["Ps23CustomStringConvertible", "scheme"]
 - !private ["Ps23CustomStringConvertible", "userInfo"]
@@ -178,14 +177,13 @@ depends-member:
 - ["V3URI3URI", "appendingPathComponent"]
 - ["V3URI3URI", "deletingLastPathComponent"]
 - !private ["V3URI3URI", "fragment"]
-- !private ["V3URI3URI", "host"]
+- !private ["V3URI3URI", "hostname"]
 - !private ["V3URI3URI", "init"]
 - ["V3URI3URI", "lastPathComponent"]
 - !private ["V3URI3URI", "path"]
 - !private ["V3URI3URI", "pathComponents"]
 - !private ["V3URI3URI", "port"]
 - !private ["V3URI3URI", "query"]
-- !private ["V3URI3URI", "rawQuery"]
 - ["V3URI3URI", "removingPath"]
 - !private ["V3URI3URI", "scheme"]
 - !private ["V3URI3URI", "userInfo"]
@@ -266,9 +264,9 @@ depends-nominal:
 - !private "Sa"
 - !private "Ps23BidirectionalCollection"
 - !private "Sb"
-- !private "P4Core16BytesConvertible"
-- !private "P4Core18BytesInitializable"
-- !private "P4Core18BytesRepresentable"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
 - !private "Ps7CVarArg"
 - !private "Ps10Collection"
 - !private "Ps10Comparable"
@@ -326,6 +324,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Transport.framework/Modules/Transport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
@@ -334,5 +335,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/hello.xcodeproj/GeneratedModuleMap/CLibreSSL/module.modulemap"
-interface-hash: "98af1d5608e460c0fa8ea04e91261c73"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/hello.xcodeproj/GeneratedModuleMap/CHTTP/module.modulemap"
+interface-hash: "c9e848e56c20ccc4e7b2978155d774ae"

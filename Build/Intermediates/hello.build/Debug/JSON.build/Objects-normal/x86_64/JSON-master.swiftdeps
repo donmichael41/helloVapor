@@ -1,13 +1,13 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "57369fa5b2773ed2de64cbaa72456897"
-build_time: [548734099, 319845000]
+build_time: [548827241, 853120000]
 inputs:
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/File.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Bytes.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Equatable.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Node.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Parse.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Serialize.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSONRepresentable.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/Sequence+Convertible.swift": [548699582, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Bytes.swift": [548826907, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Equatable.swift": [548826907, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Fuzzy.swift": [548826907, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Parse.swift": [548826907, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Serialize.swift": [548826907, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON.swift": [548826907, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSONContext.swift": [548826907, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSONRepresentable.swift": [548826907, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/json.git-9153249592855998091/Sources/JSON/Sequence+Convertible.swift": [548826907, 0]

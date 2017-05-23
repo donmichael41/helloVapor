@@ -51,9 +51,9 @@ depends-member:
 - !private ["Ps23BidirectionalCollection", "smtpLongFormatted"]
 - !private ["OV4SMTP9EmailBody8BodyType", "html"]
 - !private ["OV4SMTP9EmailBody8BodyType", "plain"]
-- !private ["P4Core16BytesConvertible", "init"]
-- !private ["P4Core18BytesInitializable", "init"]
-- !private ["P4Core18BytesRepresentable", "init"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesRepresentable", "init"]
 - !private ["Ps7CVarArg", "base64Encoded"]
 - !private ["Ps7CVarArg", "forEach"]
 - !private ["Ps7CVarArg", "init"]
@@ -61,6 +61,7 @@ depends-member:
 - !private ["Ps7CVarArg", "map"]
 - !private ["Ps7CVarArg", "smtpLongFormatted"]
 - !private ["Ps7CVarArg", "subscript"]
+- !private ["P9Transport12ClientStream", "write"]
 - !private ["Ps10Collection", "base64Encoded"]
 - !private ["Ps10Collection", "forEach"]
 - !private ["Ps10Collection", "joined"]
@@ -158,6 +159,7 @@ depends-member:
 - !private ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "plain"]
 - !private ["Ps8Hashable", "smtpFormatted"]
+- !private ["P9Transport14InternetStream", "write"]
 - !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "init"]
 - !private ["Ps17MutableCollection", "base64Encoded"]
@@ -171,11 +173,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
-- !private ["P9Transport13ProgramStream", "negotiateSession"]
-- !private ["P9Transport13ProgramStream", "send"]
-- !private ["P9Transport13ProgramStream", "stream"]
-- !private ["P9Transport13ProgramStream", "transmit"]
-- !private ["P9Transport13ProgramStream", "transmitDATA"]
 - !private ["Ps22RandomAccessCollection", "base64Encoded"]
 - !private ["Ps22RandomAccessCollection", "forEach"]
 - !private ["Ps22RandomAccessCollection", "joined"]
@@ -186,6 +183,7 @@ depends-member:
 - !private ["Ps26RangeReplaceableCollection", "joined"]
 - !private ["Ps26RangeReplaceableCollection", "map"]
 - !private ["Ps26RangeReplaceableCollection", "smtpLongFormatted"]
+- !private ["P9Transport14ReadableStream", "write"]
 - !private ["P10Foundation20ReferenceConvertible", "smtpFormatted"]
 - ["C4SMTP10SMTPClient", "Email"]
 - !private ["C4SMTP10SMTPClient", "EmailAttachment"]
@@ -207,11 +205,11 @@ depends-member:
 - !private ["Ps8Sequence", "map"]
 - !private ["Ps8Sequence", "smtpLongFormatted"]
 - !private ["Ps8Sequence", "subscript"]
-- !private ["P9Transport6Stream", "send"]
+- !private ["P9Transport6Stream", "write"]
 - !private ["SS", "init"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
-- !private ["P9Transport9Watchable", "send"]
+- !private ["P9Transport15WriteableStream", "write"]
 - !private ["Ps14_ArrayProtocol", "base64Encoded"]
 - !private ["Ps14_ArrayProtocol", "forEach"]
 - !private ["Ps14_ArrayProtocol", "joined"]
@@ -277,10 +275,11 @@ depends-nominal:
 - !private "Sa"
 - !private "Ps23BidirectionalCollection"
 - !private "OV4SMTP9EmailBody8BodyType"
-- !private "P4Core16BytesConvertible"
-- !private "P4Core18BytesInitializable"
-- !private "P4Core18BytesRepresentable"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
 - !private "Ps7CVarArg"
+- !private "P9Transport12ClientStream"
 - !private "Ps10Collection"
 - !private "Ps10Comparable"
 - !private "Ps28CustomDebugStringConvertible"
@@ -303,6 +302,7 @@ depends-nominal:
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
 - !private "Ps8Hashable"
+- !private "P9Transport14InternetStream"
 - !private "Ps25LosslessStringConvertible"
 - !private "Ps10MirrorPath"
 - !private "Ps17MutableCollection"
@@ -312,9 +312,9 @@ depends-nominal:
 - !private "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
-- !private "P9Transport13ProgramStream"
 - !private "Ps22RandomAccessCollection"
 - !private "Ps26RangeReplaceableCollection"
+- !private "P9Transport14ReadableStream"
 - !private "P10Foundation20ReferenceConvertible"
 - "C4SMTP10SMTPClient"
 - "Ps8Sequence"
@@ -322,7 +322,7 @@ depends-nominal:
 - !private "SS"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
-- !private "P9Transport9Watchable"
+- !private "P9Transport15WriteableStream"
 - !private "Ps14_ArrayProtocol"
 - !private "Ps23_BidirectionalIndexable"
 - !private "Ps24_DestructorSafeContainer"
@@ -346,10 +346,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/TLS.framework/Modules/TLS.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/SocksCore.framework/Modules/SocksCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Sockets.framework/Modules/Sockets.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Transport.framework/Modules/Transport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
@@ -359,77 +360,5 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/tls1.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dtls1.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pkcs12.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rc2.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl2.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pem2.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl23.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl3.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509v3.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rc4.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/md4.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/poly1305.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/md5.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pkcs7.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/CLibreSSL.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/idea.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/chacha.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/sha.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/camellia.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dsa.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ecdsa.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rsa.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/txt_db.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1_mac.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/obj_mac.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cmac.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/hmac.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ec.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ripemd.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rand.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/engine.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/conf.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslconf.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dh.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ecdh.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/lhash.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/blowfish.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/conf_api.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ui.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/stack.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/safestack.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/whrlpool.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pem.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/bn.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/krb5_asn.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/bio.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dso.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/crypto.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/comp.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ocsp.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/srtp.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/evp.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ossl_typ.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/buffer.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/err.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/aes.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/des.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/modes.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslfeatures.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/tls.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cms.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ts.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/objects.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1t.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ui_compat.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cast.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/gost.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslv.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509_vfy.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/hello.xcodeproj/GeneratedModuleMap/CLibreSSL/module.modulemap"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
 interface-hash: "19ef55fa7caad32e72c892ddbeb6542b"

@@ -16,7 +16,7 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "Bar"
 - "Bool"
-- !private "BooleanLiteralType"
+- "BooleanLiteralType"
 - "ConsoleProtocol"
 - "ConsoleStyle"
 - "Int"
@@ -30,6 +30,7 @@ depends-top-level:
 - !private "pthread_mutex_unlock"
 depends-member:
 - !private ["Ps9AnyObject", "UnsafeMutablePointer"]
+- !private ["Ps9AnyObject", "animated"]
 - !private ["Ps9AnyObject", "append"]
 - !private ["Ps9AnyObject", "bar"]
 - !private ["Ps9AnyObject", "barStyle"]
@@ -55,6 +56,7 @@ depends-member:
 - ["C7Console3Bar", "Int"]
 - ["C7Console3Bar", "String"]
 - ["C7Console3Bar", "UnsafeMutablePointer"]
+- ["C7Console3Bar", "animated"]
 - ["C7Console3Bar", "bar"]
 - ["C7Console3Bar", "barStyle"]
 - ["C7Console3Bar", "collapseBar"]
@@ -82,15 +84,15 @@ depends-member:
 - !private ["Ps23BidirectionalCollection", "startIndex"]
 - !private ["Ps23BidirectionalCollection", "subscript"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["P4Core16BytesConvertible", "append"]
-- !private ["P4Core16BytesConvertible", "characters"]
-- !private ["P4Core16BytesConvertible", "init"]
-- !private ["P4Core18BytesInitializable", "append"]
-- !private ["P4Core18BytesInitializable", "characters"]
-- !private ["P4Core18BytesInitializable", "init"]
-- !private ["P4Core18BytesRepresentable", "append"]
-- !private ["P4Core18BytesRepresentable", "characters"]
-- !private ["P4Core18BytesRepresentable", "init"]
+- !private ["P4Bits16BytesConvertible", "append"]
+- !private ["P4Bits16BytesConvertible", "characters"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits18BytesInitializable", "append"]
+- !private ["P4Bits18BytesInitializable", "characters"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesRepresentable", "append"]
+- !private ["P4Bits18BytesRepresentable", "characters"]
+- !private ["P4Bits18BytesRepresentable", "init"]
 - !private ["Ps7CVarArg", "allocate"]
 - !private ["Ps7CVarArg", "append"]
 - !private ["Ps7CVarArg", "characters"]
@@ -196,10 +198,6 @@ depends-member:
 - !private ["CSo8NSString", "append"]
 - !private ["CSo8NSString", "characters"]
 - !private ["CSo8NSString", "init"]
-- !private ["P11Polymorphic11Polymorphic", "_getBuiltinLogicValue"]
-- !private ["P11Polymorphic11Polymorphic", "append"]
-- !private ["P11Polymorphic11Polymorphic", "characters"]
-- !private ["P11Polymorphic11Polymorphic", "init"]
 - !private ["Ps26RangeReplaceableCollection", "count"]
 - !private ["Ps26RangeReplaceableCollection", "endIndex"]
 - !private ["Ps26RangeReplaceableCollection", "index"]
@@ -287,9 +285,9 @@ depends-nominal:
 - "C7Console3Bar"
 - !private "Ps23BidirectionalCollection"
 - !private "Sb"
-- !private "P4Core16BytesConvertible"
-- !private "P4Core18BytesInitializable"
-- !private "P4Core18BytesRepresentable"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
 - !private "Ps7CVarArg"
 - !private "VSS13CharacterView"
 - !private "Ps10Collection"
@@ -316,7 +314,6 @@ depends-nominal:
 - !private "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
-- !private "P11Polymorphic11Polymorphic"
 - !private "Ps26RangeReplaceableCollection"
 - !private "Ps8Sequence"
 - !private "Ps10Strideable"
@@ -347,8 +344,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
@@ -357,4 +355,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "30d8c1cd06d96a3983d4d2cb01eddb6e"
+interface-hash: "dded4d11c2bf42494a8fc677fc94b243"

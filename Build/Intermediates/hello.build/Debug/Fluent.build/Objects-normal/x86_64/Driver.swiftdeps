@@ -5,75 +5,90 @@ provides-nominal:
 - "P6Fluent6Driver"
 provides-member:
 - ["P6Fluent6Driver", ""]
-- ["P6Fluent6Driver", "raw"]
+- ["P6Fluent6Driver", "query"]
 provides-dynamic-lookup:
 depends-top-level:
+- "AssignmentPrecedence"
+- "Connection"
+- "ConnectionType"
 - "Driver"
 - "Entity"
+- "Executor"
+- "IdentifierType"
+- "KeyNamingConvention"
 - "Node"
-- "NodeRepresentable"
 - "Query"
-- "Schema"
+- "QueryLogger"
+- "RawOr"
 - "String"
 depends-member:
-- !private ["Sa", "map"]
-- !private ["Ps23BidirectionalCollection", "map"]
-- !private ["Ps7CVarArg", "map"]
-- !private ["Ps10Collection", "map"]
-- !private ["P4Node7Context", "map"]
-- !private ["Ps28CustomDebugStringConvertible", "map"]
-- !private ["Ps17CustomReflectable", "map"]
-- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps9AnyObject", "connectionType"]
+- !private ["P6Fluent10Connection", "query"]
+- !private ["P6Fluent10Connection", "queryLogger"]
+- !private ["O6Fluent14ConnectionType", "readWrite"]
+- ["Ps23CustomStringConvertible", "raw"]
+- ["Ps23CustomStringConvertible", "some"]
+- ["P6Fluent6Driver", "Connection"]
+- ["P6Fluent6Driver", "ConnectionType"]
 - ["P6Fluent6Driver", "Entity"]
+- ["P6Fluent6Driver", "IdentifierType"]
+- ["P6Fluent6Driver", "KeyNamingConvention"]
 - ["P6Fluent6Driver", "Node"]
-- ["P6Fluent6Driver", "NodeRepresentable"]
 - ["P6Fluent6Driver", "Query"]
-- ["P6Fluent6Driver", "Schema"]
+- ["P6Fluent6Driver", "QueryLogger"]
+- ["P6Fluent6Driver", "RawOr"]
 - ["P6Fluent6Driver", "String"]
 - ["P6Fluent6Driver", "idKey"]
+- ["P6Fluent6Driver", "idType"]
+- ["P6Fluent6Driver", "keyNamingConvention"]
+- ["P6Fluent6Driver", "makeConnection"]
 - ["P6Fluent6Driver", "query"]
-- ["P6Fluent6Driver", "raw"]
-- ["P6Fluent6Driver", "schema"]
-- !private ["Ps25ExpressibleByArrayLiteral", "map"]
-- !private ["Ps17MutableCollection", "map"]
-- !private ["P4Node17NodeRepresentable", "makeNode"]
-- !private ["Ps22RandomAccessCollection", "map"]
-- !private ["Ps26RangeReplaceableCollection", "map"]
-- !private ["Ps8Sequence", "map"]
-- !private ["Ps14_ArrayProtocol", "map"]
-- !private ["Ps23_BidirectionalIndexable", "map"]
-- !private ["Ps24_DestructorSafeContainer", "map"]
-- !private ["Ps10_Indexable", "map"]
-- !private ["Ps14_IndexableBase", "map"]
-- !private ["Ps17_MutableIndexable", "map"]
-- !private ["Ps21_ObjectiveCBridgeable", "map"]
-- !private ["Ps22_RandomAccessIndexable", "map"]
-- !private ["Ps26_RangeReplaceableIndexable", "map"]
+- ["P6Fluent6Driver", "queryLogger"]
+- ["Ps9Equatable", "raw"]
+- !private ["Ps9Equatable", "readWrite"]
+- ["Ps9Equatable", "some"]
+- ["P6Fluent8Executor", "Connection"]
+- ["P6Fluent8Executor", "ConnectionType"]
+- ["P6Fluent8Executor", "Entity"]
+- ["P6Fluent8Executor", "IdentifierType"]
+- ["P6Fluent8Executor", "KeyNamingConvention"]
+- ["P6Fluent8Executor", "Node"]
+- ["P6Fluent8Executor", "Query"]
+- ["P6Fluent8Executor", "QueryLogger"]
+- ["P6Fluent8Executor", "RawOr"]
+- ["P6Fluent8Executor", "String"]
+- ["P6Fluent8Executor", "idKey"]
+- ["P6Fluent8Executor", "idType"]
+- ["P6Fluent8Executor", "keyNamingConvention"]
+- ["P6Fluent8Executor", "makeConnection"]
+- !private ["P6Fluent8Executor", "query"]
+- ["P6Fluent8Executor", "queryLogger"]
+- ["P6Fluent8Executor", ""]
+- !private ["P6Fluent21ExecutorRepresentable", "connectionType"]
+- ["Ps8Hashable", "raw"]
+- !private ["Ps8Hashable", "readWrite"]
+- ["Ps8Hashable", "some"]
+- !private ["C6Fluent5Query", "connectionType"]
+- !private ["P6Fluent18QueryRepresentable", "connectionType"]
+- ["O6Fluent5RawOr", "raw"]
+- ["O6Fluent5RawOr", "some"]
+- ["Ps9_Hashable", "raw"]
+- !private ["Ps9_Hashable", "readWrite"]
+- ["Ps9_Hashable", "some"]
 depends-nominal:
-- !private "Sa"
-- !private "Ps23BidirectionalCollection"
-- !private "Ps7CVarArg"
-- !private "Ps10Collection"
-- !private "P4Node7Context"
-- !private "Ps28CustomDebugStringConvertible"
-- !private "Ps17CustomReflectable"
-- !private "Ps23CustomStringConvertible"
+- !private "Ps9AnyObject"
+- !private "P6Fluent10Connection"
+- !private "O6Fluent14ConnectionType"
+- "Ps23CustomStringConvertible"
 - "P6Fluent6Driver"
-- !private "Ps25ExpressibleByArrayLiteral"
-- !private "Ps17MutableCollection"
-- !private "P4Node17NodeRepresentable"
-- !private "Ps22RandomAccessCollection"
-- !private "Ps26RangeReplaceableCollection"
-- !private "Ps8Sequence"
-- !private "Ps14_ArrayProtocol"
-- !private "Ps23_BidirectionalIndexable"
-- !private "Ps24_DestructorSafeContainer"
-- !private "Ps10_Indexable"
-- !private "Ps14_IndexableBase"
-- !private "Ps17_MutableIndexable"
-- !private "Ps21_ObjectiveCBridgeable"
-- !private "Ps22_RandomAccessIndexable"
-- !private "Ps26_RangeReplaceableIndexable"
+- "Ps9Equatable"
+- "P6Fluent8Executor"
+- !private "P6Fluent21ExecutorRepresentable"
+- "Ps8Hashable"
+- !private "C6Fluent5Query"
+- !private "P6Fluent18QueryRepresentable"
+- "O6Fluent5RawOr"
+- "Ps9_Hashable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
@@ -81,9 +96,14 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Node.framework/Modules/Node.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/PathIndexable.framework/Modules/PathIndexable.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
@@ -92,4 +112,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "fed3baa9e125b354aeb79e1f6e1be10f"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/hello.xcodeproj/GeneratedModuleMap/CSQLite/module.modulemap"
+interface-hash: "fdfb4ab071af94ba244ee1752db662db"

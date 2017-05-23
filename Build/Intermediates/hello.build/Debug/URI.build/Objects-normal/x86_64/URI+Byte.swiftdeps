@@ -56,6 +56,108 @@ depends-member:
 - !private ["Ps17BitwiseOperations", "z"]
 - !private ["Ps17BitwiseOperations", "zero"]
 - !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["P4Bits16BytesConvertible", "A"]
+- !private ["P4Bits16BytesConvertible", "Byte"]
+- !private ["P4Bits16BytesConvertible", "a"]
+- ["P4Bits16BytesConvertible", "ampersand"]
+- ["P4Bits16BytesConvertible", "apostrophe"]
+- ["P4Bits16BytesConvertible", "asterisk"]
+- ["P4Bits16BytesConvertible", "at"]
+- ["P4Bits16BytesConvertible", "colon"]
+- ["P4Bits16BytesConvertible", "comma"]
+- ["P4Bits16BytesConvertible", "dollar"]
+- ["P4Bits16BytesConvertible", "equals"]
+- ["P4Bits16BytesConvertible", "exclamation"]
+- ["P4Bits16BytesConvertible", "forwardSlash"]
+- !private ["P4Bits16BytesConvertible", "generalDelimiters"]
+- !private ["P4Bits16BytesConvertible", "hyphen"]
+- !private ["P4Bits16BytesConvertible", "isGeneralDelimiter"]
+- !private ["P4Bits16BytesConvertible", "isSubDelimiter"]
+- !private ["P4Bits16BytesConvertible", "isUnreservedUriCharacter"]
+- ["P4Bits16BytesConvertible", "leftParenthesis"]
+- ["P4Bits16BytesConvertible", "leftSquareBracket"]
+- !private ["P4Bits16BytesConvertible", "nine"]
+- ["P4Bits16BytesConvertible", "numberSign"]
+- !private ["P4Bits16BytesConvertible", "percent"]
+- !private ["P4Bits16BytesConvertible", "period"]
+- ["P4Bits16BytesConvertible", "plus"]
+- ["P4Bits16BytesConvertible", "questionMark"]
+- ["P4Bits16BytesConvertible", "rightParenthesis"]
+- ["P4Bits16BytesConvertible", "rightSquareBracket"]
+- ["P4Bits16BytesConvertible", "semicolon"]
+- !private ["P4Bits16BytesConvertible", "subDelimiters"]
+- !private ["P4Bits16BytesConvertible", "tilda"]
+- !private ["P4Bits16BytesConvertible", "underscore"]
+- !private ["P4Bits16BytesConvertible", "z"]
+- !private ["P4Bits16BytesConvertible", "zero"]
+- !private ["P4Bits18BytesInitializable", "A"]
+- !private ["P4Bits18BytesInitializable", "Byte"]
+- !private ["P4Bits18BytesInitializable", "a"]
+- ["P4Bits18BytesInitializable", "ampersand"]
+- ["P4Bits18BytesInitializable", "apostrophe"]
+- ["P4Bits18BytesInitializable", "asterisk"]
+- ["P4Bits18BytesInitializable", "at"]
+- ["P4Bits18BytesInitializable", "colon"]
+- ["P4Bits18BytesInitializable", "comma"]
+- ["P4Bits18BytesInitializable", "dollar"]
+- ["P4Bits18BytesInitializable", "equals"]
+- ["P4Bits18BytesInitializable", "exclamation"]
+- ["P4Bits18BytesInitializable", "forwardSlash"]
+- !private ["P4Bits18BytesInitializable", "generalDelimiters"]
+- !private ["P4Bits18BytesInitializable", "hyphen"]
+- !private ["P4Bits18BytesInitializable", "isGeneralDelimiter"]
+- !private ["P4Bits18BytesInitializable", "isSubDelimiter"]
+- !private ["P4Bits18BytesInitializable", "isUnreservedUriCharacter"]
+- ["P4Bits18BytesInitializable", "leftParenthesis"]
+- ["P4Bits18BytesInitializable", "leftSquareBracket"]
+- !private ["P4Bits18BytesInitializable", "nine"]
+- ["P4Bits18BytesInitializable", "numberSign"]
+- !private ["P4Bits18BytesInitializable", "percent"]
+- !private ["P4Bits18BytesInitializable", "period"]
+- ["P4Bits18BytesInitializable", "plus"]
+- ["P4Bits18BytesInitializable", "questionMark"]
+- ["P4Bits18BytesInitializable", "rightParenthesis"]
+- ["P4Bits18BytesInitializable", "rightSquareBracket"]
+- ["P4Bits18BytesInitializable", "semicolon"]
+- !private ["P4Bits18BytesInitializable", "subDelimiters"]
+- !private ["P4Bits18BytesInitializable", "tilda"]
+- !private ["P4Bits18BytesInitializable", "underscore"]
+- !private ["P4Bits18BytesInitializable", "z"]
+- !private ["P4Bits18BytesInitializable", "zero"]
+- !private ["P4Bits18BytesRepresentable", "A"]
+- !private ["P4Bits18BytesRepresentable", "Byte"]
+- !private ["P4Bits18BytesRepresentable", "a"]
+- ["P4Bits18BytesRepresentable", "ampersand"]
+- ["P4Bits18BytesRepresentable", "apostrophe"]
+- ["P4Bits18BytesRepresentable", "asterisk"]
+- ["P4Bits18BytesRepresentable", "at"]
+- ["P4Bits18BytesRepresentable", "colon"]
+- ["P4Bits18BytesRepresentable", "comma"]
+- ["P4Bits18BytesRepresentable", "dollar"]
+- ["P4Bits18BytesRepresentable", "equals"]
+- ["P4Bits18BytesRepresentable", "exclamation"]
+- ["P4Bits18BytesRepresentable", "forwardSlash"]
+- !private ["P4Bits18BytesRepresentable", "generalDelimiters"]
+- !private ["P4Bits18BytesRepresentable", "hyphen"]
+- !private ["P4Bits18BytesRepresentable", "isGeneralDelimiter"]
+- !private ["P4Bits18BytesRepresentable", "isSubDelimiter"]
+- !private ["P4Bits18BytesRepresentable", "isUnreservedUriCharacter"]
+- ["P4Bits18BytesRepresentable", "leftParenthesis"]
+- ["P4Bits18BytesRepresentable", "leftSquareBracket"]
+- !private ["P4Bits18BytesRepresentable", "nine"]
+- ["P4Bits18BytesRepresentable", "numberSign"]
+- !private ["P4Bits18BytesRepresentable", "percent"]
+- !private ["P4Bits18BytesRepresentable", "period"]
+- ["P4Bits18BytesRepresentable", "plus"]
+- ["P4Bits18BytesRepresentable", "questionMark"]
+- ["P4Bits18BytesRepresentable", "rightParenthesis"]
+- ["P4Bits18BytesRepresentable", "rightSquareBracket"]
+- ["P4Bits18BytesRepresentable", "semicolon"]
+- !private ["P4Bits18BytesRepresentable", "subDelimiters"]
+- !private ["P4Bits18BytesRepresentable", "tilda"]
+- !private ["P4Bits18BytesRepresentable", "underscore"]
+- !private ["P4Bits18BytesRepresentable", "z"]
+- !private ["P4Bits18BytesRepresentable", "zero"]
 - !private ["Ps7CVarArg", "A"]
 - !private ["Ps7CVarArg", "Byte"]
 - !private ["Ps7CVarArg", "a"]
@@ -840,6 +942,9 @@ depends-nominal:
 - !private "Ps23BidirectionalCollection"
 - "Ps17BitwiseOperations"
 - !private "Sb"
+- "P4Bits16BytesConvertible"
+- "P4Bits18BytesInitializable"
+- "P4Bits18BytesRepresentable"
 - "Ps7CVarArg"
 - !private "Ps10Collection"
 - "Ps10Comparable"
@@ -889,6 +994,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Transport.framework/Modules/Transport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
@@ -897,5 +1005,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/hello.xcodeproj/GeneratedModuleMap/CLibreSSL/module.modulemap"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/hello.xcodeproj/GeneratedModuleMap/CHTTP/module.modulemap"
 interface-hash: "33d7f747c80aaf4830e741c583d057b0"

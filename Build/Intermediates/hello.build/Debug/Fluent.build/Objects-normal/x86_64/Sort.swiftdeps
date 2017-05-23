@@ -10,11 +10,13 @@ provides-member:
 - ["OV6Fluent4Sort9Direction", ""]
 - ["P6Fluent18QueryRepresentable", ""]
 - ["P6Fluent18QueryRepresentable", "sort"]
+- ["P6Fluent18QueryRepresentable", "sort"]
 provides-dynamic-lookup:
 depends-top-level:
 - "=="
 - "AssignmentPrecedence"
 - "Entity"
+- "ExecutorRepresentable"
 - !private "FloatLiteralType"
 - !private "IntegerLiteralType"
 - "Query"
@@ -22,6 +24,7 @@ depends-top-level:
 - "Sort"
 - "String"
 depends-member:
+- !private ["Ps9AnyObject", "sort"]
 - !private ["Ps9AnyObject", "sorts"]
 - !private ["Sa", "append"]
 - !private ["Ps23BidirectionalCollection", "append"]
@@ -30,13 +33,13 @@ depends-member:
 - !private ["Ps7CVarArg", "hashValue"]
 - !private ["Ps10Collection", "append"]
 - !private ["Ps10Comparable", "hashValue"]
-- !private ["P4Node7Context", "append"]
 - !private ["Ps28CustomDebugStringConvertible", "append"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
 - !private ["Ps17CustomReflectable", "append"]
 - !private ["Ps17CustomReflectable", "hashValue"]
 - !private ["Ps23CustomStringConvertible", "append"]
 - !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "some"]
 - ["OV6Fluent4Sort9Direction", "=="]
 - ["OV6Fluent4Sort9Direction", "_toAnyHashable"]
 - ["OV6Fluent4Sort9Direction", "ascending"]
@@ -45,31 +48,47 @@ depends-member:
 - ["OV6Fluent4Sort9Direction", "hashValue"]
 - ["Ps9Equatable", "_toAnyHashable"]
 - ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "some"]
 - ["Ps9Equatable", ""]
+- ["P6Fluent21ExecutorRepresentable", "E"]
+- ["P6Fluent21ExecutorRepresentable", "Query"]
+- ["P6Fluent21ExecutorRepresentable", "Sort"]
+- ["P6Fluent21ExecutorRepresentable", "String"]
+- !private ["P6Fluent21ExecutorRepresentable", "makeQuery"]
+- !private ["P6Fluent21ExecutorRepresentable", "sort"]
+- !private ["P6Fluent21ExecutorRepresentable", "sorts"]
 - !private ["Ps25ExpressibleByArrayLiteral", "append"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
 - ["Ps8Hashable", "_toAnyHashable"]
 - ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "some"]
 - ["Ps8Hashable", ""]
 - !private ["Si", "hashValue"]
 - !private ["Ps7Integer", "hashValue"]
 - !private ["Ps17IntegerArithmetic", "hashValue"]
 - !private ["Ps10MirrorPath", "hashValue"]
 - !private ["Ps17MutableCollection", "append"]
+- !private ["P4Node15NodeConvertible", "append"]
 - !private ["P4Node15NodeConvertible", "hashValue"]
+- !private ["P4Node17NodeInitializable", "append"]
 - !private ["P4Node17NodeInitializable", "hashValue"]
+- !private ["P4Node17NodeRepresentable", "append"]
 - !private ["P4Node17NodeRepresentable", "hashValue"]
-- !private ["P13PathIndexable9PathIndex", "hashValue"]
+- !private ["P13PathIndexable11PathIndexer", "hashValue"]
+- !private ["C6Fluent5Query", "deinit"]
+- !private ["C6Fluent5Query", "sort"]
 - !private ["C6Fluent5Query", "sorts"]
+- ["P6Fluent18QueryRepresentable", "E"]
+- ["P6Fluent18QueryRepresentable", "ExecutorRepresentable"]
 - ["P6Fluent18QueryRepresentable", "Query"]
 - ["P6Fluent18QueryRepresentable", "Sort"]
 - ["P6Fluent18QueryRepresentable", "String"]
-- ["P6Fluent18QueryRepresentable", "T"]
 - !private ["P6Fluent18QueryRepresentable", "makeQuery"]
 - ["P6Fluent18QueryRepresentable", "sort"]
 - !private ["P6Fluent18QueryRepresentable", "sorts"]
 - !private ["Ps22RandomAccessCollection", "append"]
 - !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["O6Fluent5RawOr", "some"]
 - !private ["Ps8Sequence", "append"]
 - !private ["Ps13SignedInteger", "hashValue"]
 - !private ["Ps12SignedNumber", "hashValue"]
@@ -87,6 +106,7 @@ depends-member:
 - !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
 - ["Ps9_Hashable", "_toAnyHashable"]
 - ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "some"]
 - ["Ps9_Hashable", ""]
 - !private ["Ps14_Incrementable", "hashValue"]
 - !private ["Ps10_Indexable", "append"]
@@ -108,13 +128,13 @@ depends-nominal:
 - !private "Ps7CVarArg"
 - !private "Ps10Collection"
 - !private "Ps10Comparable"
-- !private "P4Node7Context"
 - !private "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
 - !private "Ps17CustomReflectable"
 - !private "Ps23CustomStringConvertible"
 - "OV6Fluent4Sort9Direction"
 - "Ps9Equatable"
+- "P6Fluent21ExecutorRepresentable"
 - !private "Ps25ExpressibleByArrayLiteral"
 - !private "Ps27ExpressibleByIntegerLiteral"
 - "Ps8Hashable"
@@ -126,11 +146,12 @@ depends-nominal:
 - !private "P4Node15NodeConvertible"
 - !private "P4Node17NodeInitializable"
 - !private "P4Node17NodeRepresentable"
-- !private "P13PathIndexable9PathIndex"
+- !private "P13PathIndexable11PathIndexer"
 - !private "C6Fluent5Query"
 - "P6Fluent18QueryRepresentable"
 - !private "Ps22RandomAccessCollection"
 - !private "Ps26RangeReplaceableCollection"
+- !private "O6Fluent5RawOr"
 - !private "Ps8Sequence"
 - !private "Ps13SignedInteger"
 - !private "Ps12SignedNumber"
@@ -159,9 +180,14 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Node.framework/Modules/Node.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/PathIndexable.framework/Modules/PathIndexable.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
@@ -170,4 +196,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "b23efdea9ca224458e7997a99f2eb4c3"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/hello.xcodeproj/GeneratedModuleMap/CSQLite/module.modulemap"
+interface-hash: "740dfea5667c5c5478360c52f59a7c79"

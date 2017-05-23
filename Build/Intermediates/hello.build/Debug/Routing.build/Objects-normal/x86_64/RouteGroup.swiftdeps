@@ -7,34 +7,200 @@ provides-member:
 - ["C7Routing10RouteGroup", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "+"
+- !private "??"
 - "AssignmentPrecedence"
+- "Collection"
+- "Method"
+- "Middleware"
+- !private "Request"
+- "Responder"
 - "RouteBuilder"
 - "RouteGroup"
 - "String"
 depends-member:
-- !private ["Ps9AnyObject", "builder"]
-- !private ["Ps9AnyObject", "map"]
-- !private ["Ps9AnyObject", "path"]
-- !private ["Ps9AnyObject", "prefix"]
+- !private ["Ps9AnyObject", "Handler"]
+- !private ["Ps9AnyObject", "Request"]
+- !private ["Ps9AnyObject", "host"]
+- !private ["Ps9AnyObject", "middleware"]
+- !private ["Ps9AnyObject", "parent"]
+- !private ["Ps9AnyObject", "pathPrefix"]
+- ["Ps9AnyObject", "register"]
 - ["Ps9AnyObject", ""]
-- !private ["P7Routing12RouteBuilder", "builder"]
-- !private ["P7Routing12RouteBuilder", "map"]
-- !private ["P7Routing12RouteBuilder", "path"]
-- !private ["P7Routing12RouteBuilder", "prefix"]
-- ["C7Routing10RouteGroup", "Builder"]
-- ["C7Routing10RouteGroup", "Map"]
+- !private ["Sa", "chain"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "reduce"]
+- !private ["V4HTTP14BasicResponder", "init"]
+- !private ["Ps23BidirectionalCollection", "chain"]
+- !private ["Ps23BidirectionalCollection", "isEmpty"]
+- !private ["Ps23BidirectionalCollection", "reduce"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "chain"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "reduce"]
+- ["Ps10Collection", "Iterator"]
+- ["Ps10Collection", "Middleware"]
+- !private ["Ps10Collection", "Request"]
+- !private ["Ps10Collection", "Responder"]
+- !private ["Ps10Collection", "chain"]
+- !private ["Ps10Collection", "isEmpty"]
+- !private ["Ps10Collection", "reduce"]
+- !private ["Ps10Collection", "reversed"]
+- !private ["Ps28CustomDebugStringConvertible", "chain"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "reduce"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "chain"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "reduce"]
+- !private ["Ps23CustomStringConvertible", "Handler"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "chain"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "reduce"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps25ExpressibleByArrayLiteral", "chain"]
+- !private ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- !private ["Ps25ExpressibleByArrayLiteral", "reduce"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["P4HTTP7Message", "Handler"]
+- !private ["P4HTTP10Middleware", "respond"]
+- !private ["Ps17MutableCollection", "chain"]
+- !private ["Ps17MutableCollection", "isEmpty"]
+- !private ["Ps17MutableCollection", "reduce"]
+- !private ["P4Node15NodeConvertible", "_getBuiltinLogicValue"]
+- !private ["P4Node15NodeConvertible", "chain"]
+- !private ["P4Node15NodeConvertible", "isEmpty"]
+- !private ["P4Node15NodeConvertible", "reduce"]
+- !private ["P4Node17NodeInitializable", "_getBuiltinLogicValue"]
+- !private ["P4Node17NodeInitializable", "chain"]
+- !private ["P4Node17NodeInitializable", "isEmpty"]
+- !private ["P4Node17NodeInitializable", "reduce"]
+- !private ["P4Node17NodeRepresentable", "_getBuiltinLogicValue"]
+- !private ["P4Node17NodeRepresentable", "chain"]
+- !private ["P4Node17NodeRepresentable", "isEmpty"]
+- !private ["P4Node17NodeRepresentable", "reduce"]
+- !private ["Ps22RandomAccessCollection", "chain"]
+- !private ["Ps22RandomAccessCollection", "isEmpty"]
+- !private ["Ps22RandomAccessCollection", "reduce"]
+- !private ["Ps26RangeReplaceableCollection", "chain"]
+- !private ["Ps26RangeReplaceableCollection", "isEmpty"]
+- !private ["Ps26RangeReplaceableCollection", "reduce"]
+- !private ["C4HTTP7Request", "Handler"]
+- !private ["P4HTTP9Responder", "init"]
+- !private ["P4HTTP9Responder", "respond"]
+- !private ["P7Routing12RouteBuilder", "Request"]
+- !private ["P7Routing12RouteBuilder", "host"]
+- !private ["P7Routing12RouteBuilder", "middleware"]
+- !private ["P7Routing12RouteBuilder", "parent"]
+- !private ["P7Routing12RouteBuilder", "pathPrefix"]
+- ["P7Routing12RouteBuilder", "register"]
+- ["P7Routing12RouteBuilder", ""]
+- ["C7Routing10RouteGroup", "Method"]
+- ["C7Routing10RouteGroup", "Middleware"]
+- !private ["C7Routing10RouteGroup", "Request"]
+- ["C7Routing10RouteGroup", "Responder"]
+- ["C7Routing10RouteGroup", "RouteBuilder"]
 - ["C7Routing10RouteGroup", "String"]
-- ["C7Routing10RouteGroup", "Value"]
-- ["C7Routing10RouteGroup", "builder"]
 - ["C7Routing10RouteGroup", "deinit"]
+- ["C7Routing10RouteGroup", "host"]
 - ["C7Routing10RouteGroup", "init"]
-- ["C7Routing10RouteGroup", "map"]
-- ["C7Routing10RouteGroup", "path"]
-- ["C7Routing10RouteGroup", "prefix"]
+- ["C7Routing10RouteGroup", "middleware"]
+- ["C7Routing10RouteGroup", "parent"]
+- ["C7Routing10RouteGroup", "pathPrefix"]
+- ["C7Routing10RouteGroup", "register"]
+- ["Ps8Sequence", "Iterator"]
+- ["Ps8Sequence", "Middleware"]
+- !private ["Ps8Sequence", "Request"]
+- !private ["Ps8Sequence", "Responder"]
+- !private ["Ps8Sequence", "chain"]
+- !private ["Ps8Sequence", "isEmpty"]
+- !private ["Ps8Sequence", "reduce"]
+- !private ["Ps8Sequence", "reversed"]
+- !private ["Ps14_ArrayProtocol", "chain"]
+- !private ["Ps14_ArrayProtocol", "isEmpty"]
+- !private ["Ps14_ArrayProtocol", "reduce"]
+- !private ["Ps23_BidirectionalIndexable", "chain"]
+- !private ["Ps23_BidirectionalIndexable", "isEmpty"]
+- !private ["Ps23_BidirectionalIndexable", "reduce"]
+- !private ["Ps24_DestructorSafeContainer", "chain"]
+- !private ["Ps24_DestructorSafeContainer", "isEmpty"]
+- !private ["Ps24_DestructorSafeContainer", "reduce"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps10_Indexable", "Iterator"]
+- ["Ps10_Indexable", "Middleware"]
+- !private ["Ps10_Indexable", "Request"]
+- !private ["Ps10_Indexable", "Responder"]
+- !private ["Ps10_Indexable", "chain"]
+- !private ["Ps10_Indexable", "isEmpty"]
+- !private ["Ps10_Indexable", "reduce"]
+- !private ["Ps10_Indexable", "reversed"]
+- ["Ps14_IndexableBase", "Iterator"]
+- ["Ps14_IndexableBase", "Middleware"]
+- !private ["Ps14_IndexableBase", "Request"]
+- !private ["Ps14_IndexableBase", "Responder"]
+- !private ["Ps14_IndexableBase", "chain"]
+- !private ["Ps14_IndexableBase", "isEmpty"]
+- !private ["Ps14_IndexableBase", "reduce"]
+- !private ["Ps14_IndexableBase", "reversed"]
+- !private ["Ps17_MutableIndexable", "chain"]
+- !private ["Ps17_MutableIndexable", "isEmpty"]
+- !private ["Ps17_MutableIndexable", "reduce"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "chain"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "reduce"]
+- !private ["Ps22_RandomAccessIndexable", "chain"]
+- !private ["Ps22_RandomAccessIndexable", "isEmpty"]
+- !private ["Ps22_RandomAccessIndexable", "reduce"]
+- !private ["Ps26_RangeReplaceableIndexable", "chain"]
+- !private ["Ps26_RangeReplaceableIndexable", "isEmpty"]
+- !private ["Ps26_RangeReplaceableIndexable", "reduce"]
 depends-nominal:
 - "Ps9AnyObject"
-- !private "P7Routing12RouteBuilder"
+- !private "Sa"
+- !private "V4HTTP14BasicResponder"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- "Ps10Collection"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "P4HTTP7Message"
+- !private "P4HTTP10Middleware"
+- !private "Ps17MutableCollection"
+- !private "P4Node15NodeConvertible"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "C4HTTP7Request"
+- !private "P4HTTP9Responder"
+- "P7Routing12RouteBuilder"
 - "C7Routing10RouteGroup"
+- "Ps8Sequence"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
@@ -42,11 +208,21 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/URI.framework/Modules/URI.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/HTTP.framework/Modules/HTTP.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/TLS.framework/Modules/TLS.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Node.framework/Modules/Node.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/PathIndexable.framework/Modules/PathIndexable.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Crypto.framework/Modules/Crypto.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Branches.framework/Modules/Branches.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Sockets.framework/Modules/Sockets.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/WebSockets.framework/Modules/WebSockets.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Transport.framework/Modules/Transport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
@@ -55,5 +231,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/hello.xcodeproj/GeneratedModuleMap/CLibreSSL/module.modulemap"
-interface-hash: "ad0c9106f663a2ffefdf072de3798559"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/hello.xcodeproj/GeneratedModuleMap/CHTTP/module.modulemap"
+interface-hash: "2655612b0a5613d734f1b87f1063879e"

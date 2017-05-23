@@ -16,22 +16,22 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "Bar"
 - "Bool"
-- !private "BooleanLiteralType"
+- "BooleanLiteralType"
 - "ConsoleProtocol"
 - "ConsoleStyle"
 - !private "FloatLiteralType"
 - "Int"
 - !private "IntegerLiteralType"
 - "LoadingBar"
-- "Strand"
 - "String"
 - !private "StringLiteralType"
 - !private "UnicodeScalarType"
+- !private "background"
 - !private "usleep"
 - !private "||"
 depends-member:
-- !private ["Ps9AnyObject", "Strand"]
-- !private ["Ps9AnyObject", "cancel"]
+- !private ["Ps9AnyObject", "animated"]
+- !private ["Ps9AnyObject", "background"]
 - !private ["Ps9AnyObject", "console"]
 - !private ["Ps9AnyObject", "current"]
 - !private ["Ps9AnyObject", "cycles"]
@@ -41,7 +41,7 @@ depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "running"]
 - !private ["Ps9AnyObject", "stop"]
-- !private ["Ps9AnyObject", "thread"]
+- !private ["Ps9AnyObject", "title"]
 - !private ["Ps9AnyObject", "update"]
 - !private ["Ps9AnyObject", "usleep"]
 - !private ["Ps9AnyObject", "width"]
@@ -50,8 +50,9 @@ depends-member:
 - ["C7Console3Bar", "ConsoleProtocol"]
 - ["C7Console3Bar", "ConsoleStyle"]
 - ["C7Console3Bar", "Int"]
-- ["C7Console3Bar", "Strand"]
 - ["C7Console3Bar", "String"]
+- !private ["C7Console3Bar", "animated"]
+- !private ["C7Console3Bar", "background"]
 - ["C7Console3Bar", "bar"]
 - !private ["C7Console3Bar", "console"]
 - ["C7Console3Bar", "current"]
@@ -63,15 +64,15 @@ depends-member:
 - ["C7Console3Bar", "running"]
 - ["C7Console3Bar", "start"]
 - ["C7Console3Bar", "stop"]
-- ["C7Console3Bar", "thread"]
+- !private ["C7Console3Bar", "title"]
 - ["C7Console3Bar", "update"]
 - !private ["C7Console3Bar", "usleep"]
 - !private ["C7Console3Bar", "width"]
 - ["C7Console3Bar", ""]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["P4Core16BytesConvertible", "init"]
-- !private ["P4Core18BytesInitializable", "init"]
-- !private ["P4Core18BytesRepresentable", "init"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesRepresentable", "init"]
 - !private ["Ps7CVarArg", "init"]
 - !private ["Ps10Comparable", "init"]
 - !private ["P7Console15ConsoleProtocol", "info"]
@@ -94,8 +95,9 @@ depends-member:
 - ["C7Console10LoadingBar", "ConsoleProtocol"]
 - ["C7Console10LoadingBar", "ConsoleStyle"]
 - ["C7Console10LoadingBar", "Int"]
-- ["C7Console10LoadingBar", "Strand"]
 - ["C7Console10LoadingBar", "String"]
+- !private ["C7Console10LoadingBar", "animated"]
+- !private ["C7Console10LoadingBar", "background"]
 - ["C7Console10LoadingBar", "bar"]
 - !private ["C7Console10LoadingBar", "console"]
 - ["C7Console10LoadingBar", "current"]
@@ -105,10 +107,10 @@ depends-member:
 - ["C7Console10LoadingBar", "finish"]
 - ["C7Console10LoadingBar", "inc"]
 - ["C7Console10LoadingBar", "init"]
-- ["C7Console10LoadingBar", "running"]
+- !private ["C7Console10LoadingBar", "running"]
 - ["C7Console10LoadingBar", "start"]
 - ["C7Console10LoadingBar", "stop"]
-- ["C7Console10LoadingBar", "thread"]
+- !private ["C7Console10LoadingBar", "title"]
 - ["C7Console10LoadingBar", "update"]
 - !private ["C7Console10LoadingBar", "usleep"]
 - !private ["C7Console10LoadingBar", "width"]
@@ -121,10 +123,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
-- !private ["P11Polymorphic11Polymorphic", "_getBuiltinLogicValue"]
-- !private ["P11Polymorphic11Polymorphic", "init"]
-- !private ["C4Core6Strand", "cancel"]
-- !private ["C4Core6Strand", "init"]
 - !private ["SS", "init"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
@@ -143,9 +141,9 @@ depends-nominal:
 - "Ps9AnyObject"
 - "C7Console3Bar"
 - !private "Sb"
-- !private "P4Core16BytesConvertible"
-- !private "P4Core18BytesInitializable"
-- !private "P4Core18BytesRepresentable"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
 - !private "Ps7CVarArg"
 - !private "Ps10Comparable"
 - !private "P7Console15ConsoleProtocol"
@@ -168,8 +166,6 @@ depends-nominal:
 - !private "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
-- !private "P11Polymorphic11Polymorphic"
-- !private "C4Core6Strand"
 - !private "SS"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
@@ -190,8 +186,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
@@ -200,4 +197,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "c700bd2976ce42e77dc23b7b74bc8f10"
+interface-hash: "e47e0f4c2a2c0dd8f931669e8f53d30e"

@@ -41,6 +41,9 @@ depends-member:
 - !private ["C12FluentTester4Atom", "save"]
 - !private ["C12FluentTester4Atom", "weight"]
 - !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesRepresentable", "init"]
 - !private ["Ps7CVarArg", "init"]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
@@ -82,54 +85,56 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
 - !private ["P4Node15NodeConvertible", "_getBuiltinLogicValue"]
-- !private ["P4Node15NodeConvertible", "database"]
-- !private ["P4Node15NodeConvertible", "exists"]
-- !private ["P4Node15NodeConvertible", "find"]
-- !private ["P4Node15NodeConvertible", "id"]
 - !private ["P4Node15NodeConvertible", "init"]
-- !private ["P4Node15NodeConvertible", "name"]
-- !private ["P4Node15NodeConvertible", "prepare"]
-- !private ["P4Node15NodeConvertible", "protons"]
-- !private ["P4Node15NodeConvertible", "revert"]
-- !private ["P4Node15NodeConvertible", "save"]
-- !private ["P4Node15NodeConvertible", "weight"]
 - !private ["P4Node17NodeInitializable", "_getBuiltinLogicValue"]
-- !private ["P4Node17NodeInitializable", "database"]
-- !private ["P4Node17NodeInitializable", "exists"]
-- !private ["P4Node17NodeInitializable", "find"]
-- !private ["P4Node17NodeInitializable", "id"]
 - !private ["P4Node17NodeInitializable", "init"]
-- !private ["P4Node17NodeInitializable", "name"]
-- !private ["P4Node17NodeInitializable", "prepare"]
-- !private ["P4Node17NodeInitializable", "protons"]
-- !private ["P4Node17NodeInitializable", "revert"]
-- !private ["P4Node17NodeInitializable", "save"]
-- !private ["P4Node17NodeInitializable", "weight"]
 - !private ["P4Node17NodeRepresentable", "_getBuiltinLogicValue"]
-- !private ["P4Node17NodeRepresentable", "database"]
-- !private ["P4Node17NodeRepresentable", "exists"]
-- !private ["P4Node17NodeRepresentable", "find"]
-- !private ["P4Node17NodeRepresentable", "id"]
 - !private ["P4Node17NodeRepresentable", "init"]
-- !private ["P4Node17NodeRepresentable", "name"]
-- !private ["P4Node17NodeRepresentable", "prepare"]
-- !private ["P4Node17NodeRepresentable", "protons"]
-- !private ["P4Node17NodeRepresentable", "revert"]
-- !private ["P4Node17NodeRepresentable", "save"]
-- !private ["P4Node17NodeRepresentable", "weight"]
-- !private ["P13PathIndexable9PathIndex", "init"]
-- !private ["P11Polymorphic11Polymorphic", "init"]
-- !private ["P6Fluent11Preparation", "database"]
-- !private ["P6Fluent11Preparation", "exists"]
-- !private ["P6Fluent11Preparation", "find"]
-- !private ["P6Fluent11Preparation", "id"]
-- !private ["P6Fluent11Preparation", "init"]
-- !private ["P6Fluent11Preparation", "name"]
-- !private ["P6Fluent11Preparation", "prepare"]
-- !private ["P6Fluent11Preparation", "protons"]
-- !private ["P6Fluent11Preparation", "revert"]
-- !private ["P6Fluent11Preparation", "save"]
-- !private ["P6Fluent11Preparation", "weight"]
+- !private ["P13PathIndexable11PathIndexer", "init"]
+- !private ["P6Fluent14RowConvertible", "database"]
+- !private ["P6Fluent14RowConvertible", "exists"]
+- !private ["P6Fluent14RowConvertible", "find"]
+- !private ["P6Fluent14RowConvertible", "id"]
+- !private ["P6Fluent14RowConvertible", "init"]
+- !private ["P6Fluent14RowConvertible", "name"]
+- !private ["P6Fluent14RowConvertible", "prepare"]
+- !private ["P6Fluent14RowConvertible", "protons"]
+- !private ["P6Fluent14RowConvertible", "revert"]
+- !private ["P6Fluent14RowConvertible", "save"]
+- !private ["P6Fluent14RowConvertible", "weight"]
+- !private ["P6Fluent16RowInitializable", "database"]
+- !private ["P6Fluent16RowInitializable", "exists"]
+- !private ["P6Fluent16RowInitializable", "find"]
+- !private ["P6Fluent16RowInitializable", "id"]
+- !private ["P6Fluent16RowInitializable", "init"]
+- !private ["P6Fluent16RowInitializable", "name"]
+- !private ["P6Fluent16RowInitializable", "prepare"]
+- !private ["P6Fluent16RowInitializable", "protons"]
+- !private ["P6Fluent16RowInitializable", "revert"]
+- !private ["P6Fluent16RowInitializable", "save"]
+- !private ["P6Fluent16RowInitializable", "weight"]
+- !private ["P6Fluent16RowRepresentable", "database"]
+- !private ["P6Fluent16RowRepresentable", "exists"]
+- !private ["P6Fluent16RowRepresentable", "find"]
+- !private ["P6Fluent16RowRepresentable", "id"]
+- !private ["P6Fluent16RowRepresentable", "init"]
+- !private ["P6Fluent16RowRepresentable", "name"]
+- !private ["P6Fluent16RowRepresentable", "prepare"]
+- !private ["P6Fluent16RowRepresentable", "protons"]
+- !private ["P6Fluent16RowRepresentable", "revert"]
+- !private ["P6Fluent16RowRepresentable", "save"]
+- !private ["P6Fluent16RowRepresentable", "weight"]
+- !private ["P6Fluent8Storable", "database"]
+- !private ["P6Fluent8Storable", "exists"]
+- !private ["P6Fluent8Storable", "find"]
+- !private ["P6Fluent8Storable", "id"]
+- !private ["P6Fluent8Storable", "init"]
+- !private ["P6Fluent8Storable", "name"]
+- !private ["P6Fluent8Storable", "prepare"]
+- !private ["P6Fluent8Storable", "protons"]
+- !private ["P6Fluent8Storable", "revert"]
+- !private ["P6Fluent8Storable", "save"]
+- !private ["P6Fluent8Storable", "weight"]
 - !private ["SS", "init"]
 - !private ["C12FluentTester6Tester", "Atom"]
 - !private ["C12FluentTester6Tester", "Error"]
@@ -152,6 +157,9 @@ depends-nominal:
 - !private "Ps9AnyObject"
 - !private "C12FluentTester4Atom"
 - !private "Sb"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
 - !private "Ps7CVarArg"
 - !private "Ps10Comparable"
 - !private "Ps28CustomDebugStringConvertible"
@@ -178,9 +186,11 @@ depends-nominal:
 - !private "P4Node15NodeConvertible"
 - !private "P4Node17NodeInitializable"
 - !private "P4Node17NodeRepresentable"
-- !private "P13PathIndexable9PathIndex"
-- !private "P11Polymorphic11Polymorphic"
-- !private "P6Fluent11Preparation"
+- !private "P13PathIndexable11PathIndexer"
+- !private "P6Fluent14RowConvertible"
+- !private "P6Fluent16RowInitializable"
+- !private "P6Fluent16RowRepresentable"
+- !private "P6Fluent8Storable"
 - !private "SS"
 - "C12FluentTester6Tester"
 - !private "Ps16TextOutputStream"
@@ -201,9 +211,14 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Node.framework/Modules/Node.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/PathIndexable.framework/Modules/PathIndexable.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Fluent.framework/Modules/Fluent.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
@@ -213,4 +228,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "d97780f141f3358000443a71064eb5b8"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/hello.xcodeproj/GeneratedModuleMap/CSQLite/module.modulemap"
+interface-hash: "06e7cc57874402a65c0108bca70b6385"

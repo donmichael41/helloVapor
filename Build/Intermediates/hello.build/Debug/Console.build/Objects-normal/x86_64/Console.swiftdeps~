@@ -12,6 +12,7 @@ provides-member:
 - ["P7Console15ConsoleProtocol", "backgroundExecute"]
 - ["P7Console15ConsoleProtocol", "backgroundExecute"]
 - ["P7Console15ConsoleProtocol", "backgroundExecute"]
+- ["P7Console15ConsoleProtocol", "registerKillListener"]
 - ["P7Console15ConsoleProtocol", "output"]
 - ["P7Console15ConsoleProtocol", "wait"]
 - ["P7Console15ConsoleProtocol", "confirmOverride"]
@@ -33,6 +34,7 @@ depends-top-level:
 - "Int32"
 - !private "Pipe"
 - "String"
+- "Void"
 - !private "close"
 - !private "useconds_t"
 - !private "usleep"
@@ -48,23 +50,28 @@ depends-member:
 - !private ["Ps9AnyObject", "standardOutput"]
 - !private ["Vs11AnySequence", "array"]
 - !private ["Sa", "dropFirst"]
+- !private ["Sa", "makeString"]
 - !private ["Sa", "subscript"]
 - !private ["Vs10ArraySlice", "array"]
 - !private ["Ps23BidirectionalCollection", "array"]
 - !private ["Ps23BidirectionalCollection", "dropFirst"]
 - !private ["Ps23BidirectionalCollection", "makeBytes"]
+- !private ["Ps23BidirectionalCollection", "makeString"]
 - !private ["Ps23BidirectionalCollection", "subscript"]
 - !private ["Ps19BinaryFloatingPoint", "init"]
 - !private ["Ps17BitwiseOperations", "init"]
-- !private ["P4Core16BytesConvertible", "makeBytes"]
-- !private ["P4Core18BytesInitializable", "init"]
-- !private ["P4Core18BytesInitializable", "makeBytes"]
-- !private ["P4Core18BytesRepresentable", "makeBytes"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits16BytesConvertible", "makeBytes"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesInitializable", "makeBytes"]
+- !private ["P4Bits18BytesRepresentable", "init"]
+- !private ["P4Bits18BytesRepresentable", "makeBytes"]
 - !private ["Ps7CVarArg", "dropFirst"]
 - !private ["Ps7CVarArg", "fileDescriptor"]
 - !private ["Ps7CVarArg", "fileHandleForReading"]
 - !private ["Ps7CVarArg", "fileHandleForWriting"]
 - !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "makeString"]
 - !private ["Ps7CVarArg", "readDataToEndOfFile"]
 - !private ["Ps7CVarArg", "standardError"]
 - !private ["Ps7CVarArg", "standardInput"]
@@ -73,6 +80,7 @@ depends-member:
 - !private ["Ps10Collection", "array"]
 - !private ["Ps10Collection", "dropFirst"]
 - !private ["Ps10Collection", "makeBytes"]
+- !private ["Ps10Collection", "makeString"]
 - !private ["Ps10Collection", "subscript"]
 - !private ["Ps10Comparable", "init"]
 - !private ["O7Console12ConsoleError", "backgroundExecute"]
@@ -90,6 +98,7 @@ depends-member:
 - ["P7Console15ConsoleProtocol", "Int32"]
 - !private ["P7Console15ConsoleProtocol", "Pipe"]
 - ["P7Console15ConsoleProtocol", "String"]
+- ["P7Console15ConsoleProtocol", "Void"]
 - ["P7Console15ConsoleProtocol", "backgroundExecute"]
 - ["P7Console15ConsoleProtocol", "clear"]
 - !private ["P7Console15ConsoleProtocol", "close"]
@@ -98,6 +107,8 @@ depends-member:
 - ["P7Console15ConsoleProtocol", "foregroundExecute"]
 - ["P7Console15ConsoleProtocol", "input"]
 - ["P7Console15ConsoleProtocol", "output"]
+- ["P7Console15ConsoleProtocol", "registerKillListener"]
+- ["P7Console15ConsoleProtocol", "secureInput"]
 - ["P7Console15ConsoleProtocol", "size"]
 - !private ["P7Console15ConsoleProtocol", "useconds_t"]
 - !private ["P7Console15ConsoleProtocol", "usleep"]
@@ -110,6 +121,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "fileHandleForWriting"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "makeBytes"]
+- !private ["Ps28CustomDebugStringConvertible", "makeString"]
 - !private ["Ps28CustomDebugStringConvertible", "readDataToEndOfFile"]
 - !private ["Ps28CustomDebugStringConvertible", "standardError"]
 - !private ["Ps28CustomDebugStringConvertible", "standardInput"]
@@ -120,6 +132,7 @@ depends-member:
 - !private ["Ps17CustomReflectable", "dropFirst"]
 - !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps17CustomReflectable", "makeBytes"]
+- !private ["Ps17CustomReflectable", "makeString"]
 - !private ["Ps17CustomReflectable", "subscript"]
 - !private ["Ps23CustomStringConvertible", "array"]
 - !private ["Ps23CustomStringConvertible", "dropFirst"]
@@ -128,6 +141,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "fileHandleForWriting"]
 - !private ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "makeBytes"]
+- !private ["Ps23CustomStringConvertible", "makeString"]
 - !private ["Ps23CustomStringConvertible", "readDataToEndOfFile"]
 - !private ["Ps23CustomStringConvertible", "standardError"]
 - !private ["Ps23CustomStringConvertible", "standardInput"]
@@ -148,6 +162,7 @@ depends-member:
 - ["Ps5Error", "execute"]
 - !private ["Ps25ExpressibleByArrayLiteral", "array"]
 - !private ["Ps25ExpressibleByArrayLiteral", "dropFirst"]
+- !private ["Ps25ExpressibleByArrayLiteral", "makeString"]
 - !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
 - !private ["Ps25ExpressibleByFloatLiteral", "init"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "init"]
@@ -180,6 +195,7 @@ depends-member:
 - !private ["Ps17MutableCollection", "array"]
 - !private ["Ps17MutableCollection", "dropFirst"]
 - !private ["Ps17MutableCollection", "makeBytes"]
+- !private ["Ps17MutableCollection", "makeString"]
 - !private ["Ps17MutableCollection", "subscript"]
 - !private ["PSo8NSCoding", "fileDescriptor"]
 - !private ["PSo8NSCoding", "readDataToEndOfFile"]
@@ -213,15 +229,18 @@ depends-member:
 - !private ["Ps22RandomAccessCollection", "array"]
 - !private ["Ps22RandomAccessCollection", "dropFirst"]
 - !private ["Ps22RandomAccessCollection", "makeBytes"]
+- !private ["Ps22RandomAccessCollection", "makeString"]
 - !private ["Ps22RandomAccessCollection", "subscript"]
 - !private ["Ps26RangeReplaceableCollection", "array"]
 - !private ["Ps26RangeReplaceableCollection", "dropFirst"]
 - !private ["Ps26RangeReplaceableCollection", "makeBytes"]
+- !private ["Ps26RangeReplaceableCollection", "makeString"]
 - !private ["Ps26RangeReplaceableCollection", "subscript"]
 - !private ["P10Foundation20ReferenceConvertible", "makeBytes"]
 - !private ["Ps8Sequence", "array"]
 - !private ["Ps8Sequence", "dropFirst"]
 - !private ["Ps8Sequence", "makeBytes"]
+- !private ["Ps8Sequence", "makeString"]
 - !private ["Ps8Sequence", "subscript"]
 - !private ["Ps12SignedNumber", "init"]
 - !private ["Ps10Strideable", "init"]
@@ -229,15 +248,18 @@ depends-member:
 - !private ["Ps15UnsignedInteger", "init"]
 - !private ["Ps14_ArrayProtocol", "array"]
 - !private ["Ps14_ArrayProtocol", "dropFirst"]
+- !private ["Ps14_ArrayProtocol", "makeString"]
 - !private ["Ps14_ArrayProtocol", "subscript"]
 - !private ["Ps23_BidirectionalIndexable", "array"]
 - !private ["Ps23_BidirectionalIndexable", "dropFirst"]
 - !private ["Ps23_BidirectionalIndexable", "makeBytes"]
+- !private ["Ps23_BidirectionalIndexable", "makeString"]
 - !private ["Ps23_BidirectionalIndexable", "subscript"]
 - !private ["Ps15_CVarArgAligned", "init"]
 - !private ["Ps22_CVarArgPassedAsDouble", "init"]
 - !private ["Ps24_DestructorSafeContainer", "array"]
 - !private ["Ps24_DestructorSafeContainer", "dropFirst"]
+- !private ["Ps24_DestructorSafeContainer", "makeString"]
 - !private ["Ps24_DestructorSafeContainer", "subscript"]
 - !private ["Ps28_DisallowMixedSignArithmetic", "init"]
 - !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
@@ -255,28 +277,34 @@ depends-member:
 - !private ["Ps10_Indexable", "array"]
 - !private ["Ps10_Indexable", "dropFirst"]
 - !private ["Ps10_Indexable", "makeBytes"]
+- !private ["Ps10_Indexable", "makeString"]
 - !private ["Ps10_Indexable", "subscript"]
 - !private ["Ps14_IndexableBase", "array"]
 - !private ["Ps14_IndexableBase", "dropFirst"]
 - !private ["Ps14_IndexableBase", "makeBytes"]
+- !private ["Ps14_IndexableBase", "makeString"]
 - !private ["Ps14_IndexableBase", "subscript"]
 - !private ["Ps8_Integer", "init"]
 - !private ["Ps18_IntegerArithmetic", "init"]
 - !private ["Ps17_MutableIndexable", "array"]
 - !private ["Ps17_MutableIndexable", "dropFirst"]
 - !private ["Ps17_MutableIndexable", "makeBytes"]
+- !private ["Ps17_MutableIndexable", "makeString"]
 - !private ["Ps17_MutableIndexable", "subscript"]
 - !private ["Ps21_ObjectiveCBridgeable", "dropFirst"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "makeBytes"]
+- !private ["Ps21_ObjectiveCBridgeable", "makeString"]
 - !private ["Ps21_ObjectiveCBridgeable", "subscript"]
 - !private ["Ps22_RandomAccessIndexable", "array"]
 - !private ["Ps22_RandomAccessIndexable", "dropFirst"]
 - !private ["Ps22_RandomAccessIndexable", "makeBytes"]
+- !private ["Ps22_RandomAccessIndexable", "makeString"]
 - !private ["Ps22_RandomAccessIndexable", "subscript"]
 - !private ["Ps26_RangeReplaceableIndexable", "array"]
 - !private ["Ps26_RangeReplaceableIndexable", "dropFirst"]
 - !private ["Ps26_RangeReplaceableIndexable", "makeBytes"]
+- !private ["Ps26_RangeReplaceableIndexable", "makeString"]
 - !private ["Ps26_RangeReplaceableIndexable", "subscript"]
 - !private ["Ps11_Strideable", "init"]
 depends-nominal:
@@ -288,9 +316,9 @@ depends-nominal:
 - !private "Ps23BidirectionalCollection"
 - !private "Ps19BinaryFloatingPoint"
 - !private "Ps17BitwiseOperations"
-- !private "P4Core16BytesConvertible"
-- !private "P4Core18BytesInitializable"
-- !private "P4Core18BytesRepresentable"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
 - !private "Ps7CVarArg"
 - !private "Ps10Collection"
 - !private "Ps10Comparable"
@@ -356,8 +384,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
@@ -366,4 +395,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "ff482ddca92e3bb017b056c2f318d9c9"
+interface-hash: "dc7c481a15266de8c4bc75f7fb23c2d1"

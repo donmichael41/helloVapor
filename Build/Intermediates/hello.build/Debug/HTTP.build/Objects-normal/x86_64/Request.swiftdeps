@@ -3,417 +3,141 @@ provides-top-level:
 - "Request"
 provides-nominal:
 - "C4HTTP7Request"
-- "VC4HTTP7Request7Handler"
 provides-member:
 - ["C4HTTP7Request", ""]
-- ["VC4HTTP7Request7Handler", ""]
-- ["C4HTTP7Request", "Handler"]
+- ["C4HTTP7Request", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "!"
-- !private "+"
-- !private "+="
-- !private "??"
 - "Array"
 - "AssignmentPrecedence"
 - "Body"
-- "BytesSlice"
+- !private "Dictionary"
 - "FloatLiteralType"
 - "HeaderKey"
 - "IntegerLiteralType"
 - "Message"
 - "Method"
-- "PeerAddress"
 - "Request"
-- "Responder"
-- "Response"
 - "String"
-- !private "StringLiteralType"
-- "TernaryPrecedence"
 - "URI"
 - !private "URIParser"
-- !private "UnicodeScalarType"
 - "Version"
 depends-member:
-- !private ["Ps9AnyObject", "Method"]
-- !private ["Ps9AnyObject", "URI"]
 - !private ["Ps9AnyObject", "URIParser"]
 - !private ["Ps9AnyObject", "Version"]
-- !private ["Ps9AnyObject", "addingPercentEncoding"]
-- !private ["Ps9AnyObject", "hasPrefix"]
+- ["Ps9AnyObject", "body"]
+- ["Ps9AnyObject", "headers"]
 - !private ["Ps9AnyObject", "init"]
-- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "makeBytes"]
 - !private ["Ps9AnyObject", "method"]
 - !private ["Ps9AnyObject", "parse"]
+- !private ["Ps9AnyObject", "shared"]
+- ["Ps9AnyObject", "storage"]
 - !private ["Ps9AnyObject", "uri"]
-- !private ["Ps9AnyObject", "version"]
+- ["Ps9AnyObject", "version"]
 - ["Ps9AnyObject", ""]
-- !private ["Vs10ArraySlice", "array"]
-- !private ["Vs10ArraySlice", "uppercased"]
-- !private ["Ps23BidirectionalCollection", "array"]
-- !private ["Ps23BidirectionalCollection", "uppercased"]
 - !private ["O4HTTP4Body", "data"]
-- !private ["P4HTTP17BodyRepresentable", "addingPercentEncoding"]
 - !private ["P4HTTP17BodyRepresentable", "data"]
-- !private ["P4HTTP17BodyRepresentable", "hasPrefix"]
-- !private ["P4HTTP17BodyRepresentable", "init"]
-- !private ["P4HTTP17BodyRepresentable", "isEmpty"]
-- !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["P4Core16BytesConvertible", "addingPercentEncoding"]
-- !private ["P4Core16BytesConvertible", "hasPrefix"]
-- !private ["P4Core16BytesConvertible", "init"]
-- !private ["P4Core16BytesConvertible", "isEmpty"]
-- !private ["P4Core18BytesInitializable", "addingPercentEncoding"]
-- !private ["P4Core18BytesInitializable", "hasPrefix"]
-- !private ["P4Core18BytesInitializable", "init"]
-- !private ["P4Core18BytesInitializable", "isEmpty"]
-- !private ["P4Core18BytesRepresentable", "addingPercentEncoding"]
-- !private ["P4Core18BytesRepresentable", "hasPrefix"]
-- !private ["P4Core18BytesRepresentable", "init"]
-- !private ["P4Core18BytesRepresentable", "isEmpty"]
-- !private ["Ps7CVarArg", "addingPercentEncoding"]
-- !private ["Ps7CVarArg", "appendHost"]
-- !private ["Ps7CVarArg", "hasPrefix"]
-- !private ["Ps7CVarArg", "init"]
-- !private ["Ps7CVarArg", "isEmpty"]
-- !private ["Ps7CVarArg", "subscript"]
-- !private ["V10Foundation12CharacterSet", "urlFragmentAllowed"]
-- !private ["V10Foundation12CharacterSet", "urlQueryAllowed"]
-- !private ["Ps10Collection", "appendHost"]
-- !private ["Ps10Collection", "array"]
-- !private ["Ps10Collection", "subscript"]
-- !private ["Ps10Collection", "uppercased"]
-- !private ["Ps10Comparable", "addingPercentEncoding"]
-- !private ["Ps10Comparable", "hasPrefix"]
+- !private ["P4HTTP17BodyRepresentable", "makeBytes"]
+- !private ["P4Bits16BytesConvertible", "makeBytes"]
+- !private ["P4Bits18BytesInitializable", "makeBytes"]
+- !private ["P4Bits18BytesRepresentable", "makeBytes"]
+- !private ["Ps7CVarArg", "makeBytes"]
 - !private ["Ps10Comparable", "init"]
-- !private ["Ps10Comparable", "isEmpty"]
-- !private ["Ps10Comparable", "major"]
-- !private ["Ps10Comparable", "makeParsed"]
-- !private ["Ps10Comparable", "minor"]
-- !private ["Ps28CustomDebugStringConvertible", "addingPercentEncoding"]
-- !private ["Ps28CustomDebugStringConvertible", "appendHost"]
-- !private ["Ps28CustomDebugStringConvertible", "array"]
-- !private ["Ps28CustomDebugStringConvertible", "hasPrefix"]
-- !private ["Ps28CustomDebugStringConvertible", "init"]
-- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
-- !private ["Ps28CustomDebugStringConvertible", "subscript"]
-- !private ["Ps28CustomDebugStringConvertible", "uppercased"]
-- !private ["Ps28CustomDebugStringConvertible", "urlFragmentAllowed"]
-- !private ["Ps28CustomDebugStringConvertible", "urlQueryAllowed"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "addingPercentEncoding"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "hasPrefix"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "isEmpty"]
-- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
-- !private ["Ps17CustomReflectable", "addingPercentEncoding"]
-- !private ["Ps17CustomReflectable", "appendHost"]
-- !private ["Ps17CustomReflectable", "array"]
-- !private ["Ps17CustomReflectable", "hasPrefix"]
-- !private ["Ps17CustomReflectable", "init"]
-- !private ["Ps17CustomReflectable", "isEmpty"]
-- !private ["Ps17CustomReflectable", "subscript"]
-- !private ["Ps17CustomReflectable", "uppercased"]
-- !private ["Ps23CustomStringConvertible", "Method"]
-- !private ["Ps23CustomStringConvertible", "URI"]
+- !private ["Ps10Comparable", "makeBytes"]
+- !private ["Ps28CustomDebugStringConvertible", "makeBytes"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "makeBytes"]
+- !private ["Ps17CustomReflectable", "makeBytes"]
 - !private ["Ps23CustomStringConvertible", "URIParser"]
 - !private ["Ps23CustomStringConvertible", "Version"]
-- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps23CustomStringConvertible", "addingPercentEncoding"]
-- !private ["Ps23CustomStringConvertible", "appendHost"]
-- !private ["Ps23CustomStringConvertible", "array"]
-- !private ["Ps23CustomStringConvertible", "fragment"]
-- !private ["Ps23CustomStringConvertible", "hasPrefix"]
+- ["Ps23CustomStringConvertible", "body"]
+- ["Ps23CustomStringConvertible", "headers"]
 - !private ["Ps23CustomStringConvertible", "init"]
-- !private ["Ps23CustomStringConvertible", "isEmpty"]
-- !private ["Ps23CustomStringConvertible", "major"]
-- !private ["Ps23CustomStringConvertible", "makeParsed"]
+- !private ["Ps23CustomStringConvertible", "makeBytes"]
 - !private ["Ps23CustomStringConvertible", "method"]
-- !private ["Ps23CustomStringConvertible", "minor"]
-- !private ["Ps23CustomStringConvertible", "path"]
-- !private ["Ps23CustomStringConvertible", "query"]
-- !private ["Ps23CustomStringConvertible", "scheme"]
-- !private ["Ps23CustomStringConvertible", "subscript"]
-- !private ["Ps23CustomStringConvertible", "uppercased"]
+- ["Ps23CustomStringConvertible", "storage"]
 - !private ["Ps23CustomStringConvertible", "uri"]
-- !private ["Ps23CustomStringConvertible", "urlFragmentAllowed"]
-- !private ["Ps23CustomStringConvertible", "urlQueryAllowed"]
-- !private ["Ps23CustomStringConvertible", "version"]
-- ["Ps23CustomStringConvertible", ""]
-- !private ["Vs10Dictionary", "appendHost"]
-- !private ["Vs10Dictionary", "deinit"]
-- !private ["Vs10Dictionary", "subscript"]
-- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
-- !private ["Ps9Equatable", "addingPercentEncoding"]
-- !private ["Ps9Equatable", "hasPrefix"]
+- ["Ps23CustomStringConvertible", "version"]
 - !private ["Ps9Equatable", "init"]
-- !private ["Ps9Equatable", "isEmpty"]
-- !private ["Ps9Equatable", "major"]
-- !private ["Ps9Equatable", "makeParsed"]
-- !private ["Ps9Equatable", "minor"]
-- !private ["Ps9Equatable", "urlFragmentAllowed"]
-- !private ["Ps9Equatable", "urlQueryAllowed"]
-- !private ["Ps25ExpressibleByArrayLiteral", "array"]
+- !private ["Ps9Equatable", "makeBytes"]
 - !private ["Ps25ExpressibleByArrayLiteral", "data"]
-- !private ["Ps25ExpressibleByArrayLiteral", "uppercased"]
-- !private ["Ps25ExpressibleByArrayLiteral", "urlFragmentAllowed"]
-- !private ["Ps25ExpressibleByArrayLiteral", "urlQueryAllowed"]
-- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
-- !private ["Ps30ExpressibleByDictionaryLiteral", "appendHost"]
-- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
-- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "addingPercentEncoding"]
-- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "hasPrefix"]
-- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isEmpty"]
-- !private ["Ps26ExpressibleByStringLiteral", "addingPercentEncoding"]
-- !private ["Ps26ExpressibleByStringLiteral", "hasPrefix"]
-- !private ["Ps26ExpressibleByStringLiteral", "init"]
-- !private ["Ps26ExpressibleByStringLiteral", "isEmpty"]
-- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "addingPercentEncoding"]
-- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "hasPrefix"]
-- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
-- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isEmpty"]
-- ["VC4HTTP7Request7Handler", "Closure"]
-- ["VC4HTTP7Request7Handler", "Request"]
-- ["VC4HTTP7Request7Handler", "Response"]
-- !private ["VC4HTTP7Request7Handler", "closure"]
-- ["VC4HTTP7Request7Handler", "deinit"]
-- ["VC4HTTP7Request7Handler", "init"]
-- ["VC4HTTP7Request7Handler", "respond"]
-- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
-- !private ["Ps8Hashable", "addingPercentEncoding"]
-- !private ["Ps8Hashable", "hasPrefix"]
-- !private ["Ps8Hashable", "init"]
-- !private ["Ps8Hashable", "isEmpty"]
-- !private ["Ps8Hashable", "urlFragmentAllowed"]
-- !private ["Ps8Hashable", "urlQueryAllowed"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "makeBytes"]
+- !private ["Ps26ExpressibleByStringLiteral", "makeBytes"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "makeBytes"]
+- !private ["Ps8Hashable", "makeBytes"]
 - ["V4HTTP9HeaderKey", "deinit"]
-- !private ["P4HTTP13KeyAccessible", "appendHost"]
-- !private ["P4HTTP13KeyAccessible", "subscript"]
-- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps25LosslessStringConvertible", "addingPercentEncoding"]
-- !private ["Ps25LosslessStringConvertible", "hasPrefix"]
-- !private ["Ps25LosslessStringConvertible", "init"]
-- !private ["Ps25LosslessStringConvertible", "isEmpty"]
-- ["C4HTTP7Message", "Body"]
-- ["C4HTTP7Message", "BytesSlice"]
-- ["C4HTTP7Message", "HeaderKey"]
-- ["C4HTTP7Message", "Method"]
-- ["C4HTTP7Message", "PeerAddress"]
-- ["C4HTTP7Message", "Request"]
-- ["C4HTTP7Message", "Responder"]
-- ["C4HTTP7Message", "Response"]
-- ["C4HTTP7Message", "String"]
-- ["C4HTTP7Message", "URI"]
-- !private ["C4HTTP7Message", "URIParser"]
-- ["C4HTTP7Message", "Version"]
-- ["C4HTTP7Message", "init"]
-- ["C4HTTP7Message", "method"]
-- ["C4HTTP7Message", "uri"]
-- ["C4HTTP7Message", "version"]
-- ["C4HTTP7Message", ""]
-- !private ["O4HTTP6Method", "init"]
-- !private ["Ps10MirrorPath", "addingPercentEncoding"]
-- !private ["Ps10MirrorPath", "hasPrefix"]
-- !private ["Ps10MirrorPath", "init"]
-- !private ["Ps10MirrorPath", "isEmpty"]
-- !private ["Ps17MutableCollection", "array"]
-- !private ["Ps17MutableCollection", "uppercased"]
-- !private ["PSo8NSCoding", "addingPercentEncoding"]
-- !private ["PSo8NSCoding", "hasPrefix"]
-- !private ["PSo8NSCoding", "init"]
-- !private ["PSo8NSCoding", "isEmpty"]
-- !private ["PSo9NSCopying", "addingPercentEncoding"]
-- !private ["PSo9NSCopying", "hasPrefix"]
-- !private ["PSo9NSCopying", "init"]
-- !private ["PSo9NSCopying", "isEmpty"]
-- !private ["PSo16NSMutableCopying", "addingPercentEncoding"]
-- !private ["PSo16NSMutableCopying", "hasPrefix"]
-- !private ["PSo16NSMutableCopying", "init"]
-- !private ["PSo16NSMutableCopying", "isEmpty"]
-- !private ["CSo8NSObject", "addingPercentEncoding"]
-- !private ["CSo8NSObject", "hasPrefix"]
-- !private ["CSo8NSObject", "isEmpty"]
-- !private ["PSo16NSObjectProtocol", "addingPercentEncoding"]
-- !private ["PSo16NSObjectProtocol", "hasPrefix"]
-- !private ["PSo16NSObjectProtocol", "init"]
-- !private ["PSo16NSObjectProtocol", "isEmpty"]
-- !private ["PSo14NSSecureCoding", "addingPercentEncoding"]
-- !private ["PSo14NSSecureCoding", "hasPrefix"]
-- !private ["PSo14NSSecureCoding", "init"]
-- !private ["PSo14NSSecureCoding", "isEmpty"]
-- !private ["CSo8NSString", "addingPercentEncoding"]
-- !private ["CSo8NSString", "hasPrefix"]
-- !private ["CSo8NSString", "init"]
-- !private ["CSo8NSString", "isEmpty"]
-- !private ["Ps22RandomAccessCollection", "array"]
-- !private ["Ps22RandomAccessCollection", "uppercased"]
-- !private ["Ps26RangeReplaceableCollection", "array"]
-- !private ["Ps26RangeReplaceableCollection", "uppercased"]
-- !private ["P10Foundation20ReferenceConvertible", "urlFragmentAllowed"]
-- !private ["P10Foundation20ReferenceConvertible", "urlQueryAllowed"]
+- !private ["Ps25LosslessStringConvertible", "makeBytes"]
+- !private ["P4HTTP7Message", "URIParser"]
+- !private ["P4HTTP7Message", "Version"]
+- ["P4HTTP7Message", "body"]
+- ["P4HTTP7Message", "headers"]
+- !private ["P4HTTP7Message", "init"]
+- !private ["P4HTTP7Message", "method"]
+- ["P4HTTP7Message", "storage"]
+- !private ["P4HTTP7Message", "uri"]
+- ["P4HTTP7Message", "version"]
+- ["P4HTTP7Message", ""]
+- !private ["Ps10MirrorPath", "makeBytes"]
+- !private ["PSo8NSCoding", "makeBytes"]
+- !private ["PSo9NSCopying", "makeBytes"]
+- !private ["PSo16NSMutableCopying", "makeBytes"]
+- !private ["CSo8NSObject", "makeBytes"]
+- !private ["PSo16NSObjectProtocol", "makeBytes"]
+- !private ["PSo14NSSecureCoding", "makeBytes"]
+- !private ["CSo8NSString", "makeBytes"]
 - ["C4HTTP7Request", "Body"]
-- ["C4HTTP7Request", "BytesSlice"]
-- ["C4HTTP7Request", "Handler"]
 - ["C4HTTP7Request", "HeaderKey"]
 - ["C4HTTP7Request", "Method"]
-- ["C4HTTP7Request", "PeerAddress"]
-- ["C4HTTP7Request", "Request"]
-- ["C4HTTP7Request", "Responder"]
-- ["C4HTTP7Request", "Response"]
 - ["C4HTTP7Request", "String"]
 - ["C4HTTP7Request", "URI"]
 - !private ["C4HTTP7Request", "URIParser"]
 - ["C4HTTP7Request", "Version"]
+- ["C4HTTP7Request", "body"]
 - ["C4HTTP7Request", "deinit"]
+- ["C4HTTP7Request", "headers"]
 - ["C4HTTP7Request", "init"]
 - ["C4HTTP7Request", "method"]
+- ["C4HTTP7Request", "storage"]
 - ["C4HTTP7Request", "uri"]
 - ["C4HTTP7Request", "version"]
-- !private ["P4HTTP9Responder", "closure"]
-- ["P4HTTP9Responder", "respond"]
-- ["P4HTTP9Responder", ""]
-- !private ["P4HTTP21ResponseRepresentable", "addingPercentEncoding"]
-- !private ["P4HTTP21ResponseRepresentable", "hasPrefix"]
-- !private ["P4HTTP21ResponseRepresentable", "init"]
-- !private ["P4HTTP21ResponseRepresentable", "isEmpty"]
-- !private ["Ps8Sequence", "appendHost"]
-- !private ["Ps8Sequence", "array"]
-- !private ["Ps8Sequence", "subscript"]
-- !private ["Ps8Sequence", "uppercased"]
-- !private ["Ps10SetAlgebra", "urlFragmentAllowed"]
-- !private ["Ps10SetAlgebra", "urlQueryAllowed"]
-- !private ["C4Core16StaticDataBuffer", "parse"]
-- !private ["Vs12StaticString", "init"]
-- !private ["SS", "addingPercentEncoding"]
-- !private ["SS", "hasPrefix"]
-- !private ["SS", "init"]
-- !private ["SS", "isEmpty"]
-- !private ["Ps16TextOutputStream", "addingPercentEncoding"]
-- !private ["Ps16TextOutputStream", "hasPrefix"]
-- !private ["Ps16TextOutputStream", "init"]
-- !private ["Ps16TextOutputStream", "isEmpty"]
-- !private ["Ps20TextOutputStreamable", "addingPercentEncoding"]
-- !private ["Ps20TextOutputStreamable", "hasPrefix"]
-- !private ["Ps20TextOutputStreamable", "init"]
-- !private ["Ps20TextOutputStreamable", "isEmpty"]
-- !private ["P9Transport15TransferMessage", "Method"]
-- !private ["P9Transport15TransferMessage", "URI"]
-- !private ["P9Transport15TransferMessage", "URIParser"]
-- !private ["P9Transport15TransferMessage", "Version"]
-- !private ["P9Transport15TransferMessage", "init"]
-- !private ["P9Transport15TransferMessage", "method"]
-- !private ["P9Transport15TransferMessage", "uri"]
-- !private ["P9Transport15TransferMessage", "version"]
-- ["P9Transport15TransferMessage", ""]
-- !private ["V3URI3URI", "fragment"]
-- !private ["V3URI3URI", "init"]
-- !private ["V3URI3URI", "path"]
-- !private ["V3URI3URI", "query"]
-- !private ["V3URI3URI", "scheme"]
+- !private ["P4HTTP21ResponseRepresentable", "makeBytes"]
+- !private ["SS", "makeBytes"]
+- !private ["Ps16TextOutputStream", "makeBytes"]
+- !private ["Ps20TextOutputStreamable", "makeBytes"]
 - !private ["C3URI9URIParser", "parse"]
+- !private ["C3URI9URIParser", "shared"]
 - !private ["V4HTTP7Version", "init"]
-- !private ["V4HTTP7Version", "major"]
-- !private ["V4HTTP7Version", "makeParsed"]
-- !private ["V4HTTP7Version", "minor"]
-- !private ["Ps14_ArrayProtocol", "array"]
-- !private ["Ps14_ArrayProtocol", "uppercased"]
-- !private ["Ps23_BidirectionalIndexable", "array"]
-- !private ["Ps23_BidirectionalIndexable", "uppercased"]
-- !private ["Ps24_DestructorSafeContainer", "array"]
-- !private ["Ps24_DestructorSafeContainer", "uppercased"]
-- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
-- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "addingPercentEncoding"]
-- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "hasPrefix"]
-- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "isEmpty"]
-- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "addingPercentEncoding"]
-- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "hasPrefix"]
-- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
-- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "isEmpty"]
-- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "addingPercentEncoding"]
-- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "hasPrefix"]
-- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
-- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "isEmpty"]
-- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "addingPercentEncoding"]
-- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "hasPrefix"]
-- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
-- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "isEmpty"]
-- !private ["Ps33_ExpressibleByStringInterpolation", "addingPercentEncoding"]
-- !private ["Ps33_ExpressibleByStringInterpolation", "hasPrefix"]
-- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
-- !private ["Ps33_ExpressibleByStringInterpolation", "isEmpty"]
-- !private ["Ps35_HasCustomAnyHashableRepresentation", "addingPercentEncoding"]
-- !private ["Ps35_HasCustomAnyHashableRepresentation", "hasPrefix"]
-- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
-- !private ["Ps35_HasCustomAnyHashableRepresentation", "isEmpty"]
-- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
-- !private ["Ps9_Hashable", "addingPercentEncoding"]
-- !private ["Ps9_Hashable", "hasPrefix"]
-- !private ["Ps9_Hashable", "init"]
-- !private ["Ps9_Hashable", "isEmpty"]
-- !private ["Ps9_Hashable", "urlFragmentAllowed"]
-- !private ["Ps9_Hashable", "urlQueryAllowed"]
-- !private ["Ps10_Indexable", "appendHost"]
-- !private ["Ps10_Indexable", "array"]
-- !private ["Ps10_Indexable", "subscript"]
-- !private ["Ps10_Indexable", "uppercased"]
-- !private ["Ps14_IndexableBase", "appendHost"]
-- !private ["Ps14_IndexableBase", "array"]
-- !private ["Ps14_IndexableBase", "subscript"]
-- !private ["Ps14_IndexableBase", "uppercased"]
-- !private ["Ps17_MutableIndexable", "array"]
-- !private ["Ps17_MutableIndexable", "uppercased"]
-- !private ["P10Foundation18_MutablePairBoxing", "urlFragmentAllowed"]
-- !private ["P10Foundation18_MutablePairBoxing", "urlQueryAllowed"]
-- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["Ps21_ObjectiveCBridgeable", "addingPercentEncoding"]
-- !private ["Ps21_ObjectiveCBridgeable", "appendHost"]
-- !private ["Ps21_ObjectiveCBridgeable", "hasPrefix"]
-- !private ["Ps21_ObjectiveCBridgeable", "init"]
-- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
-- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
-- !private ["Ps21_ObjectiveCBridgeable", "urlFragmentAllowed"]
-- !private ["Ps21_ObjectiveCBridgeable", "urlQueryAllowed"]
-- !private ["Ps22_RandomAccessIndexable", "array"]
-- !private ["Ps22_RandomAccessIndexable", "uppercased"]
-- !private ["Ps26_RangeReplaceableIndexable", "array"]
-- !private ["Ps26_RangeReplaceableIndexable", "uppercased"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "makeBytes"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "makeBytes"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "makeBytes"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "makeBytes"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "makeBytes"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "makeBytes"]
+- !private ["Ps9_Hashable", "makeBytes"]
+- !private ["Ps21_ObjectiveCBridgeable", "makeBytes"]
 depends-nominal:
 - "Ps9AnyObject"
-- !private "Vs10ArraySlice"
-- !private "Ps23BidirectionalCollection"
 - !private "O4HTTP4Body"
 - !private "P4HTTP17BodyRepresentable"
-- !private "Sb"
-- !private "P4Core16BytesConvertible"
-- !private "P4Core18BytesInitializable"
-- !private "P4Core18BytesRepresentable"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
 - !private "Ps7CVarArg"
-- !private "V10Foundation12CharacterSet"
-- !private "Ps10Collection"
 - !private "Ps10Comparable"
 - !private "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
 - !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
-- !private "Vs10Dictionary"
 - !private "Ps9Equatable"
 - !private "Ps25ExpressibleByArrayLiteral"
-- !private "Ps27ExpressibleByBooleanLiteral"
-- !private "Ps30ExpressibleByDictionaryLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
-- "VC4HTTP7Request7Handler"
 - !private "Ps8Hashable"
 - "V4HTTP9HeaderKey"
-- !private "P4HTTP13KeyAccessible"
 - !private "Ps25LosslessStringConvertible"
-- "C4HTTP7Message"
-- !private "O4HTTP6Method"
+- "P4HTTP7Message"
 - !private "Ps10MirrorPath"
-- !private "Ps17MutableCollection"
 - !private "PSo8NSCoding"
 - !private "PSo9NSCopying"
 - !private "PSo16NSMutableCopying"
@@ -421,27 +145,13 @@ depends-nominal:
 - !private "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
-- !private "Ps22RandomAccessCollection"
-- !private "Ps26RangeReplaceableCollection"
-- !private "P10Foundation20ReferenceConvertible"
 - "C4HTTP7Request"
-- "P4HTTP9Responder"
 - !private "P4HTTP21ResponseRepresentable"
-- !private "Ps8Sequence"
-- !private "Ps10SetAlgebra"
-- !private "C4Core16StaticDataBuffer"
-- !private "Vs12StaticString"
 - !private "SS"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
-- "P9Transport15TransferMessage"
-- !private "V3URI3URI"
 - !private "C3URI9URIParser"
 - !private "V4HTTP7Version"
-- !private "Ps14_ArrayProtocol"
-- !private "Ps23_BidirectionalIndexable"
-- !private "Ps24_DestructorSafeContainer"
-- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
 - !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
 - !private "Ps34_ExpressibleByBuiltinStringLiteral"
 - !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
@@ -449,13 +159,7 @@ depends-nominal:
 - !private "Ps33_ExpressibleByStringInterpolation"
 - !private "Ps35_HasCustomAnyHashableRepresentation"
 - !private "Ps9_Hashable"
-- !private "Ps10_Indexable"
-- !private "Ps14_IndexableBase"
-- !private "Ps17_MutableIndexable"
-- !private "P10Foundation18_MutablePairBoxing"
 - !private "Ps21_ObjectiveCBridgeable"
-- !private "Ps22_RandomAccessIndexable"
-- !private "Ps26_RangeReplaceableIndexable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
@@ -467,7 +171,10 @@ depends-external:
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/TLS.framework/Modules/TLS.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/SocksCore.framework/Modules/SocksCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Sockets.framework/Modules/Sockets.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Transport.framework/Modules/Transport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
@@ -477,77 +184,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/tls1.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dtls1.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pkcs12.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rc2.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl2.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pem2.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl23.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl3.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509v3.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rc4.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/md4.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/poly1305.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/md5.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pkcs7.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/CLibreSSL.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/idea.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/chacha.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/sha.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/camellia.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dsa.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ecdsa.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rsa.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/txt_db.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1_mac.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/obj_mac.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cmac.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/hmac.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ec.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ripemd.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rand.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/engine.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/conf.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslconf.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dh.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ecdh.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/lhash.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/blowfish.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/conf_api.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ui.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/stack.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/safestack.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/whrlpool.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pem.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/bn.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/krb5_asn.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/bio.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dso.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/crypto.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/comp.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ocsp.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/srtp.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/evp.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ossl_typ.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/buffer.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/err.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/aes.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/des.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/modes.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslfeatures.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/tls.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cms.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ts.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/objects.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1t.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ui_compat.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cast.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/gost.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslv.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509_vfy.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/hello.xcodeproj/GeneratedModuleMap/CLibreSSL/module.modulemap"
-interface-hash: "c26128e67d77198a0317c2eb31a96c47"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/hello.xcodeproj/GeneratedModuleMap/CHTTP/module.modulemap"
+interface-hash: "9c9aa1d179f03ae0e4719aea5f3ac79f"

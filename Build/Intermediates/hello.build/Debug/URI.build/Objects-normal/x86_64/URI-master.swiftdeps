@@ -1,14 +1,10 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "51a4c8b21486329cbd55e89235f239f5"
-build_time: [548734125, 473736000]
+options: "5c82be4bab6eecf7bd4981d03593c551"
+build_time: [548827249, 284710000]
 inputs:
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/URI/PercentDecoding.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Byte.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Modification.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Ports.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+String.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Parser/Parser+Components.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Parser/Parser+Public.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Parser/Parser+SubComponents.swift": [548699582, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Parser/Parser.swift": [548699582, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Byte.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Modification.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Ports.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+String.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Parser/Parser.swift": [548826908, 0]

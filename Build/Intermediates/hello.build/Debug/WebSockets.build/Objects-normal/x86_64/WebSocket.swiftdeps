@@ -28,13 +28,13 @@ depends-top-level:
 - "Bool"
 - "BooleanLiteralType"
 - "Bytes"
+- !private "CastingPrecedence"
+- "DuplexStream"
 - !private "FloatLiteralType"
 - !private "FrameParser"
 - !private "FrameParserError"
 - !private "IntegerLiteralType"
-- !private "SocksError"
-- "Stream"
-- !private "StreamError"
+- !private "SocketsError"
 - "String"
 - "UInt16"
 - !private "UInt64"
@@ -54,13 +54,13 @@ depends-member:
 - !private ["Ps9AnyObject", "acceptFrame"]
 - !private ["Ps9AnyObject", "aggregator"]
 - !private ["Ps9AnyObject", "append"]
-- !private ["Ps9AnyObject", "bytes"]
 - !private ["Ps9AnyObject", "completeCloseHandshake"]
 - !private ["Ps9AnyObject", "handleClose"]
 - !private ["Ps9AnyObject", "header"]
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "isFragment"]
 - !private ["Ps9AnyObject", "loop"]
+- !private ["Ps9AnyObject", "makeBytes"]
 - !private ["Ps9AnyObject", "mode"]
 - !private ["Ps9AnyObject", "onBinary"]
 - !private ["Ps9AnyObject", "onClose"]
@@ -81,92 +81,90 @@ depends-member:
 - !private ["Ps9AnyObject", "state"]
 - !private ["Ps9AnyObject", "stream"]
 - ["Ps9AnyObject", ""]
-- !private ["Vs11AnySequence", "string"]
+- !private ["Vs11AnySequence", "makeString"]
 - !private ["Sa", "count"]
 - !private ["Sa", "dropFirst"]
 - !private ["Sa", "isEmpty"]
+- !private ["Sa", "makeString"]
 - !private ["Sa", "subscript"]
-- !private ["Sa", "toString"]
 - !private ["Vs10ArraySlice", "array"]
-- !private ["Vs10ArraySlice", "string"]
+- !private ["Vs10ArraySlice", "makeString"]
 - !private ["Ps23BidirectionalCollection", "array"]
 - !private ["Ps23BidirectionalCollection", "count"]
 - !private ["Ps23BidirectionalCollection", "dropFirst"]
 - !private ["Ps23BidirectionalCollection", "isEmpty"]
-- !private ["Ps23BidirectionalCollection", "string"]
+- !private ["Ps23BidirectionalCollection", "makeString"]
 - !private ["Ps23BidirectionalCollection", "subscript"]
-- !private ["Ps23BidirectionalCollection", "toString"]
-- !private ["Ps17BitwiseOperations", "bytes"]
 - !private ["Ps17BitwiseOperations", "hashValue"]
 - !private ["Ps17BitwiseOperations", "init"]
-- !private ["P4HTTP17BodyRepresentable", "bytes"]
+- !private ["Ps17BitwiseOperations", "makeBytes"]
+- !private ["P4HTTP17BodyRepresentable", "makeBytes"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["P4Core16BytesConvertible", "bytes"]
-- !private ["P4Core18BytesInitializable", "bytes"]
-- !private ["P4Core18BytesRepresentable", "bytes"]
-- !private ["Ps7CVarArg", "bytes"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits16BytesConvertible", "makeBytes"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesInitializable", "makeBytes"]
+- !private ["P4Bits18BytesRepresentable", "init"]
+- !private ["P4Bits18BytesRepresentable", "makeBytes"]
 - !private ["Ps7CVarArg", "count"]
 - !private ["Ps7CVarArg", "dropFirst"]
 - !private ["Ps7CVarArg", "hashValue"]
 - !private ["Ps7CVarArg", "init"]
 - !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "makeBytes"]
+- !private ["Ps7CVarArg", "makeString"]
 - !private ["Ps7CVarArg", "subscript"]
-- !private ["Ps7CVarArg", "toString"]
 - !private ["Ps10Collection", "array"]
 - !private ["Ps10Collection", "count"]
 - !private ["Ps10Collection", "dropFirst"]
 - !private ["Ps10Collection", "isEmpty"]
-- !private ["Ps10Collection", "string"]
+- !private ["Ps10Collection", "makeString"]
 - !private ["Ps10Collection", "subscript"]
-- !private ["Ps10Collection", "toString"]
-- !private ["Ps10Comparable", "bytes"]
 - !private ["Ps10Comparable", "hashValue"]
 - !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "makeBytes"]
 - !private ["Ps28CustomDebugStringConvertible", "array"]
-- !private ["Ps28CustomDebugStringConvertible", "bytes"]
 - !private ["Ps28CustomDebugStringConvertible", "client"]
 - !private ["Ps28CustomDebugStringConvertible", "count"]
 - !private ["Ps28CustomDebugStringConvertible", "dropFirst"]
 - !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "makeBytes"]
+- !private ["Ps28CustomDebugStringConvertible", "makeString"]
+- !private ["Ps28CustomDebugStringConvertible", "number"]
 - !private ["Ps28CustomDebugStringConvertible", "open"]
-- !private ["Ps28CustomDebugStringConvertible", "string"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
-- !private ["Ps28CustomDebugStringConvertible", "toString"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "bytes"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "makeBytes"]
 - !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
 - !private ["Ps17CustomReflectable", "array"]
-- !private ["Ps17CustomReflectable", "bytes"]
 - !private ["Ps17CustomReflectable", "client"]
 - !private ["Ps17CustomReflectable", "count"]
 - !private ["Ps17CustomReflectable", "dropFirst"]
 - !private ["Ps17CustomReflectable", "hashValue"]
 - !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "makeBytes"]
+- !private ["Ps17CustomReflectable", "makeString"]
 - !private ["Ps17CustomReflectable", "open"]
-- !private ["Ps17CustomReflectable", "string"]
 - !private ["Ps17CustomReflectable", "subscript"]
-- !private ["Ps17CustomReflectable", "toString"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "array"]
-- !private ["Ps23CustomStringConvertible", "bytes"]
 - !private ["Ps23CustomStringConvertible", "count"]
 - !private ["Ps23CustomStringConvertible", "dropFirst"]
 - !private ["Ps23CustomStringConvertible", "hashValue"]
 - !private ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "isEmpty"]
-- !private ["Ps23CustomStringConvertible", "number"]
-- !private ["Ps23CustomStringConvertible", "string"]
+- !private ["Ps23CustomStringConvertible", "makeBytes"]
+- !private ["Ps23CustomStringConvertible", "makeString"]
 - !private ["Ps23CustomStringConvertible", "subscript"]
-- !private ["Ps23CustomStringConvertible", "toString"]
+- !private ["P9Debugging10Debuggable", "number"]
 - ["Ps9Equatable", "ControlFrameExtension"]
 - ["Ps9Equatable", "NonControlFrameExtension"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - ["Ps9Equatable", "_toAnyHashable"]
 - !private ["Ps9Equatable", "binary"]
-- !private ["Ps9Equatable", "bytes"]
 - !private ["Ps9Equatable", "client"]
 - !private ["Ps9Equatable", "closed"]
 - !private ["Ps9Equatable", "closing"]
@@ -176,6 +174,7 @@ depends-member:
 - ["Ps9Equatable", "hashValue"]
 - !private ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "invalidPingFormat"]
+- !private ["Ps9Equatable", "makeBytes"]
 - !private ["Ps9Equatable", "makeKey"]
 - !private ["Ps9Equatable", "maskOutgoingMessages"]
 - !private ["Ps9Equatable", "missingByte"]
@@ -192,26 +191,22 @@ depends-member:
 - !private ["Ps5Error", "invalidPingFormat"]
 - !private ["Ps5Error", "missingByte"]
 - !private ["Ps5Error", "number"]
-- !private ["Ps5Error", "receive"]
 - !private ["Ps5Error", "unexpectedFragmentFrame"]
 - !private ["Ps25ExpressibleByArrayLiteral", "array"]
 - !private ["Ps25ExpressibleByArrayLiteral", "count"]
 - !private ["Ps25ExpressibleByArrayLiteral", "dropFirst"]
 - !private ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
-- !private ["Ps25ExpressibleByArrayLiteral", "string"]
+- !private ["Ps25ExpressibleByArrayLiteral", "makeString"]
 - !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
-- !private ["Ps25ExpressibleByArrayLiteral", "toString"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
-- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "bytes"]
-- !private ["Ps27ExpressibleByIntegerLiteral", "bytes"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "makeBytes"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "makeBytes"]
 - !private ["Ps23ExpressibleByNilLiteral", "client"]
 - !private ["Ps23ExpressibleByNilLiteral", "open"]
-- !private ["Ps26ExpressibleByStringLiteral", "bytes"]
-- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "bytes"]
-- !private ["P4Core11Extractable", "client"]
-- !private ["P4Core11Extractable", "open"]
+- !private ["Ps26ExpressibleByStringLiteral", "makeBytes"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "makeBytes"]
 - !private ["CC10WebSockets9WebSocket18FragmentAggregator", "append"]
 - !private ["CC10WebSockets9WebSocket18FragmentAggregator", "init"]
 - !private ["CC10WebSockets9WebSocket18FragmentAggregator", "receiveCompleteMessage"]
@@ -228,13 +223,13 @@ depends-member:
 - !private ["O10WebSockets16FrameParserError", "missingByte"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - ["Ps8Hashable", "_toAnyHashable"]
-- !private ["Ps8Hashable", "bytes"]
 - !private ["Ps8Hashable", "client"]
 - !private ["Ps8Hashable", "closed"]
 - !private ["Ps8Hashable", "closing"]
 - ["Ps8Hashable", "hashValue"]
 - !private ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "invalidPingFormat"]
+- !private ["Ps8Hashable", "makeBytes"]
 - !private ["Ps8Hashable", "makeKey"]
 - !private ["Ps8Hashable", "maskOutgoingMessages"]
 - !private ["Ps8Hashable", "missingByte"]
@@ -244,17 +239,17 @@ depends-member:
 - !private ["VCC10WebSockets9WebSocket5Frame6Header", "init"]
 - !private ["VCC10WebSockets9WebSocket5Frame6Header", "opCode"]
 - !private ["Si", "hashValue"]
-- !private ["Ps7Integer", "bytes"]
 - !private ["Ps7Integer", "hashValue"]
 - !private ["Ps7Integer", "init"]
-- !private ["Ps17IntegerArithmetic", "bytes"]
+- !private ["Ps7Integer", "makeBytes"]
 - !private ["Ps17IntegerArithmetic", "hashValue"]
 - !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps17IntegerArithmetic", "makeBytes"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps25LosslessStringConvertible", "bytes"]
+- !private ["Ps25LosslessStringConvertible", "makeBytes"]
 - !private ["OCC10WebSockets9WebSocket5Frame10MaskingKey", "make"]
-- !private ["Ps10MirrorPath", "bytes"]
 - !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps10MirrorPath", "makeBytes"]
 - ["OC10WebSockets9WebSocket4Mode", "=="]
 - ["OC10WebSockets9WebSocket4Mode", "Bool"]
 - ["OC10WebSockets9WebSocket4Mode", "Frame"]
@@ -269,16 +264,15 @@ depends-member:
 - !private ["Ps17MutableCollection", "count"]
 - !private ["Ps17MutableCollection", "dropFirst"]
 - !private ["Ps17MutableCollection", "isEmpty"]
-- !private ["Ps17MutableCollection", "string"]
+- !private ["Ps17MutableCollection", "makeString"]
 - !private ["Ps17MutableCollection", "subscript"]
-- !private ["Ps17MutableCollection", "toString"]
-- !private ["PSo8NSCoding", "bytes"]
-- !private ["PSo9NSCopying", "bytes"]
-- !private ["PSo16NSMutableCopying", "bytes"]
-- !private ["CSo8NSObject", "bytes"]
-- !private ["PSo16NSObjectProtocol", "bytes"]
-- !private ["PSo14NSSecureCoding", "bytes"]
-- !private ["CSo8NSString", "bytes"]
+- !private ["PSo8NSCoding", "makeBytes"]
+- !private ["PSo9NSCopying", "makeBytes"]
+- !private ["PSo16NSMutableCopying", "makeBytes"]
+- !private ["CSo8NSObject", "makeBytes"]
+- !private ["PSo16NSObjectProtocol", "makeBytes"]
+- !private ["PSo14NSSecureCoding", "makeBytes"]
+- !private ["CSo8NSString", "makeBytes"]
 - ["OCC10WebSockets9WebSocket5Frame6OpCode", "ControlFrameExtension"]
 - ["OCC10WebSockets9WebSocket5Frame6OpCode", "NonControlFrameExtension"]
 - !private ["OCC10WebSockets9WebSocket5Frame6OpCode", "binary"]
@@ -295,27 +289,25 @@ depends-member:
 - !private ["Ps22RandomAccessCollection", "count"]
 - !private ["Ps22RandomAccessCollection", "dropFirst"]
 - !private ["Ps22RandomAccessCollection", "isEmpty"]
-- !private ["Ps22RandomAccessCollection", "string"]
+- !private ["Ps22RandomAccessCollection", "makeString"]
 - !private ["Ps22RandomAccessCollection", "subscript"]
-- !private ["Ps22RandomAccessCollection", "toString"]
 - !private ["Ps26RangeReplaceableCollection", "array"]
 - !private ["Ps26RangeReplaceableCollection", "count"]
 - !private ["Ps26RangeReplaceableCollection", "dropFirst"]
 - !private ["Ps26RangeReplaceableCollection", "isEmpty"]
-- !private ["Ps26RangeReplaceableCollection", "string"]
+- !private ["Ps26RangeReplaceableCollection", "makeString"]
 - !private ["Ps26RangeReplaceableCollection", "subscript"]
-- !private ["Ps26RangeReplaceableCollection", "toString"]
-- !private ["P4HTTP21ResponseRepresentable", "bytes"]
+- !private ["P9Transport14ReadableStream", "isClosed"]
+- !private ["P4HTTP21ResponseRepresentable", "makeBytes"]
 - !private ["Ps8Sequence", "array"]
 - !private ["Ps8Sequence", "count"]
 - !private ["Ps8Sequence", "dropFirst"]
 - !private ["Ps8Sequence", "isEmpty"]
-- !private ["Ps8Sequence", "string"]
+- !private ["Ps8Sequence", "makeString"]
 - !private ["Ps8Sequence", "subscript"]
-- !private ["Ps8Sequence", "toString"]
 - !private ["Ps13SignedInteger", "hashValue"]
 - !private ["Ps12SignedNumber", "hashValue"]
-- !private ["V9SocksCore10SocksError", "number"]
+- !private ["V7Sockets12SocketsError", "number"]
 - ["OC10WebSockets9WebSocket5State", "=="]
 - ["OC10WebSockets9WebSocket5State", "_toAnyHashable"]
 - ["OC10WebSockets9WebSocket5State", "closed"]
@@ -323,24 +315,23 @@ depends-member:
 - ["OC10WebSockets9WebSocket5State", "deinit"]
 - ["OC10WebSockets9WebSocket5State", "hashValue"]
 - ["OC10WebSockets9WebSocket5State", "open"]
-- !private ["P9Transport6Stream", "closed"]
-- !private ["O9Transport11StreamError", "receive"]
-- !private ["Ps10Strideable", "bytes"]
+- !private ["P9Transport6Stream", "isClosed"]
 - !private ["Ps10Strideable", "hashValue"]
 - !private ["Ps10Strideable", "init"]
-- !private ["SS", "bytes"]
-- !private ["P9SocksCore17StringConvertable", "bytes"]
-- !private ["P9SocksCore17StringConvertable", "init"]
-- !private ["Ps16TextOutputStream", "bytes"]
-- !private ["Ps20TextOutputStreamable", "bytes"]
-- !private ["Vs6UInt16", "bytes"]
+- !private ["Ps10Strideable", "makeBytes"]
+- !private ["SS", "makeBytes"]
+- !private ["P7Sockets17StringConvertable", "init"]
+- !private ["P7Sockets17StringConvertable", "makeBytes"]
+- !private ["Ps16TextOutputStream", "makeBytes"]
+- !private ["Ps20TextOutputStreamable", "makeBytes"]
 - !private ["Vs6UInt16", "init"]
+- !private ["Vs6UInt16", "makeBytes"]
 - !private ["Vs6UInt64", "init"]
-- !private ["Ps15UnsignedInteger", "bytes"]
 - !private ["Ps15UnsignedInteger", "init"]
-- !private ["P9Transport9Watchable", "closed"]
+- !private ["Ps15UnsignedInteger", "makeBytes"]
 - ["C10WebSockets9WebSocket", "Bool"]
 - ["C10WebSockets9WebSocket", "Bytes"]
+- ["C10WebSockets9WebSocket", "DuplexStream"]
 - !private ["C10WebSockets9WebSocket", "Error"]
 - ["C10WebSockets9WebSocket", "EventHandler"]
 - ["C10WebSockets9WebSocket", "FragmentAggregator"]
@@ -348,10 +339,8 @@ depends-member:
 - !private ["C10WebSockets9WebSocket", "FrameParser"]
 - !private ["C10WebSockets9WebSocket", "FrameParserError"]
 - ["C10WebSockets9WebSocket", "Mode"]
-- !private ["C10WebSockets9WebSocket", "SocksError"]
+- !private ["C10WebSockets9WebSocket", "SocketsError"]
 - ["C10WebSockets9WebSocket", "State"]
-- ["C10WebSockets9WebSocket", "Stream"]
-- !private ["C10WebSockets9WebSocket", "StreamError"]
 - ["C10WebSockets9WebSocket", "String"]
 - ["C10WebSockets9WebSocket", "UInt16"]
 - !private ["C10WebSockets9WebSocket", "UInt64"]
@@ -382,118 +371,111 @@ depends-member:
 - !private ["C10WebSockets9WebSocket", "send"]
 - ["C10WebSockets9WebSocket", "state"]
 - ["C10WebSockets9WebSocket", "stream"]
+- !private ["P9Transport15WriteableStream", "isClosed"]
 - !private ["Ps14_ArrayProtocol", "array"]
 - !private ["Ps14_ArrayProtocol", "count"]
 - !private ["Ps14_ArrayProtocol", "dropFirst"]
 - !private ["Ps14_ArrayProtocol", "isEmpty"]
-- !private ["Ps14_ArrayProtocol", "string"]
+- !private ["Ps14_ArrayProtocol", "makeString"]
 - !private ["Ps14_ArrayProtocol", "subscript"]
-- !private ["Ps14_ArrayProtocol", "toString"]
 - !private ["Ps23_BidirectionalIndexable", "array"]
 - !private ["Ps23_BidirectionalIndexable", "count"]
 - !private ["Ps23_BidirectionalIndexable", "dropFirst"]
 - !private ["Ps23_BidirectionalIndexable", "isEmpty"]
-- !private ["Ps23_BidirectionalIndexable", "string"]
+- !private ["Ps23_BidirectionalIndexable", "makeString"]
 - !private ["Ps23_BidirectionalIndexable", "subscript"]
-- !private ["Ps23_BidirectionalIndexable", "toString"]
 - !private ["Ps15_CVarArgAligned", "init"]
 - !private ["Ps24_DestructorSafeContainer", "array"]
 - !private ["Ps24_DestructorSafeContainer", "count"]
 - !private ["Ps24_DestructorSafeContainer", "dropFirst"]
 - !private ["Ps24_DestructorSafeContainer", "isEmpty"]
-- !private ["Ps24_DestructorSafeContainer", "string"]
+- !private ["Ps24_DestructorSafeContainer", "makeString"]
 - !private ["Ps24_DestructorSafeContainer", "subscript"]
-- !private ["Ps24_DestructorSafeContainer", "toString"]
-- !private ["Ps28_DisallowMixedSignArithmetic", "bytes"]
 - !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "makeBytes"]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
-- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "bytes"]
-- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "bytes"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "makeBytes"]
 - !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
 - !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
-- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "bytes"]
-- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "bytes"]
-- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "bytes"]
-- !private ["Ps33_ExpressibleByStringInterpolation", "bytes"]
-- !private ["Ps35_HasCustomAnyHashableRepresentation", "bytes"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "makeBytes"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "makeBytes"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "makeBytes"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "makeBytes"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "makeBytes"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "makeBytes"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - ["Ps9_Hashable", "_toAnyHashable"]
-- !private ["Ps9_Hashable", "bytes"]
 - !private ["Ps9_Hashable", "client"]
 - !private ["Ps9_Hashable", "closed"]
 - !private ["Ps9_Hashable", "closing"]
 - ["Ps9_Hashable", "hashValue"]
 - !private ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "invalidPingFormat"]
+- !private ["Ps9_Hashable", "makeBytes"]
 - !private ["Ps9_Hashable", "makeKey"]
 - !private ["Ps9_Hashable", "maskOutgoingMessages"]
 - !private ["Ps9_Hashable", "missingByte"]
 - !private ["Ps9_Hashable", "open"]
 - !private ["Ps9_Hashable", "unexpectedFragmentFrame"]
 - ["Ps9_Hashable", ""]
-- !private ["Ps14_Incrementable", "bytes"]
 - !private ["Ps14_Incrementable", "hashValue"]
 - !private ["Ps14_Incrementable", "init"]
+- !private ["Ps14_Incrementable", "makeBytes"]
 - !private ["Ps10_Indexable", "array"]
 - !private ["Ps10_Indexable", "count"]
 - !private ["Ps10_Indexable", "dropFirst"]
 - !private ["Ps10_Indexable", "isEmpty"]
-- !private ["Ps10_Indexable", "string"]
+- !private ["Ps10_Indexable", "makeString"]
 - !private ["Ps10_Indexable", "subscript"]
-- !private ["Ps10_Indexable", "toString"]
 - !private ["Ps14_IndexableBase", "array"]
 - !private ["Ps14_IndexableBase", "count"]
 - !private ["Ps14_IndexableBase", "dropFirst"]
 - !private ["Ps14_IndexableBase", "isEmpty"]
-- !private ["Ps14_IndexableBase", "string"]
+- !private ["Ps14_IndexableBase", "makeString"]
 - !private ["Ps14_IndexableBase", "subscript"]
-- !private ["Ps14_IndexableBase", "toString"]
-- !private ["Ps8_Integer", "bytes"]
 - !private ["Ps8_Integer", "hashValue"]
 - !private ["Ps8_Integer", "init"]
-- !private ["Ps18_IntegerArithmetic", "bytes"]
+- !private ["Ps8_Integer", "makeBytes"]
 - !private ["Ps18_IntegerArithmetic", "hashValue"]
 - !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps18_IntegerArithmetic", "makeBytes"]
 - !private ["Ps17_MutableIndexable", "array"]
 - !private ["Ps17_MutableIndexable", "count"]
 - !private ["Ps17_MutableIndexable", "dropFirst"]
 - !private ["Ps17_MutableIndexable", "isEmpty"]
-- !private ["Ps17_MutableIndexable", "string"]
+- !private ["Ps17_MutableIndexable", "makeString"]
 - !private ["Ps17_MutableIndexable", "subscript"]
-- !private ["Ps17_MutableIndexable", "toString"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["Ps21_ObjectiveCBridgeable", "bytes"]
 - !private ["Ps21_ObjectiveCBridgeable", "client"]
 - !private ["Ps21_ObjectiveCBridgeable", "count"]
 - !private ["Ps21_ObjectiveCBridgeable", "dropFirst"]
 - !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "makeBytes"]
+- !private ["Ps21_ObjectiveCBridgeable", "makeString"]
 - !private ["Ps21_ObjectiveCBridgeable", "open"]
 - !private ["Ps21_ObjectiveCBridgeable", "subscript"]
-- !private ["Ps21_ObjectiveCBridgeable", "toString"]
 - !private ["Vs26_OptionalNilComparisonType", "client"]
 - !private ["Vs26_OptionalNilComparisonType", "open"]
 - !private ["Ps22_RandomAccessIndexable", "array"]
 - !private ["Ps22_RandomAccessIndexable", "count"]
 - !private ["Ps22_RandomAccessIndexable", "dropFirst"]
 - !private ["Ps22_RandomAccessIndexable", "isEmpty"]
-- !private ["Ps22_RandomAccessIndexable", "string"]
+- !private ["Ps22_RandomAccessIndexable", "makeString"]
 - !private ["Ps22_RandomAccessIndexable", "subscript"]
-- !private ["Ps22_RandomAccessIndexable", "toString"]
 - !private ["Ps26_RangeReplaceableIndexable", "array"]
 - !private ["Ps26_RangeReplaceableIndexable", "count"]
 - !private ["Ps26_RangeReplaceableIndexable", "dropFirst"]
 - !private ["Ps26_RangeReplaceableIndexable", "isEmpty"]
-- !private ["Ps26_RangeReplaceableIndexable", "string"]
+- !private ["Ps26_RangeReplaceableIndexable", "makeString"]
 - !private ["Ps26_RangeReplaceableIndexable", "subscript"]
-- !private ["Ps26_RangeReplaceableIndexable", "toString"]
 - !private ["Ps14_SignedInteger", "hashValue"]
-- !private ["Ps11_Strideable", "bytes"]
 - !private ["Ps11_Strideable", "hashValue"]
 - !private ["Ps11_Strideable", "init"]
-- !private ["Ps14_StringElement", "bytes"]
+- !private ["Ps11_Strideable", "makeBytes"]
 - !private ["Ps14_StringElement", "init"]
+- !private ["Ps14_StringElement", "makeBytes"]
 depends-nominal:
 - "Ps9AnyObject"
 - !private "Vs11AnySequence"
@@ -503,9 +485,9 @@ depends-nominal:
 - !private "Ps17BitwiseOperations"
 - !private "P4HTTP17BodyRepresentable"
 - !private "Sb"
-- !private "P4Core16BytesConvertible"
-- !private "P4Core18BytesInitializable"
-- !private "P4Core18BytesRepresentable"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
 - !private "Ps7CVarArg"
 - !private "Ps10Collection"
 - !private "Ps10Comparable"
@@ -513,6 +495,7 @@ depends-nominal:
 - !private "Ps29CustomPlaygroundQuickLookable"
 - !private "Ps17CustomReflectable"
 - !private "Ps23CustomStringConvertible"
+- !private "P9Debugging10Debuggable"
 - "Ps9Equatable"
 - !private "OC10WebSockets9WebSocket5Error"
 - !private "Ps5Error"
@@ -523,7 +506,6 @@ depends-nominal:
 - !private "Ps23ExpressibleByNilLiteral"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
-- !private "P4Core11Extractable"
 - !private "CC10WebSockets9WebSocket18FragmentAggregator"
 - "CC10WebSockets9WebSocket5Frame"
 - !private "C10WebSockets11FrameParser"
@@ -549,24 +531,24 @@ depends-nominal:
 - !private "Sq"
 - !private "Ps22RandomAccessCollection"
 - !private "Ps26RangeReplaceableCollection"
+- !private "P9Transport14ReadableStream"
 - !private "P4HTTP21ResponseRepresentable"
 - !private "Ps8Sequence"
 - !private "Ps13SignedInteger"
 - !private "Ps12SignedNumber"
-- !private "V9SocksCore10SocksError"
+- !private "V7Sockets12SocketsError"
 - "OC10WebSockets9WebSocket5State"
 - !private "P9Transport6Stream"
-- !private "O9Transport11StreamError"
 - !private "Ps10Strideable"
 - !private "SS"
-- !private "P9SocksCore17StringConvertable"
+- !private "P7Sockets17StringConvertable"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
 - !private "Vs6UInt16"
 - !private "Vs6UInt64"
 - !private "Ps15UnsignedInteger"
-- !private "P9Transport9Watchable"
 - "C10WebSockets9WebSocket"
+- !private "P9Transport15WriteableStream"
 - !private "Ps14_ArrayProtocol"
 - !private "Ps23_BidirectionalIndexable"
 - !private "Ps15_CVarArgAligned"
@@ -606,11 +588,11 @@ depends-external:
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/TLS.framework/Modules/TLS.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/SocksCore.framework/Modules/SocksCore.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Hash.framework/Modules/Hash.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Socks.framework/Modules/Socks.swiftmodule/x86_64.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Essentials.framework/Modules/Essentials.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Crypto.framework/Modules/Crypto.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Sockets.framework/Modules/Sockets.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Transport.framework/Modules/Transport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
@@ -620,77 +602,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/tls1.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dtls1.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pkcs12.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rc2.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl2.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pem2.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl23.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl3.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509v3.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rc4.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/md4.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/poly1305.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/md5.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pkcs7.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/CLibreSSL.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/idea.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/chacha.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/sha.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/camellia.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dsa.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ecdsa.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rsa.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/txt_db.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1_mac.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/obj_mac.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cmac.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/hmac.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ec.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ripemd.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rand.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/engine.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/conf.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslconf.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dh.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ecdh.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/lhash.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/blowfish.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/conf_api.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ui.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/stack.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/safestack.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/whrlpool.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pem.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/bn.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/krb5_asn.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/bio.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dso.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/crypto.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/comp.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ocsp.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/srtp.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/evp.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ossl_typ.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/buffer.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/err.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/aes.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/des.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/modes.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslfeatures.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/tls.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cms.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ts.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/objects.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1t.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ui_compat.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cast.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/gost.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslv.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509_vfy.h"
-- "/Users/hungnguyen/Project/vapor/hello_heroku/hello.xcodeproj/GeneratedModuleMap/CLibreSSL/module.modulemap"
-interface-hash: "e2908a07a49e3278304931a31ec080a5"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/hello.xcodeproj/GeneratedModuleMap/CHTTP/module.modulemap"
+interface-hash: "e60c88bb5de786cc00398ed447cdcd91"

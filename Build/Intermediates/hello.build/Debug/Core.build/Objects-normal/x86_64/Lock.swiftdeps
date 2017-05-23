@@ -1,96 +1,52 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "Lock"
 provides-nominal:
-- "C4Core4Lock"
 provides-member:
-- ["C4Core4Lock", ""]
+- ["CSo6NSLock", ""]
+- ["CSo6NSLock", "locked"]
 provides-dynamic-lookup:
 depends-top-level:
-- "FloatLiteralType"
-- "IntegerLiteralType"
-- "Lock"
-- "UnsafeMutablePointer"
+- "NSLock"
 - "Void"
-- !private "pthread_mutex_destroy"
-- !private "pthread_mutex_init"
-- !private "pthread_mutex_lock"
-- "pthread_mutex_t"
-- !private "pthread_mutex_unlock"
 depends-member:
-- ["Ps9AnyObject", "UnsafeMutablePointer"]
 - !private ["Ps9AnyObject", "lock"]
-- !private ["Ps9AnyObject", "mutex"]
-- !private ["Ps9AnyObject", "pthread_mutex_destroy"]
-- !private ["Ps9AnyObject", "pthread_mutex_init"]
-- !private ["Ps9AnyObject", "pthread_mutex_lock"]
-- !private ["Ps9AnyObject", "pthread_mutex_unlock"]
 - !private ["Ps9AnyObject", "unlock"]
-- ["Ps9AnyObject", ""]
-- ["Ps7CVarArg", "allocate"]
-- !private ["Ps7CVarArg", "deallocate"]
-- !private ["Ps7CVarArg", "deinitialize"]
-- ["Ps10Comparable", "allocate"]
-- !private ["Ps10Comparable", "deallocate"]
-- !private ["Ps10Comparable", "deinitialize"]
-- ["Ps28CustomDebugStringConvertible", "allocate"]
-- !private ["Ps28CustomDebugStringConvertible", "deallocate"]
-- !private ["Ps28CustomDebugStringConvertible", "deinitialize"]
-- ["Ps29CustomPlaygroundQuickLookable", "allocate"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "deallocate"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "deinitialize"]
-- ["Ps17CustomReflectable", "allocate"]
-- !private ["Ps17CustomReflectable", "deallocate"]
-- !private ["Ps17CustomReflectable", "deinitialize"]
-- ["Ps9Equatable", "allocate"]
-- !private ["Ps9Equatable", "deallocate"]
-- !private ["Ps9Equatable", "deinitialize"]
-- ["Ps8Hashable", "allocate"]
-- !private ["Ps8Hashable", "deallocate"]
-- !private ["Ps8Hashable", "deinitialize"]
-- ["C4Core4Lock", "UnsafeMutablePointer"]
-- ["C4Core4Lock", "Void"]
-- ["C4Core4Lock", "deinit"]
-- ["C4Core4Lock", "init"]
-- ["C4Core4Lock", "lock"]
-- ["C4Core4Lock", "locked"]
-- ["C4Core4Lock", "mutex"]
-- !private ["C4Core4Lock", "pthread_mutex_destroy"]
-- !private ["C4Core4Lock", "pthread_mutex_init"]
-- !private ["C4Core4Lock", "pthread_mutex_lock"]
-- ["C4Core4Lock", "pthread_mutex_t"]
-- !private ["C4Core4Lock", "pthread_mutex_unlock"]
-- ["C4Core4Lock", "unlock"]
-- ["Ps10Strideable", "allocate"]
-- !private ["Ps10Strideable", "deallocate"]
-- !private ["Ps10Strideable", "deinitialize"]
-- ["Sp", "allocate"]
-- !private ["Sp", "deallocate"]
-- !private ["Sp", "deinitialize"]
-- ["Ps9_Hashable", "allocate"]
-- !private ["Ps9_Hashable", "deallocate"]
-- !private ["Ps9_Hashable", "deinitialize"]
-- ["Ps8_Pointer", "allocate"]
-- !private ["Ps8_Pointer", "deallocate"]
-- !private ["Ps8_Pointer", "deinitialize"]
-- ["Ps11_Strideable", "allocate"]
-- !private ["Ps11_Strideable", "deallocate"]
-- !private ["Ps11_Strideable", "deinitialize"]
+- !private ["Ps7CVarArg", "lock"]
+- !private ["Ps7CVarArg", "unlock"]
+- !private ["Ps28CustomDebugStringConvertible", "lock"]
+- !private ["Ps28CustomDebugStringConvertible", "unlock"]
+- !private ["Ps23CustomStringConvertible", "lock"]
+- !private ["Ps23CustomStringConvertible", "unlock"]
+- !private ["Ps9Equatable", "lock"]
+- !private ["Ps9Equatable", "unlock"]
+- !private ["Ps8Hashable", "lock"]
+- !private ["Ps8Hashable", "unlock"]
+- ["CSo6NSLock", "Void"]
+- !private ["CSo6NSLock", "lock"]
+- ["CSo6NSLock", "locked"]
+- !private ["CSo6NSLock", "unlock"]
+- !private ["PSo9NSLocking", "lock"]
+- !private ["PSo9NSLocking", "unlock"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "lock"]
+- ["CSo8NSObject", "locked"]
+- !private ["CSo8NSObject", "unlock"]
+- !private ["PSo16NSObjectProtocol", "lock"]
+- !private ["PSo16NSObjectProtocol", "unlock"]
+- !private ["Ps9_Hashable", "lock"]
+- !private ["Ps9_Hashable", "unlock"]
 depends-nominal:
-- "Ps9AnyObject"
-- "Ps7CVarArg"
-- "Ps10Comparable"
-- "Ps28CustomDebugStringConvertible"
-- "Ps29CustomPlaygroundQuickLookable"
-- "Ps17CustomReflectable"
-- "Ps9Equatable"
-- "Ps8Hashable"
-- "C4Core4Lock"
-- "Ps10Strideable"
-- "Sp"
-- "Ps9_Hashable"
-- "Ps8_Pointer"
-- "Ps11_Strideable"
+- !private "Ps9AnyObject"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- "CSo6NSLock"
+- !private "PSo9NSLocking"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "Ps9_Hashable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
@@ -99,6 +55,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
 - "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/hungnguyen/Project/vapor/hello_heroku/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
@@ -107,4 +65,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "246ebc1c33da4dd8a0f128eaa5ab3ce4"
+interface-hash: "e5dd6e6eb0ed95c145ef3ac71c3465d4"

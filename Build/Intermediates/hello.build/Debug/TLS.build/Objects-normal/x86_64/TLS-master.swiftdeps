@@ -1,11 +1,16 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "aadc86abe42c00d3fce818c44b57c500"
-build_time: [548734098, 427003000]
+options: "cf715de456b12ab6edcbab54dba6ec6b"
+build_time: [548827011, 4348000]
 inputs:
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Certificates.swift": [548699583, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Config.swift": [548699583, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Context.swift": [548699583, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Error.swift": [548699583, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Mode.swift": [548699583, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Socket.swift": [548699583, 0]
-  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Utilities.swift": [548699583, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Certificates.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/ClientSocket.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Context.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Error.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Exports.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/InternetSocket.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Mode.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/ReadableSocket.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/ServerSocket.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Socket.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Utilities.swift": [548826908, 0]
+  "/Users/hungnguyen/Project/vapor/hello_heroku/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/WriteableSocket.swift": [548826908, 0]
